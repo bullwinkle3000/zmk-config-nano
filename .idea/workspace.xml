@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aHeVirHdKn6DYUIaNnzwQeEqko" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,8 +43,12 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -49,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703979956880</updated>
       <workItem from="1703979958091" duration="245000" />
+      <workItem from="1703997563257" duration="1175000" />
     </task>
     <servers />
   </component>
