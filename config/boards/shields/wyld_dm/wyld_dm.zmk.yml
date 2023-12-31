@@ -1,0 +1,16 @@
+file_format: "1"
+id: wyld_dm
+Name: wyld_dm
+type: shield
+url: https://github.com/bullwinkle3000/zmk-config-xiao/
+requires:
+  - nice_nano_v2
+exposes: 
+  - i2c_oled
+features:
+  - keys
+  - display
+  - encoders
+siblings:
+  - wyld_dm_left
+  - wyld_dm_right
