@@ -27,7 +27,7 @@
                         &kp TAB &kp HOME &kp BSPC  &kp DEL   &kp PG_DN  &kp LALT &kp K_MUTE &kp LCTRL
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		lower_layer {
@@ -43,7 +43,7 @@
                                      &trans             &trans    &trans &trans      &kp K_VOL_DN  &kp K_MUTE  &kp K_VOL_UP  &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		raise_layer {
@@ -59,7 +59,7 @@
                         &trans &trans   &trans   &trans         &trans &trans     &trans    &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 	};
 };
