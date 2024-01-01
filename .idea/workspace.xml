@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Fixed key layout">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Full rows on keymaps fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
@@ -62,7 +62,7 @@
       <updated>1703979956880</updated>
       <workItem from="1703979958091" duration="245000" />
       <workItem from="1703997563257" duration="5120000" />
-      <workItem from="1704077055433" duration="1940000" />
+      <workItem from="1704077055433" duration="3561000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -96,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704078807024</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Full rows on keymaps fixed">
+      <option name="closed" value="true" />
+      <created>1704121159820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704121159820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Reversed encoder behaviors" />
     <MESSAGE value="Fixed key layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed key layout" />
+    <MESSAGE value="Full rows on keymaps fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full rows on keymaps fixed" />
   </component>
 </project>
