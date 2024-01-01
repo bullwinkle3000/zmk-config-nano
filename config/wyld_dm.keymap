@@ -39,7 +39,7 @@
 &bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_BLE  &out OUT_USB  &trans           &trans    &trans    &trans
 &kp GRAVE         &kp EXCL           &kp AT             &kp HASH      &kp DOLLAR    &kp PRCNT     &kp CARET     &kp AMPS      &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
 &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans        &trans        &kp MINUS     &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-&trans            &trans             &trans             &trans        &trans        &trans        &trans        &trans        &trans           &trans    &trans    &trans
+&sys_reset        &trans             &trans             &trans        &trans        &trans        &trans        &trans        &trans           &trans    &trans    &sys_reset
 &bootloader       &trans             &trans             &trans        &trans        &trans        &trans        &trans        &trans           &trans    &trans    &bootloader
                                      &trans             &trans        &trans        &trans        &trans        &trans        &trans           &trans
                                      &trans             &trans        &trans        &trans        &trans        &trans        &trans           &trans
