@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="LED start">
-      <change afterPath="$PROJECT_DIR$/config/boards/shields/boards/pillbug.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added pillbug.overlay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1704077055433" duration="9427000" />
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
-      <workItem from="1704468854854" duration="4868000" />
+      <workItem from="1704468854854" duration="5617000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704477524107</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added pillbug.overlay">
+      <option name="closed" value="true" />
+      <created>1704482110726</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704482110726</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +174,7 @@
     <MESSAGE value="pillbug shot in the dark" />
     <MESSAGE value="Pillbug and blackpillish" />
     <MESSAGE value="LED start" />
-    <option name="LAST_COMMIT_MESSAGE" value="LED start" />
+    <MESSAGE value="Added pillbug.overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pillbug.overlay" />
   </component>
 </project>
