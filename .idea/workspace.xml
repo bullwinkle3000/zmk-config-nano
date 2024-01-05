@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Full rows on keymaps fixed">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adding encoders to keymap json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="wylderbuilds_00123" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -40,7 +45,7 @@
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pillbug&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -61,7 +66,10 @@
       <updated>1703979956880</updated>
       <workItem from="1703979958091" duration="245000" />
       <workItem from="1703997563257" duration="5120000" />
-      <workItem from="1704077055433" duration="4514000" />
+      <workItem from="1704077055433" duration="9427000" />
+      <workItem from="1704253941067" duration="18000" />
+      <workItem from="1704300855565" duration="1968000" />
+      <workItem from="1704468854854" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -111,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704124977501</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding encoders to keymap json">
+      <option name="closed" value="true" />
+      <created>1704125927455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704125927455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +138,7 @@
     <MESSAGE value="Reversed encoder behaviors" />
     <MESSAGE value="Fixed key layout" />
     <MESSAGE value="Full rows on keymaps fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full rows on keymaps fixed" />
+    <MESSAGE value="Adding encoders to keymap json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding encoders to keymap json" />
   </component>
 </project>
