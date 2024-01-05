@@ -35,13 +35,13 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
         diode-direction = "col2row";
         
         row-gpios
-			= <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro_a 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro_a 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro_a 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro_d 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro_d 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro_d 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			= <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
     };
@@ -49,8 +49,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		a-gpios = <&pro_micro_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&pro_micro_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
@@ -58,8 +58,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
-		a-gpios = <&pro_micro_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&pro_micro_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
@@ -73,7 +73,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 
 
 
-&pro_micro_i2c {
+&blackpill_i2c {
 	status = "okay";
 
 	oled: ssd1306@3c {
