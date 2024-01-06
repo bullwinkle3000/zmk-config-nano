@@ -13,11 +13,11 @@
 manifest:
   remotes:
     - name: zmk
-      url-base: https://github.com/drorchen
+      url-base: https://github.com/bullwinkle3000
   projects:
     - name: zmk
       remote: zmk
-      revision: trackball-support
+      revision: pmw3610-aml
       import: app/west.yml
   self:
     path: config
