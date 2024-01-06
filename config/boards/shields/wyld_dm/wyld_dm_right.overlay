@@ -8,12 +8,12 @@
 
 &kscan0 {
     col-gpios
-			= <&blackpill 30  GPIO_ACTIVE_HIGH>
-			, <&blackpill 31  GPIO_ACTIVE_HIGH>
-			, <&blackpill 38  GPIO_ACTIVE_HIGH>
-			, <&blackpill 39  GPIO_ACTIVE_HIGH>
-			, <&blackpill 40  GPIO_ACTIVE_HIGH>
-            , <&blackpill 41  GPIO_ACTIVE_HIGH>
+			= <&blackpill 38  GPIO_ACTIVE_HIGH>  // PA15  / 1.00
+			, <&blackpill 39  GPIO_ACTIVE_HIGH>  // PB3   / 1.10
+			, <&blackpill 40  GPIO_ACTIVE_HIGH>  // PB4   / 1.02
+            , <&blackpill 41  GPIO_ACTIVE_HIGH>  // PB5   / 1.04
+			, <&blackpill 45  GPIO_ACTIVE_HIGH>  // PB8   / 0.17
+			, <&blackpill 46  GPIO_ACTIVE_HIGH>  // PB9   / 0.24
 			;
 };
 

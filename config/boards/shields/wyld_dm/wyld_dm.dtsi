@@ -36,13 +36,13 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
         diode-direction = "col2row";
         
         row-gpios
-			= <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			= <&blackpill 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB1  / 1.14
+			, <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
+			, <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
+			, <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.02
+            , <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
+			, <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.05
+			, <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA0  / 0.25
             ;
 
     };
