@@ -10,6 +10,7 @@
 #  self:
 #    path: config
 
+manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
