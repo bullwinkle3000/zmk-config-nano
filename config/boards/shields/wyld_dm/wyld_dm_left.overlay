@@ -19,6 +19,8 @@
 	status = "okay";
 };
 
+
+
 //&blackpill_spi {
 //    status = "okay";
 //
@@ -71,3 +73,8 @@
         snipe-layers = <>; // optional indexes of snipe/precision layers
     };
 };
+
+//&trackball {
+//  status = "okay";
+//  irq-gpios = <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+//};
