@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed LED strip references">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Formatting...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <workItem from="1704077055433" duration="9427000" />
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
-      <workItem from="1704468854854" duration="23086000" />
+      <workItem from="1704468854854" duration="23937000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -289,14 +287,32 @@
       <option name="project" value="LOCAL" />
       <updated>1704586190876</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="More underglow bits">
+      <option name="closed" value="true" />
+      <created>1704586889355</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1704586889355</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Formatting...">
+      <option name="closed" value="true" />
+      <created>1704587238570</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1704587238570</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="Reversed encoder behaviors" />
     <MESSAGE value="Fixed key layout" />
     <MESSAGE value="Full rows on keymaps fixed" />
@@ -320,6 +336,8 @@
     <MESSAGE value="Removed bad configs" />
     <MESSAGE value="Removed spi0 and deleted pillbug.overlay" />
     <MESSAGE value="Removed LED strip references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed LED strip references" />
+    <MESSAGE value="More underglow bits" />
+    <MESSAGE value="Formatting..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting..." />
   </component>
 </project>
