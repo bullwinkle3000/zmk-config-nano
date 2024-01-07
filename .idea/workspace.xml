@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="log level more">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="remove sensor logging stuff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
       <workItem from="1704468854854" duration="26146000" />
-      <workItem from="1704600190621" duration="8676000" />
+      <workItem from="1704600190621" duration="10150000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -407,7 +408,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704665492586</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="log level more more">
+      <option name="closed" value="true" />
+      <created>1704666098200</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1704666098200</updated>
+    </task>
+    <task id="LOCAL-00044" summary="remove sensor logging stuff">
+      <option name="closed" value="true" />
+      <created>1704666908494</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1704666908494</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,8 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configured row/column pins, maybe" />
-    <MESSAGE value="Mouse mebbe" />
     <MESSAGE value="trackball branch craziness?" />
     <MESSAGE value="Testing pmw3610 build" />
     <MESSAGE value="Missed manifest key" />
@@ -453,6 +468,8 @@
     <MESSAGE value="scroll layers not right" />
     <MESSAGE value="pmw3360 log level maybe" />
     <MESSAGE value="log level more" />
-    <option name="LAST_COMMIT_MESSAGE" value="log level more" />
+    <MESSAGE value="log level more more" />
+    <MESSAGE value="remove sensor logging stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove sensor logging stuff" />
   </component>
 </project>
