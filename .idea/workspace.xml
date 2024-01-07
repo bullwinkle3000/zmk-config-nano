@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Doh 2">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Back to original layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
       <workItem from="1704468854854" duration="26146000" />
-      <workItem from="1704600190621" duration="1665000" />
+      <workItem from="1704600190621" duration="2312000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -336,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704590784681</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Back to original layout">
+      <option name="closed" value="true" />
+      <created>1704645955762</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1704645955762</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +354,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pillbug shot in the dark" />
     <MESSAGE value="Pillbug and blackpillish" />
     <MESSAGE value="LED start" />
     <MESSAGE value="Added pillbug.overlay" />
@@ -371,6 +378,7 @@
     <MESSAGE value="Pointing at my repo" />
     <MESSAGE value="Doh" />
     <MESSAGE value="Doh 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doh 2" />
+    <MESSAGE value="Back to original layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back to original layout" />
   </component>
 </project>
