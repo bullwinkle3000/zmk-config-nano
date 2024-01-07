@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="shot at PMW3360 2">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="More logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.zmk.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.zmk.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
       <workItem from="1704468854854" duration="26146000" />
-      <workItem from="1704600190621" duration="5362000" />
+      <workItem from="1704600190621" duration="6490000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -370,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704655569569</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="More logging">
+      <option name="closed" value="true" />
+      <created>1704661222431</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1704661222431</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +387,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove spi3 thing for now" />
     <MESSAGE value="Added &amp;led_strip to chosen" />
     <MESSAGE value="Relocated pillbug.overlay" />
     <MESSAGE value="ensure rgb on start" />
@@ -405,6 +411,7 @@
     <MESSAGE value="fix typo" />
     <MESSAGE value="shot at PMW3360" />
     <MESSAGE value="shot at PMW3360 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="shot at PMW3360 2" />
+    <MESSAGE value="More logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="More logging" />
   </component>
 </project>

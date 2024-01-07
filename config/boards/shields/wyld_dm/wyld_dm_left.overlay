@@ -69,12 +69,11 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <1>; // optional indexes of drag scroll layers
-        snipe-layers = <>; // optional indexes of snipe/precision layers
+        scroll-layer = <1>;
     };
 };
 
-//&trackball {
-//  status = "okay";
-//  irq-gpios = <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-//};
+&trackball {
+  status = "okay";
+  irq-gpios = <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+};

@@ -11,6 +11,7 @@ features:
   - keys
   - display
   - encoders
+  - pointer
 siblings:
   - wyld_dm_left
   - wyld_dm_right
