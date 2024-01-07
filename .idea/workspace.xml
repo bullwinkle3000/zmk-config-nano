@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Pointing at my repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Doh">
       <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <workItem from="1704077055433" duration="9427000" />
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
-      <workItem from="1704468854854" duration="25160000" />
+      <workItem from="1704468854854" duration="25535000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -319,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704589996789</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Doh">
+      <option name="closed" value="true" />
+      <created>1704590408925</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1704590408925</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +336,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Full rows on keymaps fixed" />
     <MESSAGE value="Adding encoders to keymap json" />
     <MESSAGE value="pillbug shot in the dark" />
     <MESSAGE value="Pillbug and blackpillish" />
@@ -354,6 +360,7 @@
     <MESSAGE value="Formatting..." />
     <MESSAGE value="Last config annoyance" />
     <MESSAGE value="Pointing at my repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pointing at my repo" />
+    <MESSAGE value="Doh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doh" />
   </component>
 </project>
