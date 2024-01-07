@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed bad configs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed spi0 and deleted pillbug.overlay">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <workItem from="1704077055433" duration="9427000" />
       <workItem from="1704253941067" duration="18000" />
       <workItem from="1704300855565" duration="1968000" />
-      <workItem from="1704468854854" duration="21713000" />
+      <workItem from="1704468854854" duration="22395000" />
     </task>
     <task id="LOCAL-00001" summary="Cleanup">
       <option name="closed" value="true" />
@@ -272,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704583235431</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Removed spi0 and deleted pillbug.overlay">
+      <option name="closed" value="true" />
+      <created>1704585559523</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704585559523</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="ZMK unhappy build" />
     <MESSAGE value="Updated workspace file" />
     <MESSAGE value="Removed bad configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed bad configs" />
+    <MESSAGE value="Removed spi0 and deleted pillbug.overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed spi0 and deleted pillbug.overlay" />
   </component>
 </project>

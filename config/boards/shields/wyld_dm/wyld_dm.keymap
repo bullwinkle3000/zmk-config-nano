@@ -70,9 +70,9 @@
 	};
 };
 
-&led_strip {
-    chain-length = <30>;
-};
+//&led_strip {
+//    chain-length = <30>;
+//};
 
 //&pinctrl {
 //    spi3_default: spi3_default {
