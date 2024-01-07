@@ -23,6 +23,6 @@ manifest:
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: bullwinkle3000
-      revision: pmw3360
+      revision: pmw3610
   self:
     path: config
