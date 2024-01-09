@@ -9,7 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Missing pinctrl, updated with Pillbug SPI pins">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Remove &amp;trackball">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,15 +71,7 @@
       <workItem from="1704300855565" duration="1968000" />
       <workItem from="1704468854854" duration="26146000" />
       <workItem from="1704600190621" duration="13770000" />
-      <workItem from="1704810079430" duration="3754000" />
-    </task>
-    <task id="LOCAL-00002" summary="Reversed encoder behaviors">
-      <option name="closed" value="true" />
-      <created>1704038168502</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1704038168502</updated>
+      <workItem from="1704810079430" duration="5686000" />
     </task>
     <task id="LOCAL-00003" summary="Fixed key layout">
       <option name="closed" value="true" />
@@ -464,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704824992762</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Remove &amp;trackball">
+      <option name="closed" value="true" />
+      <created>1704825247834</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1704825247834</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed bad configs" />
     <MESSAGE value="Removed spi0 and deleted pillbug.overlay" />
     <MESSAGE value="Removed LED strip references" />
     <MESSAGE value="More underglow bits" />
@@ -521,6 +521,7 @@
     <MESSAGE value="restore logging" />
     <MESSAGE value="Bad driver name and renamed to @spi0" />
     <MESSAGE value="Missing pinctrl, updated with Pillbug SPI pins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Missing pinctrl, updated with Pillbug SPI pins" />
+    <MESSAGE value="Remove &amp;trackball" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove &amp;trackball" />
   </component>
 </project>
