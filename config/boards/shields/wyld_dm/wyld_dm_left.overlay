@@ -76,8 +76,3 @@
         snipe-layers = <>; // optional indexes of snipe/precision layers
     };
 };
-
-&trackball {
-  status = "okay";
-  irq-gpios = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-};
