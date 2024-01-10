@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Hi speed pins only">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="New trackball bits in pillbug">
       <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +70,7 @@
       <workItem from="1704300855565" duration="1968000" />
       <workItem from="1704468854854" duration="26146000" />
       <workItem from="1704600190621" duration="13770000" />
-      <workItem from="1704810079430" duration="10029000" />
-    </task>
-    <task id="LOCAL-00005" summary="Full rows on keymaps fixed">
-      <option name="closed" value="true" />
-      <created>1704121159820</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1704121159820</updated>
+      <workItem from="1704810079430" duration="10309000" />
     </task>
     <task id="LOCAL-00006" summary="Full rows on keymaps fixed">
       <option name="closed" value="true" />
@@ -467,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704831781274</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="New trackball bits in pillbug">
+      <option name="closed" value="true" />
+      <created>1704846844811</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704846844812</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More underglow bits" />
     <MESSAGE value="Formatting..." />
     <MESSAGE value="Last config annoyance" />
     <MESSAGE value="Pointing at my repo" />
@@ -524,6 +520,7 @@
     <MESSAGE value="Remove &amp;trackball" />
     <MESSAGE value="back to blackpill" />
     <MESSAGE value="Hi speed pins only" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hi speed pins only" />
+    <MESSAGE value="New trackball bits in pillbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="New trackball bits in pillbug" />
   </component>
 </project>
