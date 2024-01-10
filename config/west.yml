@@ -12,12 +12,12 @@
 
 manifest:
   remotes:
-    - name: zmkfirmware
+    - name: bullwinkle3000
       url-base: https://github.com/bullwinkle3000
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: feat/pointers-pwm3360
+      remote: bullwinkle3000
+      revision: feat/pointers-pmw3360
       import: app/west.yml
   self:
     path: config
