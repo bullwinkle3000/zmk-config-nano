@@ -36,13 +36,13 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
         diode-direction = "col2row";
         
         row-gpios
-			= <&blackpill 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB1  / 1.14
-			, <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
-			, <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
-			, <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.02
-            , <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
-			, <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.05
-			, <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA0  / 0.25
+			= <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro_a 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro_a 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro_a 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_d 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro_d 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&pro_micro_d 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
     };
@@ -50,8 +50,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 //    left_encoder: encoder_left {
 //		compatible = "alps,ec11";
 //		label = "LEFT_ENCODER";
-//		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		a-gpios = <&pro_micro_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		b-gpios = <&pro_micro_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 //		steps = <60>;
 //		status = "disabled";
 //	};
@@ -59,8 +59,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 //	right_encoder: encoder_right {
 //		compatible = "alps,ec11";
 //		label = "RIGHT_ENCODER";
-//		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		a-gpios = <&pro_micro_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		b-gpios = <&pro_micro_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 //		steps = <60>;
 //		status = "disabled";
 //	};
