@@ -47,50 +47,50 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 
     };
 
-    left_encoder: encoder_left {
-		compatible = "alps,ec11";
-		label = "LEFT_ENCODER";
-		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <60>;
-		status = "disabled";
-	};
-
-	right_encoder: encoder_right {
-		compatible = "alps,ec11";
-		label = "RIGHT_ENCODER";
-		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <60>;
-		status = "disabled";
-	};
-
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <15>;
-    };
+//    left_encoder: encoder_left {
+//		compatible = "alps,ec11";
+//		label = "LEFT_ENCODER";
+//		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		steps = <60>;
+//		status = "disabled";
+//	};
+//
+//	right_encoder: encoder_right {
+//		compatible = "alps,ec11";
+//		label = "RIGHT_ENCODER";
+//		a-gpios = <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		b-gpios = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+//		steps = <60>;
+//		status = "disabled";
+//	};
+//
+//    sensors: sensors {
+//        compatible = "zmk,keymap-sensors";
+//        sensors = <&left_encoder &right_encoder>;
+//        triggers-per-rotation = <15>;
+//    };
 };
 
 
 
-&blackpill_i2c {
-	status = "okay";
-	// 0.15 SDA
-	// 0.13 SCL
-	oled: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-	};
-};
+//&blackpill_i2c {
+//	status = "okay";
+//	// 0.15 SDA
+//	// 0.13 SCL
+//	oled: ssd1306@3c {
+//		compatible = "solomon,ssd1306fb";
+//		reg = <0x3c>;
+//		label = "DISPLAY";
+//		width = <128>;
+//		height = <32>;
+//		segment-offset = <0>;
+//		page-offset = <0>;
+//		display-offset = <0>;
+//		multiplex-ratio = <31>;
+//		segment-remap;
+//		com-invdir;
+//		com-sequential;
+//		prechargep = <0x22>;
+//	};
+//};
