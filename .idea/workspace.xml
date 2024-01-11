@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Trying Nice!Nano config">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Comment out the snipe and scroll layers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,15 +72,7 @@
       <workItem from="1704468854854" duration="26146000" />
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
-      <workItem from="1704983057595" duration="8326000" />
-    </task>
-    <task id="LOCAL-00012" summary="remove spi3 thing for now">
-      <option name="closed" value="true" />
-      <created>1704483053936</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1704483053936</updated>
+      <workItem from="1704983057595" duration="8957000" />
     </task>
     <task id="LOCAL-00013" summary="Added &amp;led_strip to chosen">
       <option name="closed" value="true" />
@@ -466,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704995717962</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Comment out the snipe and scroll layers">
+      <option name="closed" value="true" />
+      <created>1705006588171</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1705006588171</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix typo" />
     <MESSAGE value="shot at PMW3360" />
     <MESSAGE value="shot at PMW3360 2" />
     <MESSAGE value="More logging" />
@@ -523,6 +522,7 @@
     <MESSAGE value="encoder and oled bits" />
     <MESSAGE value="More encoder and screen cruft" />
     <MESSAGE value="Trying Nice!Nano config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying Nice!Nano config" />
+    <MESSAGE value="Comment out the snipe and scroll layers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment out the snipe and scroll layers" />
   </component>
 </project>
