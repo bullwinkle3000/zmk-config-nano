@@ -15,14 +15,14 @@
         };
     };
 
-    i2c2_default: i2c2_default {
+    i2c0_default: i2c0_default {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
                 <NRF_PSEL(TWIM_SCL, 1, 6)>;
         };
     };
 
-    i2c2_sleep: i2c2_sleep {
+    i2c0_sleep: i2c0_sleep {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
                 <NRF_PSEL(TWIM_SCL, 1, 6)>;
@@ -31,11 +31,11 @@
     };
 };
 
-&i2c2 {
+&i2c0 {
 	status = "okay";
     compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c1_default>;
-    pinctrl-1 = <&i2c1_sleep>;
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
 
 	// 0.10 SDA
