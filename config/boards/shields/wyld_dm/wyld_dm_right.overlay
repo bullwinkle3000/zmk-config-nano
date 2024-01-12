@@ -8,15 +8,15 @@
 
 &kscan0 {
     col-gpios
-			= <&blackpill 38  GPIO_ACTIVE_HIGH>  // PA15  / 1.00
-			, <&blackpill 39  GPIO_ACTIVE_HIGH>  // PB3   / 1.10
-			, <&blackpill 40  GPIO_ACTIVE_HIGH>  // PB4   / 1.02
-            , <&blackpill 41  GPIO_ACTIVE_HIGH>  // PB5   / 1.04
-			, <&blackpill 25  GPIO_ACTIVE_HIGH>  // PB12   / 0.12
-			, <&blackpill 26  GPIO_ACTIVE_HIGH>  // PB13   / 0.19
+			= <&gpio1 0  GPIO_ACTIVE_HIGH>  // PA15  / 1.00
+			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB3   / 1.10
+			, <&gpio1 2  GPIO_ACTIVE_HIGH>  // PB4   / 1.02
+            , <&gpio1 4  GPIO_ACTIVE_HIGH>  // PB5   / 1.04
+			, <&gpio0 12  GPIO_ACTIVE_HIGH>  // PB12   / 0.12
+			, <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB13   / 0.19
 			;
 };
 
-//&right_encoder {
-//	status = "okay";
-//};
+&right_encoder {
+	status = "okay";
+};

@@ -5,21 +5,19 @@
 
 &kscan0 {
     col-gpios
-			= <&blackpill 38  GPIO_ACTIVE_HIGH>  // PA15  / 1.00
-			, <&blackpill 39  GPIO_ACTIVE_HIGH>  // PB3   / 1.10
-			, <&blackpill 40  GPIO_ACTIVE_HIGH>  // PB4   / 1.02
-            , <&blackpill 41  GPIO_ACTIVE_HIGH>  // PB5   / 1.04
-			, <&blackpill 25  GPIO_ACTIVE_HIGH>  // PB12   / 0.12
-			, <&blackpill 26  GPIO_ACTIVE_HIGH>  // PB13   / 0.19
+			= <&gpio1 0  GPIO_ACTIVE_HIGH>  // PA15  / 1.00
+			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB3   / 1.10
+			, <&gpio1 2  GPIO_ACTIVE_HIGH>  // PB4   / 1.02
+            , <&gpio1 4  GPIO_ACTIVE_HIGH>  // PB5   / 1.04
+			, <&gpio0 12  GPIO_ACTIVE_HIGH>  // PB12   / 0.12
+			, <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB13   / 0.19
 			;
 };
 
 
-//&left_encoder {
-//	status = "okay";
-//};
-
-
+&left_encoder {
+	status = "okay";
+};
 
 //&blackpill_spi {
 //    status = "okay";
@@ -42,17 +40,17 @@
 &pinctrl {
     blackpill_spi_default: blackpill_spi_default {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 11)>,
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;
+            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
+                <NRF_PSEL(SPIM_MOSI, 0, 11)>,    // 0.11
+                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
         };
     };
 
     blackpill_spi_sleep: blackpill_spi_sleep {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 11)>,
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;
+            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
+                <NRF_PSEL(SPIM_MOSI, 0, 11)>,    // 0.11
+                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
             low-power-enable;
         };
     };
