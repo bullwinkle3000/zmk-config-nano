@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="dummy sck pins">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="And dummy miso">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
@@ -73,14 +73,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00024" summary="Updated workspace file">
-      <option name="closed" value="true" />
-      <created>1704581292468</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1704581292468</updated>
     </task>
     <task id="LOCAL-00025" summary="Removed bad configs">
       <option name="closed" value="true" />
@@ -466,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705095145665</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="And dummy miso">
+      <option name="closed" value="true" />
+      <created>1705095834485</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1705095834485</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="restore logging" />
     <MESSAGE value="Bad driver name and renamed to @spi0" />
     <MESSAGE value="Missing pinctrl, updated with Pillbug SPI pins" />
     <MESSAGE value="Remove &amp;trackball" />
@@ -523,6 +522,7 @@
     <MESSAGE value="Trying spi2 instead of 3" />
     <MESSAGE value="Rely on chosen in dtsi" />
     <MESSAGE value="dummy sck pins" />
-    <option name="LAST_COMMIT_MESSAGE" value="dummy sck pins" />
+    <MESSAGE value="And dummy miso" />
+    <option name="LAST_COMMIT_MESSAGE" value="And dummy miso" />
   </component>
 </project>
