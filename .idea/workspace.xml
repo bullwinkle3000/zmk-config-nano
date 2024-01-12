@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Rely on chosen in dtsi">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="dummy sck pins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +73,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00023" summary="ZMK unhappy build">
-      <option name="closed" value="true" />
-      <created>1704580263856</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1704580263856</updated>
     </task>
     <task id="LOCAL-00024" summary="Updated workspace file">
       <option name="closed" value="true" />
@@ -467,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705091355087</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="dummy sck pins">
+      <option name="closed" value="true" />
+      <created>1705095145665</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1705095145665</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove &amp;trackball setting" />
     <MESSAGE value="restore logging" />
     <MESSAGE value="Bad driver name and renamed to @spi0" />
     <MESSAGE value="Missing pinctrl, updated with Pillbug SPI pins" />
@@ -524,6 +522,7 @@
     <MESSAGE value="typo" />
     <MESSAGE value="Trying spi2 instead of 3" />
     <MESSAGE value="Rely on chosen in dtsi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rely on chosen in dtsi" />
+    <MESSAGE value="dummy sck pins" />
+    <option name="LAST_COMMIT_MESSAGE" value="dummy sck pins" />
   </component>
 </project>
