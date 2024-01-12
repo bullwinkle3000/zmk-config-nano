@@ -4,25 +4,25 @@
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 29)>; // 0.29
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 5)>; // 0.5
         };
     };
 
     spi3_sleep: spi3_sleep {
         group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 29)>;  // 0.29
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 5)>;  // 0.5
             low-power-enable;
         };
     };
 
-    i2c1_default: i2c1_default {
+    i2c2_default: i2c2_default {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
                 <NRF_PSEL(TWIM_SCL, 1, 6)>;
         };
     };
 
-    i2c1_sleep: i2c1_sleep {
+    i2c2_sleep: i2c2_sleep {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
                 <NRF_PSEL(TWIM_SCL, 1, 6)>;
@@ -31,7 +31,7 @@
     };
 };
 
-&i2c1 {
+&i2c2 {
 	status = "okay";
     compatible = "nordic,nrf-twi";
     pinctrl-0 = <&i2c1_default>;
@@ -123,7 +123,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 			, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
 			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.02
             , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
-			, <&gpio0 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.05
+			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
 			, <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA0  / 0.25
             ;
 
