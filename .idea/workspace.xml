@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Actual pmw3610 without cat typo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="pmw3610 other pin">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +72,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00030" summary="Last config annoyance">
-      <option name="closed" value="true" />
-      <created>1704587734972</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1704587734972</updated>
     </task>
     <task id="LOCAL-00031" summary="Pointing at my repo">
       <option name="closed" value="true" />
@@ -466,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705121883722</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="pmw3610 other pin">
+      <option name="closed" value="true" />
+      <created>1705122295210</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1705122295210</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New trackball bits in pillbug" />
     <MESSAGE value="Wrong branch" />
     <MESSAGE value="Capitalization..." />
     <MESSAGE value="Pin overlap between matrix and irq/cs on SPI." />
@@ -523,6 +521,7 @@
     <MESSAGE value="set up external power bits" />
     <MESSAGE value="Actual pmw3610" />
     <MESSAGE value="Actual pmw3610 without cat typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actual pmw3610 without cat typo" />
+    <MESSAGE value="pmw3610 other pin" />
+    <option name="LAST_COMMIT_MESSAGE" value="pmw3610 other pin" />
   </component>
 </project>
