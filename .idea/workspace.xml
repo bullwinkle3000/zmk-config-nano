@@ -9,10 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try 0.09">
-      <change afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Nice!Nano mebbe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +84,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00040" summary="scroll layers not right">
-      <option name="closed" value="true" />
-      <created>1704663999118</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1704663999118</updated>
     </task>
     <task id="LOCAL-00041" summary="pmw3360 log level maybe">
       <option name="closed" value="true" />
@@ -474,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705174556179</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Nice!Nano mebbe">
+      <option name="closed" value="true" />
+      <created>1705176080780</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1705176080780</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Worked up i2c1" />
     <MESSAGE value="Worked up i2c2" />
     <MESSAGE value="Back to i2c0" />
     <MESSAGE value="Removed underglow again" />
@@ -561,6 +563,7 @@
     <MESSAGE value="Does seem a burned out pin" />
     <MESSAGE value="Try spi2?" />
     <MESSAGE value="Try 0.09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try 0.09" />
+    <MESSAGE value="Nice!Nano mebbe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nice!Nano mebbe" />
   </component>
 </project>

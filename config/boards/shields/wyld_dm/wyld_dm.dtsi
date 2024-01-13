@@ -118,13 +118,12 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
         diode-direction = "col2row";
 
         row-gpios
-			= <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB1  / 1.14
-			, <&gpio1 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
-			, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
-			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.02
-            , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
+			= <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB1  / 1.11
+			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
+			, <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
+			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.31
+            , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
 			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
-			, <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA0  / 0.25
             ;
 
     };
@@ -132,8 +131,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		a-gpios = <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
@@ -141,8 +140,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
-		a-gpios = <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
