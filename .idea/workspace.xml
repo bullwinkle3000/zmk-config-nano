@@ -9,7 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Actual pmw3610">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Actual pmw3610 without cat typo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,14 +73,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00029" summary="Formatting...">
-      <option name="closed" value="true" />
-      <created>1704587238570</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1704587238570</updated>
     </task>
     <task id="LOCAL-00030" summary="Last config annoyance">
       <option name="closed" value="true" />
@@ -465,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705121685777</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Actual pmw3610 without cat typo">
+      <option name="closed" value="true" />
+      <created>1705121883721</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1705121883722</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hi speed pins only" />
     <MESSAGE value="New trackball bits in pillbug" />
     <MESSAGE value="Wrong branch" />
     <MESSAGE value="Capitalization..." />
@@ -522,6 +522,7 @@
     <MESSAGE value="last try on underglow" />
     <MESSAGE value="set up external power bits" />
     <MESSAGE value="Actual pmw3610" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actual pmw3610" />
+    <MESSAGE value="Actual pmw3610 without cat typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actual pmw3610 without cat typo" />
   </component>
 </project>
