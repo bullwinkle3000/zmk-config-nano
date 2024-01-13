@@ -19,48 +19,48 @@
         };
     };
 
-    i2c0_default: i2c0_default {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
-                    <NRF_PSEL(TWIM_SCL, 1, 6)>;  // 0.6
-
-        };
-    };
-
-    i2c0_sleep: i2c0_sleep {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
-                <NRF_PSEL(TWIM_SCL, 1, 6)>;
-            low-power-enable;
-        };
-    };
+//    i2c0_default: i2c0_default {
+//        group1 {
+//            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
+//                    <NRF_PSEL(TWIM_SCL, 1, 6)>;  // 0.6
+//
+//        };
+//    };
+//
+//    i2c0_sleep: i2c0_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
+//                <NRF_PSEL(TWIM_SCL, 1, 6)>;
+//            low-power-enable;
+//        };
+//    };
 };
 
-&i2c0 {
-	status = "okay";
-    compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
-
-	// 0.10 SDA
-	// 1.06 SCL
-    oled: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-	};
-};
+//&i2c0 {
+//	status = "okay";
+//    compatible = "nordic,nrf-twi";
+//    pinctrl-0 = <&i2c0_default>;
+//    pinctrl-1 = <&i2c0_sleep>;
+//    pinctrl-names = "default", "sleep";
+//
+//	// 0.10 SDA
+//	// 1.06 SCL
+//    oled: ssd1306@3c {
+//		compatible = "solomon,ssd1306fb";
+//		reg = <0x3c>;
+//		label = "DISPLAY";
+//		width = <128>;
+//		height = <32>;
+//		segment-offset = <0>;
+//		page-offset = <0>;
+//		display-offset = <0>;
+//		multiplex-ratio = <31>;
+//		segment-remap;
+//		com-invdir;
+//		com-sequential;
+//		prechargep = <0x22>;
+//	};
+//};
 
 &spi3 {
   compatible = "nordic,nrf-spim";
