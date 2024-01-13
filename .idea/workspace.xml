@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Does seem a burned out pin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try spi2?">
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,14 +74,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00038" summary="More logging">
-      <option name="closed" value="true" />
-      <created>1704661222431</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1704661222431</updated>
     </task>
     <task id="LOCAL-00039" summary="stabbing in dark stuff">
       <option name="closed" value="true" />
@@ -468,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705173746874</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Try spi2?">
+      <option name="closed" value="true" />
+      <created>1705174286660</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1705174286660</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="conf tweaks" />
     <MESSAGE value="removed underglow" />
     <MESSAGE value="Worked up i2c1" />
     <MESSAGE value="Worked up i2c2" />
@@ -555,6 +553,7 @@
     <MESSAGE value="rgb pin" />
     <MESSAGE value="Revert pins and add logging to right" />
     <MESSAGE value="Does seem a burned out pin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Does seem a burned out pin" />
+    <MESSAGE value="Try spi2?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try spi2?" />
   </component>
 </project>
