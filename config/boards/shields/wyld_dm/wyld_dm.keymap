@@ -21,7 +21,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-//			display-name = "QWERTY";
+			display-name = "QWERTY";
 
 			bindings = <
 &kp ESC   &kp F1    &kp F2 &kp F3 &kp F4  &kp F5                     &kp F6 &kp F7   &kp F8    &kp F9  &kp F10  &kp F11
@@ -37,7 +37,7 @@
 		};
 
 		lower_layer {
-//			display-name = "LOWER";
+			display-name = "LOWER";
 
 			bindings = <
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &out OUT_BLE &out OUT_USB  &trans  &trans  &trans  &trans
@@ -53,7 +53,7 @@
 		};
 
 		raise_layer {
-//			display-name = "RAISE";
+			display-name = "RAISE";
 
 			bindings = <
 &trans    &trans &trans &trans   &trans   &trans                     &trans &trans   &trans    &trans  &trans &trans
