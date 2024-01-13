@@ -2,6 +2,11 @@
 
 #include "wyld_dm.dtsi"
 
+/ {
+	chosen {
+		zephyr,display = &oled;
+	};
+};
 
 &kscan0 {
     col-gpios
