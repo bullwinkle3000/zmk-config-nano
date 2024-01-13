@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="set up external power bits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Actual pmw3610">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +72,6 @@
       <workItem from="1704600190621" duration="13770000" />
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
-    </task>
-    <task id="LOCAL-00028" summary="More underglow bits">
-      <option name="closed" value="true" />
-      <created>1704586889355</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1704586889355</updated>
     </task>
     <task id="LOCAL-00029" summary="Formatting...">
       <option name="closed" value="true" />
@@ -468,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705098194180</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Actual pmw3610">
+      <option name="closed" value="true" />
+      <created>1705121685777</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1705121685777</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="back to blackpill" />
     <MESSAGE value="Hi speed pins only" />
     <MESSAGE value="New trackball bits in pillbug" />
     <MESSAGE value="Wrong branch" />
@@ -525,6 +521,7 @@
     <MESSAGE value="miso not i2c" />
     <MESSAGE value="last try on underglow" />
     <MESSAGE value="set up external power bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up external power bits" />
+    <MESSAGE value="Actual pmw3610" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actual pmw3610" />
   </component>
 </project>

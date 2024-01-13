@@ -63,7 +63,6 @@
     pinctrl-1 = <&blackpill_spi_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
-`
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
