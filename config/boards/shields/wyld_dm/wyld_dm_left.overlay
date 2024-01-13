@@ -2,11 +2,6 @@
 
 #include "wyld_dm.dtsi"
 
-/ {
-	chosen {
-		zephyr,display = &oled;
-	};
-};
 
 &kscan0 {
     col-gpios
@@ -24,68 +19,23 @@
 	status = "okay";
 };
 
-&pinctrl {
-//    spi3_default: spi3_default {
-//        group1 {
-//            psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,  // 1.8,
-//                    <NRF_PSEL(SPIM_MOSI, 0, 1)>, // 0.1
-//                    <NRF_PSEL(SPIM_MISO, 0, 5)>;    // 0.5
+//&blackpill_spi {
+//    status = "okay";
 //
-//        };
-//    };
+////    miso-pin = <17>; // P0.17
+////    mosi-pin = <20>; // P0.20
+////    sck-pin = <22>; // P0.22
+//    cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>; // P0.31
 //
-//    spi3_sleep: spi3_sleep {
-//        group1 {
-//            psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,  // 1.8
-//                    <NRF_PSEL(SPIM_MOSI, 0, 1)>,  // 0.1
-//                    <NRF_PSEL(SPIM_MISO, 0, 5)>;    // 0.5
-//            low-power-enable;
-//        };
+//    trackball: trackball@0 {
+//        compatible = "pixart,pmw3360";
+//        reg = <0>;
+//        label = "Pixart PMW3360";
+//        irq-gpios = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+//        spi-max-frequency = <2000000>;
+//        scroll-layer = <5>;
 //    };
-
-    i2c0_default: i2c0_default {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
-                    <NRF_PSEL(TWIM_SCL, 1, 6)>;  // 0.6
-
-        };
-    };
-
-    i2c0_sleep: i2c0_sleep {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 10)>,
-                <NRF_PSEL(TWIM_SCL, 1, 6)>;
-            low-power-enable;
-        };
-    };
-};
-
-&i2c0 {
-	status = "okay";
-    compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
-
-	// 0.10 SDA
-	// 1.06 SCL
-    oled: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-	};
-};
-
+//};
 
 &pinctrl {
     blackpill_spi_default: blackpill_spi_default {
