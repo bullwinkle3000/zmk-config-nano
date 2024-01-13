@@ -14,15 +14,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: bullwinkle3000
-      url-base: https://github.com/bullwinkle3000
+    - name: inorichi
+      url-base: https://github.com/inorichi
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: bullwinkle3000
-      revision: pmw3360
+      remote: inorichi
+      revision: main
   self:
     path: config
