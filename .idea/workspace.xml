@@ -9,9 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Checking led chain length">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try another couple of pins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,15 +82,7 @@
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
-      <workItem from="1705216076760" duration="4024000" />
-    </task>
-    <task id="LOCAL-00042" summary="log level more">
-      <option name="closed" value="true" />
-      <created>1704665492586</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1704665492586</updated>
+      <workItem from="1705216076760" duration="5122000" />
     </task>
     <task id="LOCAL-00043" summary="log level more more">
       <option name="closed" value="true" />
@@ -475,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705216475249</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Try another couple of pins">
+      <option name="closed" value="true" />
+      <created>1705260123203</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1705260123203</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Back to i2c0" />
     <MESSAGE value="Removed underglow again" />
     <MESSAGE value="Pillbug board returned" />
     <MESSAGE value="typo" />
@@ -562,6 +562,7 @@
     <MESSAGE value="Try 0.09" />
     <MESSAGE value="Nice!Nano mebbe" />
     <MESSAGE value="Checking led chain length" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checking led chain length" />
+    <MESSAGE value="Try another couple of pins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try another couple of pins" />
   </component>
 </project>
