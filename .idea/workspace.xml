@@ -9,11 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusted pins for columns and underglow.">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reworked Pillbug pins and testing OLED again.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +84,7 @@
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
-      <workItem from="1705216076760" duration="6504000" />
-    </task>
-    <task id="LOCAL-00044" summary="remove sensor logging stuff">
-      <option name="closed" value="true" />
-      <created>1704666908494</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1704666908494</updated>
+      <workItem from="1705216076760" duration="8622000" />
     </task>
     <task id="LOCAL-00045" summary="mismatch in motion/irq pin">
       <option name="closed" value="true" />
@@ -477,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705264463051</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Reworked Pillbug pins and testing OLED again.">
+      <option name="closed" value="true" />
+      <created>1705265827064</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1705265827064</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pillbug board returned" />
     <MESSAGE value="typo" />
     <MESSAGE value="Trying spi2 instead of 3" />
     <MESSAGE value="Rely on chosen in dtsi" />
@@ -564,6 +564,7 @@
     <MESSAGE value="Checking led chain length" />
     <MESSAGE value="Try another couple of pins" />
     <MESSAGE value="Adjusted pins for columns and underglow." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted pins for columns and underglow." />
+    <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked Pillbug pins and testing OLED again." />
   </component>
 </project>
