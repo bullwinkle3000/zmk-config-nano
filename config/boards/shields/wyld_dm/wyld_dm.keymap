@@ -71,7 +71,7 @@
 };
 
 &led_strip {
-    chain-length = <30>;
+    chain-length = <80>;
 };
 
 
