@@ -9,11 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed rgb to test">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Everything but oled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +82,7 @@
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
-      <workItem from="1705216076760" duration="14049000" />
-    </task>
-    <task id="LOCAL-00051" summary="Remove &amp;trackball">
-      <option name="closed" value="true" />
-      <created>1704825247834</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1704825247834</updated>
+      <workItem from="1705216076760" duration="14608000" />
     </task>
     <task id="LOCAL-00052" summary="back to blackpill">
       <option name="closed" value="true" />
@@ -477,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705293762277</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Everything but oled">
+      <option name="closed" value="true" />
+      <created>1705294359588</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1705294359588</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="miso not i2c" />
     <MESSAGE value="last try on underglow" />
     <MESSAGE value="set up external power bits" />
     <MESSAGE value="Actual pmw3610" />
@@ -564,6 +562,7 @@
     <MESSAGE value="And adjustments to i2c from i2c0 to i2c1" />
     <MESSAGE value="pillbug only" />
     <MESSAGE value="Removed rgb to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed rgb to test" />
+    <MESSAGE value="Everything but oled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything but oled" />
   </component>
 </project>
