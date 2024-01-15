@@ -9,10 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="And adjustments to i2c from i2c0 to i2c1">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="pillbug only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +87,7 @@
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
-      <workItem from="1705216076760" duration="12597000" />
-    </task>
-    <task id="LOCAL-00049" summary="Bad driver name and renamed to @spi0">
-      <option name="closed" value="true" />
-      <created>1704824235560</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1704824235560</updated>
+      <workItem from="1705216076760" duration="13448000" />
     </task>
     <task id="LOCAL-00050" summary="Missing pinctrl, updated with Pillbug SPI pins">
       <option name="closed" value="true" />
@@ -476,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705291401742</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="pillbug only">
+      <option name="closed" value="true" />
+      <created>1705292072098</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1705292072098</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dummy sck pins" />
     <MESSAGE value="And dummy miso" />
     <MESSAGE value="miso not i2c" />
     <MESSAGE value="last try on underglow" />
@@ -563,6 +567,7 @@
     <MESSAGE value="Moved display to central conf.&#10;Set i2c defaults for Pillbug" />
     <MESSAGE value="Test of only oled on right" />
     <MESSAGE value="And adjustments to i2c from i2c0 to i2c1" />
-    <option name="LAST_COMMIT_MESSAGE" value="And adjustments to i2c from i2c0 to i2c1" />
+    <MESSAGE value="pillbug only" />
+    <option name="LAST_COMMIT_MESSAGE" value="pillbug only" />
   </component>
 </project>
