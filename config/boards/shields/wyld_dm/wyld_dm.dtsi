@@ -121,7 +121,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)               RC(4,6) RC(4,7) RC
 			= <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB1  / 1.11
 			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
 			, <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
-			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.31
+			, <&gpio1 06 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.31
             , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
 			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
             ;

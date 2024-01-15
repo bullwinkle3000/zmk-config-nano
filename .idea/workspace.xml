@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Test of only oled on right">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="And adjustments to i2c from i2c0 to i2c1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +82,7 @@
       <workItem from="1704810079430" duration="11737000" />
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
-      <workItem from="1705216076760" duration="11906000" />
-    </task>
-    <task id="LOCAL-00048" summary="restore logging">
-      <option name="closed" value="true" />
-      <created>1704812030561</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1704812030561</updated>
+      <workItem from="1705216076760" duration="12597000" />
     </task>
     <task id="LOCAL-00049" summary="Bad driver name and renamed to @spi0">
       <option name="closed" value="true" />
@@ -474,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705291305159</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="And adjustments to i2c from i2c0 to i2c1">
+      <option name="closed" value="true" />
+      <created>1705291401742</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1705291401742</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rely on chosen in dtsi" />
     <MESSAGE value="dummy sck pins" />
     <MESSAGE value="And dummy miso" />
     <MESSAGE value="miso not i2c" />
@@ -561,6 +562,7 @@
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Moved display to central conf.&#10;Set i2c defaults for Pillbug" />
     <MESSAGE value="Test of only oled on right" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test of only oled on right" />
+    <MESSAGE value="And adjustments to i2c from i2c0 to i2c1" />
+    <option name="LAST_COMMIT_MESSAGE" value="And adjustments to i2c from i2c0 to i2c1" />
   </component>
 </project>
