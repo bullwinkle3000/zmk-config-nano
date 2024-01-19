@@ -1,4 +1,4 @@
-if SHIELD_WYLD_DM_RIGHT
+if SHIELD_WYLD_DM_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Wyld DM"
