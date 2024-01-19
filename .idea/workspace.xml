@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Make left central, the nano">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reduce widgets">
+      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,6 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-    </task>
-    <task id="LOCAL-00058" summary="encoder and oled bits">
-      <option name="closed" value="true" />
-      <created>1704985862691</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1704985862691</updated>
     </task>
     <task id="LOCAL-00059" summary="Back to pillbug to debug">
       <option name="closed" value="true" />
@@ -474,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705706687479</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="reduce widgets">
+      <option name="closed" value="true" />
+      <created>1705707827012</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1705707827012</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nope" />
     <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
@@ -561,6 +560,7 @@
     <MESSAGE value="weird error..." />
     <MESSAGE value="Trying delay and reducing widgets" />
     <MESSAGE value="Make left central, the nano" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make left central, the nano" />
+    <MESSAGE value="reduce widgets" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduce widgets" />
   </component>
 </project>
