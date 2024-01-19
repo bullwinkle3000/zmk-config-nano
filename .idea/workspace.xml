@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap KP_MULTIPLY">
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="No &amp;kb, just &amp;kp">
+      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +82,7 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
-      <workItem from="1705678784246" duration="5237000" />
-    </task>
-    <task id="LOCAL-00050" summary="Missing pinctrl, updated with Pillbug SPI pins">
-      <option name="closed" value="true" />
-      <created>1704824992762</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1704824992762</updated>
+      <workItem from="1705678784246" duration="5903000" />
     </task>
     <task id="LOCAL-00051" summary="Remove &amp;trackball">
       <option name="closed" value="true" />
@@ -476,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705684564666</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="No &amp;kb, just &amp;kp">
+      <option name="closed" value="true" />
+      <created>1705684831816</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1705684831816</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="miso not i2c" />
     <MESSAGE value="last try on underglow" />
     <MESSAGE value="set up external power bits" />
     <MESSAGE value="Actual pmw3610" />
@@ -563,6 +562,7 @@
     <MESSAGE value="keymap type" />
     <MESSAGE value="keymap K_MUTE not MUTE" />
     <MESSAGE value="keymap KP_MULTIPLY" />
-    <option name="LAST_COMMIT_MESSAGE" value="keymap KP_MULTIPLY" />
+    <MESSAGE value="No &amp;kb, just &amp;kp" />
+    <option name="LAST_COMMIT_MESSAGE" value="No &amp;kb, just &amp;kp" />
   </component>
 </project>
