@@ -29,7 +29,7 @@
                     &trans   &kp CAPS  &kp A  &kp S  &kp D    &kp F    &kp G  &kp HOME   &kp K_MUTE &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT   &kp BSLH
                     &trans   &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B                        &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT &kp KP_MULTIPLY
                     &kp LALT &kp LCTL  &kp LGUI &kp LBKT &kp RBKT                                   &kp LBRC  &kp RBRC &kp RGUI &kp RCTL &kp RALT
-                                                    &mo RAISE &kp SPACE &kp BSPC            &kb DEL &kp ENTER  &mo LOWER
+                                                    &mo RAISE &kp SPACE &kp BSPC            &kp DEL &kp ENTER  &mo LOWER
                                                               &kp TAB   &kp LALT
 			>;
 

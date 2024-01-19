@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap K_MUTE not MUTE">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap KP_MULTIPLY">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,15 +82,7 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
-      <workItem from="1705678784246" duration="4988000" />
-    </task>
-    <task id="LOCAL-00049" summary="Bad driver name and renamed to @spi0">
-      <option name="closed" value="true" />
-      <created>1704824235560</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1704824235560</updated>
+      <workItem from="1705678784246" duration="5237000" />
     </task>
     <task id="LOCAL-00050" summary="Missing pinctrl, updated with Pillbug SPI pins">
       <option name="closed" value="true" />
@@ -478,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705684209937</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="keymap KP_MULTIPLY">
+      <option name="closed" value="true" />
+      <created>1705684564666</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1705684564666</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="And dummy miso" />
     <MESSAGE value="miso not i2c" />
     <MESSAGE value="last try on underglow" />
     <MESSAGE value="set up external power bits" />
@@ -565,6 +562,7 @@
     <MESSAGE value="dtsi issue" />
     <MESSAGE value="keymap type" />
     <MESSAGE value="keymap K_MUTE not MUTE" />
-    <option name="LAST_COMMIT_MESSAGE" value="keymap K_MUTE not MUTE" />
+    <MESSAGE value="keymap KP_MULTIPLY" />
+    <option name="LAST_COMMIT_MESSAGE" value="keymap KP_MULTIPLY" />
   </component>
 </project>
