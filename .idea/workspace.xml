@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="dtsi issue">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
@@ -84,15 +84,7 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
-      <workItem from="1705678784246" duration="3807000" />
-    </task>
-    <task id="LOCAL-00047" summary="restore logging">
-      <option name="closed" value="true" />
-      <created>1704668681110</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1704668681110</updated>
+      <workItem from="1705678784246" duration="4622000" />
     </task>
     <task id="LOCAL-00048" summary="restore logging">
       <option name="closed" value="true" />
@@ -478,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705682309591</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="keymap type">
+      <option name="closed" value="true" />
+      <created>1705682652186</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1705682652186</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rely on chosen in dtsi" />
     <MESSAGE value="dummy sck pins" />
     <MESSAGE value="And dummy miso" />
     <MESSAGE value="miso not i2c" />
@@ -565,6 +564,7 @@
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Keymap maybe and back to i2c on OLED" />
     <MESSAGE value="dtsi issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="dtsi issue" />
+    <MESSAGE value="keymap type" />
+    <option name="LAST_COMMIT_MESSAGE" value="keymap type" />
   </component>
 </project>
