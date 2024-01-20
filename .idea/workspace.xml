@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reduce widgets">
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="change sda/scl pins on pillbug">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,6 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-    </task>
-    <task id="LOCAL-00059" summary="Back to pillbug to debug">
-      <option name="closed" value="true" />
-      <created>1705020507126</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1705020507126</updated>
     </task>
     <task id="LOCAL-00060" summary="Restored other devices">
       <option name="closed" value="true" />
@@ -474,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705707827012</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="change sda/scl pins on pillbug">
+      <option name="closed" value="true" />
+      <created>1705707991333</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1705707991333</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
     <MESSAGE value="Revert pins and add logging to right" />
@@ -561,6 +560,7 @@
     <MESSAGE value="Trying delay and reducing widgets" />
     <MESSAGE value="Make left central, the nano" />
     <MESSAGE value="reduce widgets" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduce widgets" />
+    <MESSAGE value="change sda/scl pins on pillbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="change sda/scl pins on pillbug" />
   </component>
 </project>
