@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="last sanity check">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="With sensor">
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +81,6 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-    </task>
-    <task id="LOCAL-00062" summary="conf tweaks">
-      <option name="closed" value="true" />
-      <created>1705080531986</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1705080531986</updated>
     </task>
     <task id="LOCAL-00063" summary="removed underglow">
       <option name="closed" value="true" />
@@ -477,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705710400121</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="With sensor">
+      <option name="closed" value="true" />
+      <created>1705712554894</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1705712554894</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revert pins and add logging to right" />
     <MESSAGE value="Does seem a burned out pin" />
     <MESSAGE value="Try spi2?" />
     <MESSAGE value="Try 0.09" />
@@ -564,6 +560,7 @@
     <MESSAGE value="change sda/scl pins on pillbug" />
     <MESSAGE value="Works on new pins, what about central" />
     <MESSAGE value="last sanity check" />
-    <option name="LAST_COMMIT_MESSAGE" value="last sanity check" />
+    <MESSAGE value="With sensor" />
+    <option name="LAST_COMMIT_MESSAGE" value="With sensor" />
   </component>
 </project>
