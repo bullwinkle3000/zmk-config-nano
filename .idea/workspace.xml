@@ -9,10 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Pin 1.09">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
@@ -85,15 +85,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="1402000" />
-    </task>
-    <task id="LOCAL-00068" summary="Pillbug board returned">
-      <option name="closed" value="true" />
-      <created>1705086343746</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1705086343746</updated>
+      <workItem from="1705794284838" duration="2047000" />
     </task>
     <task id="LOCAL-00069" summary="typo">
       <option name="closed" value="true" />
@@ -479,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705769832496</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf">
+      <option name="closed" value="true" />
+      <created>1705798771337</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1705798771337</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Try another couple of pins" />
     <MESSAGE value="Adjusted pins for columns and underglow." />
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Moved display to central conf.&#10;Set i2c defaults for Pillbug" />
@@ -566,6 +565,7 @@
     <MESSAGE value="Missed chosen bit" />
     <MESSAGE value="Tweak" />
     <MESSAGE value="Pin 1.09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pin 1.09" />
+    <MESSAGE value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
   </component>
 </project>
