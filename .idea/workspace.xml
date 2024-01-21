@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="nano works, but not pb 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Last try on pin 0.17">
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +81,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="13756000" />
-    </task>
-    <task id="LOCAL-00082" summary="Reverted">
-      <option name="closed" value="true" />
-      <created>1705166241702</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1705166241702</updated>
+      <workItem from="1705794284838" duration="14202000" />
     </task>
     <task id="LOCAL-00083" summary="true revert">
       <option name="closed" value="true" />
@@ -476,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705874798730</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Last try on pin 0.17">
+      <option name="closed" value="true" />
+      <created>1705877930965</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1705877930965</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Make left central, the nano" />
     <MESSAGE value="reduce widgets" />
     <MESSAGE value="change sda/scl pins on pillbug" />
     <MESSAGE value="Works on new pins, what about central" />
@@ -563,6 +561,7 @@
     <MESSAGE value="ext pwr n 2" />
     <MESSAGE value="nano works, but not pb" />
     <MESSAGE value="nano works, but not pb 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="nano works, but not pb 2" />
+    <MESSAGE value="Last try on pin 0.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last try on pin 0.17" />
   </component>
 </project>
