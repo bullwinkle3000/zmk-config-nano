@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added nice!nano setup again, set underglow_ext_power=y in pillbug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,15 +82,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="2047000" />
-    </task>
-    <task id="LOCAL-00069" summary="typo">
-      <option name="closed" value="true" />
-      <created>1705086566611</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1705086566611</updated>
+      <workItem from="1705794284838" duration="2408000" />
     </task>
     <task id="LOCAL-00070" summary="Trying spi2 instead of 3">
       <option name="closed" value="true" />
@@ -479,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705798771337</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Added nice!nano setup again, set underglow_ext_power=y in pillbug">
+      <option name="closed" value="true" />
+      <created>1705799401764</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1705799401764</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adjusted pins for columns and underglow." />
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Moved display to central conf.&#10;Set i2c defaults for Pillbug" />
     <MESSAGE value="Test of only oled on right" />
@@ -566,6 +562,7 @@
     <MESSAGE value="Tweak" />
     <MESSAGE value="Pin 1.09" />
     <MESSAGE value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
+    <MESSAGE value="Added nice!nano setup again, set underglow_ext_power=y in pillbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added nice!nano setup again, set underglow_ext_power=y in pillbug" />
   </component>
 </project>
