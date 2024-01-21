@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="ext_pwr MUST be n to compile">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="moved underglow to right.overlay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +82,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="3624000" />
-    </task>
-    <task id="LOCAL-00072" summary="dummy sck pins">
-      <option name="closed" value="true" />
-      <created>1705095145665</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1705095145665</updated>
+      <workItem from="1705794284838" duration="4605000" />
     </task>
     <task id="LOCAL-00073" summary="And dummy miso">
       <option name="closed" value="true" />
@@ -478,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705800133677</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="moved underglow to right.overlay">
+      <option name="closed" value="true" />
+      <created>1705848804593</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848804593</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test of only oled on right" />
     <MESSAGE value="And adjustments to i2c from i2c0 to i2c1" />
     <MESSAGE value="pillbug only" />
     <MESSAGE value="Removed rgb to test" />
@@ -565,6 +562,7 @@
     <MESSAGE value="Added nice!nano setup again, set underglow_ext_power=y in pillbug" />
     <MESSAGE value="Reverted to spi2 on underglow" />
     <MESSAGE value="ext_pwr MUST be n to compile" />
-    <option name="LAST_COMMIT_MESSAGE" value="ext_pwr MUST be n to compile" />
+    <MESSAGE value="moved underglow to right.overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved underglow to right.overlay" />
   </component>
 </project>
