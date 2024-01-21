@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Pin 0.17">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="ext pwr n">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,15 +81,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="8175000" />
-    </task>
-    <task id="LOCAL-00078" summary="Actual pmw3610 without cat typo">
-      <option name="closed" value="true" />
-      <created>1705121883721</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1705121883722</updated>
+      <workItem from="1705794284838" duration="8817000" />
     </task>
     <task id="LOCAL-00079" summary="pmw3610 other pin">
       <option name="closed" value="true" />
@@ -475,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705853528471</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="ext pwr n">
+      <option name="closed" value="true" />
+      <created>1705853789532</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853789532</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="revert pins" />
     <MESSAGE value="i2c" />
     <MESSAGE value="weird error..." />
     <MESSAGE value="Trying delay and reducing widgets" />
@@ -562,6 +561,7 @@
     <MESSAGE value="No CONFIG_INPUT" />
     <MESSAGE value="Updated build.yml" />
     <MESSAGE value="Pin 0.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pin 0.17" />
+    <MESSAGE value="ext pwr n" />
+    <option name="LAST_COMMIT_MESSAGE" value="ext pwr n" />
   </component>
 </project>
