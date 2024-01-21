@@ -9,9 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added nice!nano setup again, set underglow_ext_power=y in pillbug">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reverted to spi2 on underglow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +83,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="2408000" />
-    </task>
-    <task id="LOCAL-00070" summary="Trying spi2 instead of 3">
-      <option name="closed" value="true" />
-      <created>1705090113106</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1705090113106</updated>
+      <workItem from="1705794284838" duration="2794000" />
     </task>
     <task id="LOCAL-00071" summary="Rely on chosen in dtsi">
       <option name="closed" value="true" />
@@ -476,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705799401764</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Reverted to spi2 on underglow">
+      <option name="closed" value="true" />
+      <created>1705799785068</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1705799785068</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Moved display to central conf.&#10;Set i2c defaults for Pillbug" />
     <MESSAGE value="Test of only oled on right" />
     <MESSAGE value="And adjustments to i2c from i2c0 to i2c1" />
@@ -563,6 +563,7 @@
     <MESSAGE value="Pin 1.09" />
     <MESSAGE value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
     <MESSAGE value="Added nice!nano setup again, set underglow_ext_power=y in pillbug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added nice!nano setup again, set underglow_ext_power=y in pillbug" />
+    <MESSAGE value="Reverted to spi2 on underglow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverted to spi2 on underglow" />
   </component>
 </project>
