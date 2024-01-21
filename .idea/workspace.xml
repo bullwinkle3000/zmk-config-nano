@@ -9,11 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="No CONFIG_INPUT">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Updated build.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +86,7 @@
       <workItem from="1704983057595" duration="4056000" />
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
-      <workItem from="1705794284838" duration="6501000" />
-    </task>
-    <task id="LOCAL-00076" summary="set up external power bits">
-      <option name="closed" value="true" />
-      <created>1705098194179</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1705098194180</updated>
+      <workItem from="1705794284838" duration="7940000" />
     </task>
     <task id="LOCAL-00077" summary="Actual pmw3610">
       <option name="closed" value="true" />
@@ -478,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705851548079</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Updated build.yml">
+      <option name="closed" value="true" />
+      <created>1705852095782</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1705852095782</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Everything but oled" />
     <MESSAGE value="Test of left side with pillbug" />
     <MESSAGE value="revert pins" />
     <MESSAGE value="i2c" />
@@ -565,6 +566,7 @@
     <MESSAGE value="Point to bullwinkle3000" />
     <MESSAGE value="Standard ZMK" />
     <MESSAGE value="No CONFIG_INPUT" />
-    <option name="LAST_COMMIT_MESSAGE" value="No CONFIG_INPUT" />
+    <MESSAGE value="Updated build.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated build.yml" />
   </component>
 </project>
