@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="First test pass at NiceView">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed &amp;oled reference">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,15 +86,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1709076925461" duration="1200000" />
       <workItem from="1709216390697" duration="596000" />
-      <workItem from="1709233301357" duration="1803000" />
-    </task>
-    <task id="LOCAL-00052" summary="back to blackpill">
-      <option name="closed" value="true" />
-      <created>1704828302009</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1704828302009</updated>
+      <workItem from="1709233301357" duration="2136000" />
     </task>
     <task id="LOCAL-00053" summary="Hi speed pins only">
       <option name="closed" value="true" />
@@ -480,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709245635127</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Removed &amp;oled reference">
+      <option name="closed" value="true" />
+      <created>1709247157600</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1709247157600</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set up external power bits" />
     <MESSAGE value="Actual pmw3610" />
     <MESSAGE value="Actual pmw3610 without cat typo" />
     <MESSAGE value="pmw3610 other pin" />
@@ -567,6 +566,7 @@
     <MESSAGE value="keymap KP_MULTIPLY" />
     <MESSAGE value="No &amp;kb, just &amp;kp" />
     <MESSAGE value="First test pass at NiceView" />
-    <option name="LAST_COMMIT_MESSAGE" value="First test pass at NiceView" />
+    <MESSAGE value="Removed &amp;oled reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed &amp;oled reference" />
   </component>
 </project>
