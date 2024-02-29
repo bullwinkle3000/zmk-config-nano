@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Removed &amp;oled reference">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="devices and devices">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.shield" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.shield" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,23 +86,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1709076925461" duration="1200000" />
       <workItem from="1709216390697" duration="596000" />
-      <workItem from="1709233301357" duration="2136000" />
-    </task>
-    <task id="LOCAL-00053" summary="Hi speed pins only">
-      <option name="closed" value="true" />
-      <created>1704831781274</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1704831781274</updated>
-    </task>
-    <task id="LOCAL-00054" summary="New trackball bits in pillbug">
-      <option name="closed" value="true" />
-      <created>1704846844811</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1704846844812</updated>
+      <workItem from="1709233301357" duration="3105000" />
     </task>
     <task id="LOCAL-00055" summary="Wrong branch">
       <option name="closed" value="true" />
@@ -480,7 +464,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709247157600</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Extraneous devices">
+      <option name="closed" value="true" />
+      <created>1709247534974</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1709247534974</updated>
+    </task>
+    <task id="LOCAL-00103" summary="devices and devices">
+      <option name="closed" value="true" />
+      <created>1709248233695</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1709248233695</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,8 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actual pmw3610" />
-    <MESSAGE value="Actual pmw3610 without cat typo" />
     <MESSAGE value="pmw3610 other pin" />
     <MESSAGE value="pmw3610 more config" />
     <MESSAGE value="nope" />
@@ -567,6 +565,8 @@
     <MESSAGE value="No &amp;kb, just &amp;kp" />
     <MESSAGE value="First test pass at NiceView" />
     <MESSAGE value="Removed &amp;oled reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed &amp;oled reference" />
+    <MESSAGE value="Extraneous devices" />
+    <MESSAGE value="devices and devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="devices and devices" />
   </component>
 </project>

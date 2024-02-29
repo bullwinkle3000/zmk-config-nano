@@ -2,9 +2,9 @@
 #     bool
 
 config SHIELD_WYLD_DM_LEFT
-    def_bool $(shields_list_contains,wyld_dm_left,nice_view_adapter)
+    def_bool $(shields_list_contains,wyld_dm_left)
 #     select SHIELD_WYLD_DM
 
 config SHIELD_WYLD_DM_RIGHT
-    def_bool $(shields_list_contains,wyld_dm_right,nice_view_adapter)
+    def_bool $(shields_list_contains,wyld_dm_right)
 #     select SHIELD_WYLD_DM
