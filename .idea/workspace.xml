@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="devices and devices">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.shield" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.shield" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="shields">
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,15 +85,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1709076925461" duration="1200000" />
       <workItem from="1709216390697" duration="596000" />
-      <workItem from="1709233301357" duration="3105000" />
-    </task>
-    <task id="LOCAL-00055" summary="Wrong branch">
-      <option name="closed" value="true" />
-      <created>1704847056373</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1704847056373</updated>
+      <workItem from="1709233301357" duration="3735000" />
     </task>
     <task id="LOCAL-00056" summary="Capitalization...">
       <option name="closed" value="true" />
@@ -480,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709248233695</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="shields">
+      <option name="closed" value="true" />
+      <created>1709248512426</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1709248512426</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pmw3610 other pin" />
     <MESSAGE value="pmw3610 more config" />
     <MESSAGE value="nope" />
     <MESSAGE value="Reverted" />
@@ -567,6 +565,7 @@
     <MESSAGE value="Removed &amp;oled reference" />
     <MESSAGE value="Extraneous devices" />
     <MESSAGE value="devices and devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="devices and devices" />
+    <MESSAGE value="shields" />
+    <option name="LAST_COMMIT_MESSAGE" value="shields" />
   </component>
 </project>
