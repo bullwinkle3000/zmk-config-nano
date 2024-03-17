@@ -79,3 +79,11 @@
          automouse-layer = <4>;
     };
 };
+
+/ {
+  pmw3610_listener {
+    compatible = "zmk,input-listener";
+    device = <&trackball>;
+
+  };
+};
