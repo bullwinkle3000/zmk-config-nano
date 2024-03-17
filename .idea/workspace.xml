@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added #include &lt;behaviors/mouse_keys.dtsi&gt;">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="updated nano pins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
@@ -87,15 +87,7 @@
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
-      <workItem from="1710700334664" duration="2277000" />
-    </task>
-    <task id="LOCAL-00053" summary="Hi speed pins only">
-      <option name="closed" value="true" />
-      <created>1704831781274</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1704831781274</updated>
+      <workItem from="1710700334664" duration="2837000" />
     </task>
     <task id="LOCAL-00054" summary="New trackball bits in pillbug">
       <option name="closed" value="true" />
@@ -481,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710637244420</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="updated nano pins">
+      <option name="closed" value="true" />
+      <created>1710703781635</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1710703781635</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actual pmw3610" />
     <MESSAGE value="Actual pmw3610 without cat typo" />
     <MESSAGE value="pmw3610 other pin" />
     <MESSAGE value="pmw3610 more config" />
@@ -568,6 +567,7 @@
     <MESSAGE value="No &amp;kb, just &amp;kp" />
     <MESSAGE value="3x5 first pass" />
     <MESSAGE value="Added #include &lt;behaviors/mouse_keys.dtsi&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added #include &lt;behaviors/mouse_keys.dtsi&gt;" />
+    <MESSAGE value="updated nano pins" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated nano pins" />
   </component>
 </project>

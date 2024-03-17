@@ -26,7 +26,7 @@
             , <&gpio1 0  GPIO_ACTIVE_HIGH>  // 1.00
 			, <&gpio0 11  GPIO_ACTIVE_HIGH>  //  0.11
 			, <&gpio1 4  GPIO_ACTIVE_HIGH>  // 1.04
-			, <&gpio1 6  GPIO_ACTIVE_HIGH>  //  1.06
+//			, <&gpio1 6  GPIO_ACTIVE_HIGH>  //  1.06
 //            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
 			;
 };
