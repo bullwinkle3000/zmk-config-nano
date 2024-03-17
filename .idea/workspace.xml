@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Needs proper branch">
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Doing the DOH">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +85,7 @@
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
-      <workItem from="1710700334664" duration="4751000" />
-    </task>
-    <task id="LOCAL-00059" summary="Back to pillbug to debug">
-      <option name="closed" value="true" />
-      <created>1705020507126</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1705020507126</updated>
+      <workItem from="1710700334664" duration="6158000" />
     </task>
     <task id="LOCAL-00060" summary="Restored other devices">
       <option name="closed" value="true" />
@@ -478,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710706388118</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Doing the DOH">
+      <option name="closed" value="true" />
+      <created>1710706532171</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1710706532171</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
     <MESSAGE value="Revert pins and add logging to right" />
@@ -565,6 +565,7 @@
     <MESSAGE value="Trying specific revision" />
     <MESSAGE value="Added pmw3610_listener" />
     <MESSAGE value="Needs proper branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Needs proper branch" />
+    <MESSAGE value="Doing the DOH" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doing the DOH" />
   </component>
 </project>
