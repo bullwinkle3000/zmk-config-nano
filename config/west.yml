@@ -13,7 +13,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/bullwinkle3000
+      url-base: https://github.com/petejohanson
     - name: inorichi
       url-base: https://github.com/inorichi
   projects:

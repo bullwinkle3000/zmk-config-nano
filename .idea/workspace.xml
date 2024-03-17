@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added pmw3610_listener">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Needs proper branch">
       <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,15 +84,7 @@
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
-      <workItem from="1710700334664" duration="4592000" />
-    </task>
-    <task id="LOCAL-00058" summary="encoder and oled bits">
-      <option name="closed" value="true" />
-      <created>1704985862691</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1704985862691</updated>
+      <workItem from="1710700334664" duration="4751000" />
     </task>
     <task id="LOCAL-00059" summary="Back to pillbug to debug">
       <option name="closed" value="true" />
@@ -478,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710706298220</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Needs proper branch">
+      <option name="closed" value="true" />
+      <created>1710706388118</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1710706388118</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nope" />
     <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
@@ -565,6 +564,7 @@
     <MESSAGE value="removed conflicting i2c bits" />
     <MESSAGE value="Trying specific revision" />
     <MESSAGE value="Added pmw3610_listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pmw3610_listener" />
+    <MESSAGE value="Needs proper branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Needs proper branch" />
   </component>
 </project>
