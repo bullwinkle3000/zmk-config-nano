@@ -13,14 +13,14 @@
             , <&gpio1 6  GPIO_ACTIVE_HIGH>  // PB5   / 1.06
 			, <&gpio1 7  GPIO_ACTIVE_HIGH>  // PB12   / 1.07
 			, <&gpio1 2  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
-			, <&gpio1 1  GPIO_ACTIVE_HIGH>  // PB13   / 1.01
+//			, <&gpio1 1  GPIO_ACTIVE_HIGH>  // PB13   / 1.01
 			;
 };
 
 
-&left_encoder {
-	status = "okay";
-};
+//&left_encoder {
+//	status = "okay";
+//};
 
 //&blackpill_spi {
 //    status = "okay";
