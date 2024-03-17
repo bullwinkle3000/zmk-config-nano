@@ -9,11 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="updated nano pins">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="removed conflicting i2c bits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,23 +87,7 @@
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
-      <workItem from="1710700334664" duration="2837000" />
-    </task>
-    <task id="LOCAL-00054" summary="New trackball bits in pillbug">
-      <option name="closed" value="true" />
-      <created>1704846844811</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1704846844812</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Wrong branch">
-      <option name="closed" value="true" />
-      <created>1704847056373</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1704847056373</updated>
+      <workItem from="1710700334664" duration="4337000" />
     </task>
     <task id="LOCAL-00056" summary="Capitalization...">
       <option name="closed" value="true" />
@@ -481,7 +465,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710703781635</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="updated nano pins">
+      <option name="closed" value="true" />
+      <created>1710704335645</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1710704335645</updated>
+    </task>
+    <task id="LOCAL-00104" summary="removed conflicting i2c bits">
+      <option name="closed" value="true" />
+      <created>1710704569802</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1710704569802</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actual pmw3610 without cat typo" />
     <MESSAGE value="pmw3610 other pin" />
     <MESSAGE value="pmw3610 more config" />
     <MESSAGE value="nope" />
@@ -568,6 +567,7 @@
     <MESSAGE value="3x5 first pass" />
     <MESSAGE value="Added #include &lt;behaviors/mouse_keys.dtsi&gt;" />
     <MESSAGE value="updated nano pins" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated nano pins" />
+    <MESSAGE value="removed conflicting i2c bits" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed conflicting i2c bits" />
   </component>
 </project>
