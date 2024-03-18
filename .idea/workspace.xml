@@ -9,9 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Column and rows set to 10 and 4">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Updated coords in info.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,15 +86,7 @@
       <workItem from="1705216076760" duration="8622000" />
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
-      <workItem from="1710700334664" duration="10478000" />
-    </task>
-    <task id="LOCAL-00063" summary="removed underglow">
-      <option name="closed" value="true" />
-      <created>1705081490740</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1705081490741</updated>
+      <workItem from="1710700334664" duration="11692000" />
     </task>
     <task id="LOCAL-00064" summary="Worked up i2c1">
       <option name="closed" value="true" />
@@ -479,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710774409249</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Updated coords in info.json">
+      <option name="closed" value="true" />
+      <created>1710776137850</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1710776137850</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Does seem a burned out pin" />
     <MESSAGE value="Try spi2?" />
     <MESSAGE value="Try 0.09" />
     <MESSAGE value="Nice!Nano mebbe" />
@@ -566,6 +566,7 @@
     <MESSAGE value="pin adjust on right" />
     <MESSAGE value="Column offset correction" />
     <MESSAGE value="Column and rows set to 10 and 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Column and rows set to 10 and 4" />
+    <MESSAGE value="Updated coords in info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated coords in info.json" />
   </component>
 </project>
