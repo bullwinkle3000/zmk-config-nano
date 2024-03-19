@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Trying underglow again">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="legacy error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +83,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00085" summary="Revert pins and add logging to right">
-      <option name="closed" value="true" />
-      <created>1705173092853</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1705173092853</updated>
     </task>
     <task id="LOCAL-00086" summary="Does seem a burned out pin">
       <option name="closed" value="true" />
@@ -477,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710863149911</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="legacy error">
+      <option name="closed" value="true" />
+      <created>1710864279477</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1710864279477</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Works on new pins, what about central" />
     <MESSAGE value="last sanity check" />
     <MESSAGE value="With sensor" />
     <MESSAGE value="Include driver" />
@@ -564,6 +562,7 @@
     <MESSAGE value="Last try on pin 0.17" />
     <MESSAGE value="Swap controllers" />
     <MESSAGE value="Trying underglow again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying underglow again" />
+    <MESSAGE value="legacy error" />
+    <option name="LAST_COMMIT_MESSAGE" value="legacy error" />
   </component>
 </project>
