@@ -1,6 +1,7 @@
 // wyld_dm_left.overlay
 
 #include "wyld_dm.dtsi"
+#include <dt-bindings/led/led.h>
 
 
 /// NICE NANO PINS
@@ -22,22 +23,47 @@
 	status = "okay";
 };
 
-//&blackpill_spi {
-//    status = "okay";
+//&pinctrl {
+//    blackpill_spi_default: blackpill_spi_default {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,
+//					<NRF_PSEL(SPIM_MOSI, 0, 11)>;
+//        };
+//    };
 //
-////    miso-pin = <17>; // P0.17
-////    mosi-pin = <20>; // P0.20
-////    sck-pin = <22>; // P0.22
-//    cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>; // P0.31
-//
-//    trackball: trackball@0 {
-//        compatible = "pixart,pmw3360";
-//        reg = <0>;
-//        label = "Pixart PMW3360";
-//        irq-gpios = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-//        spi-max-frequency = <2000000>;
-//        scroll-layer = <5>;
+//    blackpill_spi_sleep: blackpill_spi_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,
+//					<NRF_PSEL(SPIM_MOSI, 0, 11)>;
+//            low-power-enable;
+//        };
 //    };
 //};
+
+
+&spi1 {
+//  compatible = "nordic,nrf-spim";
+//  status = "okay";
+//
+//  pinctrl-0 = <&blackpill_spi_default>;
+//  pinctrl-1 = <&blackpill_spi_sleep>;
+//  pinctrl-names = "default", "sleep";
+
+  led_strip: ws2812@0 {
+    compatible = "worldsemi,ws2812-spi";
+
+    /* SPI */
+    reg = <0>; /* ignored, but necessary for SPI bindings */
+    spi-max-frequency = <4000000>;
+
+    /* WS2812 */
+    chain-length = <5>; /* number of LEDs */
+    spi-one-frame = <0x70>;
+    spi-zero-frame = <0x40>;
+    color-mapping = <LED_COLOR_ID_GREEN
+                          LED_COLOR_ID_RED
+                          LED_COLOR_ID_BLUE>;
+  };
+};
 
 
