@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="blackpill_spi">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying both setups">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
@@ -86,14 +84,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00090" summary="Checking led chain length">
-      <option name="closed" value="true" />
-      <created>1705216475249</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1705216475249</updated>
     </task>
     <task id="LOCAL-00091" summary="Try another couple of pins">
       <option name="closed" value="true" />
@@ -479,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710866626049</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="trying both setups">
+      <option name="closed" value="true" />
+      <created>1710870552099</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1710870552099</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Missed chosen bit" />
     <MESSAGE value="Tweak" />
     <MESSAGE value="Pin 1.09" />
     <MESSAGE value="Pin 0.08, all pillbug, moved underglow config to wyld_dm_right.conf" />
@@ -566,6 +563,7 @@
     <MESSAGE value="moving stuff around" />
     <MESSAGE value="standard zmk repo" />
     <MESSAGE value="blackpill_spi" />
-    <option name="LAST_COMMIT_MESSAGE" value="blackpill_spi" />
+    <MESSAGE value="trying both setups" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying both setups" />
   </component>
 </project>
