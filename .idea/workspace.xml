@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Trimmed down config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="moving stuff around">
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +82,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00087" summary="Try spi2?">
-      <option name="closed" value="true" />
-      <created>1705174286660</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1705174286660</updated>
     </task>
     <task id="LOCAL-00088" summary="Try 0.09">
       <option name="closed" value="true" />
@@ -477,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710864380786</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="moving stuff around">
+      <option name="closed" value="true" />
+      <created>1710865884443</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865884443</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="With sensor" />
     <MESSAGE value="Include driver" />
     <MESSAGE value="Return of underglow?" />
     <MESSAGE value="Missed chosen bit" />
@@ -564,6 +561,7 @@
     <MESSAGE value="Trying underglow again" />
     <MESSAGE value="legacy error" />
     <MESSAGE value="Trimmed down config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trimmed down config" />
+    <MESSAGE value="moving stuff around" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving stuff around" />
   </component>
 </project>
