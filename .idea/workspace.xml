@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="try switch">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="try switch with keycode at correct spot">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,14 +82,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00098" summary="pillbug only">
-      <option name="closed" value="true" />
-      <created>1705292072098</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1705292072098</updated>
     </task>
     <task id="LOCAL-00099" summary="Removed rgb to test">
       <option name="closed" value="true" />
@@ -476,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710881957665</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="try switch with keycode at correct spot">
+      <option name="closed" value="true" />
+      <created>1710882414635</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1710882414635</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Point to bullwinkle3000" />
     <MESSAGE value="Standard ZMK" />
     <MESSAGE value="No CONFIG_INPUT" />
     <MESSAGE value="Updated build.yml" />
@@ -563,6 +561,7 @@
     <MESSAGE value="shots in the dark" />
     <MESSAGE value="Disable external power in wyld_dm.conf" />
     <MESSAGE value="try switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="try switch" />
+    <MESSAGE value="try switch with keycode at correct spot" />
+    <option name="LAST_COMMIT_MESSAGE" value="try switch with keycode at correct spot" />
   </component>
 </project>
