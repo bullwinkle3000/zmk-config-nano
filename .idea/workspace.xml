@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying with pillbug now">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +82,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00100" summary="Everything but oled">
-      <option name="closed" value="true" />
-      <created>1705294359588</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1705294359588</updated>
     </task>
     <task id="LOCAL-00101" summary="Test of left side with pillbug">
       <option name="closed" value="true" />
@@ -477,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710882656906</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="trying with pillbug now">
+      <option name="closed" value="true" />
+      <created>1710883643744</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1710883643744</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="No CONFIG_INPUT" />
     <MESSAGE value="Updated build.yml" />
     <MESSAGE value="Pin 0.17" />
     <MESSAGE value="ext pwr n" />
@@ -564,6 +561,7 @@
     <MESSAGE value="try switch" />
     <MESSAGE value="try switch with keycode at correct spot" />
     <MESSAGE value="typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="typos" />
+    <MESSAGE value="trying with pillbug now" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying with pillbug now" />
   </component>
 </project>
