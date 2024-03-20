@@ -1,14 +1,14 @@
 #include <dt-bindings/led/led.h>
 
 &pinctrl {
-    blackpill_default: blackpill_default {
+    spi0_default: spi0_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 26)>,
                 <NRF_PSEL(SPIM_MISO, 0, 11)>;
         };
     };
-    blackpill_sleep: blackpill_sleep {
+    spi0_sleep: spi0_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 26)>,
@@ -18,13 +18,39 @@
     };
 };
 
-nice_view_spi: &blackpill_spi {
+nice_view_spi: &spi0 {
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&blackpill_default>;
-    pinctrl-1 = <&blackpill_sleep>;
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
 };
+
+//&pinctrl {
+//    blackpill_default: blackpill_default {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 26)>,
+//                <NRF_PSEL(SPIM_MISO, 0, 11)>;
+//        };
+//    };
+//    blackpill_sleep: blackpill_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 26)>,
+//                <NRF_PSEL(SPIM_MISO, 0, 11)>;
+//            low-power-enable;
+//        };
+//    };
+//};
+//
+//nice_view_spi: &blackpill_spi {
+//    compatible = "nordic,nrf-spim";
+//    pinctrl-0 = <&blackpill_default>;
+//    pinctrl-1 = <&blackpill_sleep>;
+//    pinctrl-names = "default", "sleep";
+//    cs-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+//};
 
 &blackpill_i2c {
     status = "disabled";
