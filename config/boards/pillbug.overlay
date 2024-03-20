@@ -32,7 +32,7 @@
 //            low-power-enable;
 //        };
 //    };
-};
+//};
 
 //&i2c0 {
 //	status = "okay";
