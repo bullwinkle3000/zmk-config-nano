@@ -43,46 +43,76 @@
     blackpill_spi_default: blackpill_spi_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+                <NRF_PSEL(SPIM_MOSI, 0, 26)>;    // 0.26
+//                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
         };
     };
 
     blackpill_spi_sleep: blackpill_spi_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+                <NRF_PSEL(SPIM_MOSI, 0, 26)>;    // 0.26
+//                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
             low-power-enable;
         };
     };
 };
 
+//&blackpill_spi {
+//    status = "okay";
+//    compatible = "nordic,nrf-spim";
+//    pinctrl-0 = <&blackpill_spi_default>;
+//    pinctrl-1 = <&blackpill_spi_sleep>;
+//    pinctrl-names = "default", "sleep";
+//    cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
+//    trackball: trackball@0 {
+//        status = "okay";
+//        compatible = "pixart,pmw3610";
+//        reg = <0>;
+//        spi-max-frequency = <2000000>;
+//        irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+//
+//        /*   optional features   */
+//         snipe-layers = <1>;
+//         scroll-layers = <2>;
+//         automouse-layer = <4>;
+//    };
+//};
+
 &blackpill_spi {
-    status = "okay";
     compatible = "nordic,nrf-spim";
+    status = "okay";
     pinctrl-0 = <&blackpill_spi_default>;
     pinctrl-1 = <&blackpill_spi_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
-    trackball: trackball@0 {
-        status = "okay";
-        compatible = "pixart,pmw3610";
-        reg = <0>;
-        spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
-        /*   optional features   */
-         snipe-layers = <1>;
-         scroll-layers = <2>;
-         automouse-layer = <4>;
-    };
+    led_strip: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+
+        /* SPI */
+        reg = <0>; /* ignored, but necessary for SPI bindings */
+        spi-max-frequency = <4000000>;
+
+        /* WS2812 */
+        chain-length = <40>; /* number of LEDs */
+        spi-one-frame = <0x70>;
+        spi-zero-frame = <0x40>;
+        color-mapping = <LED_COLOR_ID_GREEN
+                              LED_COLOR_ID_RED
+                              LED_COLOR_ID_BLUE>;
+  };
 };
 
-/ {
-  pmw3610_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
+/// {
+//  pmw3610_listener {
+//    compatible = "zmk,input-listener";
+//    device = <&trackball>;
+//
+//  };
+//};
 
-  };
+/ {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
 };
