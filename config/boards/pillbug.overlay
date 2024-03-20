@@ -1,30 +1,30 @@
 #include <dt-bindings/led/led.h>
 
 &pinctrl {
-    blackpill_spi_default: blackpill_spi_default {
+    spi3_default: spi3_default {
         group1 {
             psels =   <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>;    // 0.26
+                <NRF_PSEL(SPIM_MOSI, 1, 9)>;    // 0.26
 //                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
         };
     };
 
-    blackpill_spi_sleep: blackpill_spi_sleep {
+    spi3_sleep: spi3_sleep {
         group1 {
-            psels =  <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>;    // 0.26
+            psels =  <NRF_PSEL(SPIM_SCK, 0, 40)>,  // 1.8
+                <NRF_PSEL(SPIM_MOSI, 1, 9)>;    // 0.26
 //                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
             low-power-enable;
         };
     };
 };
 
-&blackpill_spi {
+&spi3 {
   compatible = "nordic,nrf-spim";
   status = "okay";
 
-  pinctrl-0 = <&blackpill_spi_default>;
-  pinctrl-1 = <&blackpill_spi_sleep>;
+  pinctrl-0 = <&spi3_default>;
+  pinctrl-1 = <&spi3_sleep>;
   pinctrl-names = "default", "sleep";
 
   led_strip: ws2812@0 {
