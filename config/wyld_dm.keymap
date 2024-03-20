@@ -80,8 +80,8 @@
 		default_layer {
 
 			bindings = <
-                    &kp Q  &kp W  &kp E    &kp R    &kp T               &kp Y  &kp U    &kp I     &kp O   &kp P
-                    &kp A  &kp S  &kp D    &kp F    &kp G               &kp H  &kp J    &kp K     &kp L   &kp SEMI
+                     &ext_power EP_TOG  &kp W  &kp E    &kp R    &kp T                &ext_power EP_TOG  &kp U    &kp I     &kp O   &kp P
+                    &ext_power EP_TOG &kp S  &kp D    &kp F    &kp G                &ext_power EP_TOG  &kp J    &kp K     &kp L   &kp SEMI
                     &kp Z  &kp X  &kp C    &kp V    &kp B               &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH
                                   &mo RAISE &kp SPACE &kp BSPC       &kp DEL &kp ENTER  &mo LOWER
                                             &mkp LCLK   &mkp RCLK
