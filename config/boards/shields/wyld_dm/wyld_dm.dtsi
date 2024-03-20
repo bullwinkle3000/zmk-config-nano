@@ -85,7 +85,7 @@
 ////			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
 //            ;
 //
-//    };
+    };
 
 //    left_encoder: encoder_left {
 //		compatible = "alps,ec11";

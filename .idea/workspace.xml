@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Restored mouse bits, moving underglow to 0,6 data pin">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Moving pins around">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +89,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00086" summary="Does seem a burned out pin">
-      <option name="closed" value="true" />
-      <created>1705173746874</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1705173746874</updated>
     </task>
     <task id="LOCAL-00087" summary="Try spi2?">
       <option name="closed" value="true" />
@@ -484,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710959585698</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Moving pins around">
+      <option name="closed" value="true" />
+      <created>1710961955180</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1710961955180</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Column offset correction" />
     <MESSAGE value="Column and rows set to 10 and 4" />
     <MESSAGE value="Updated coords in info.json" />
     <MESSAGE value="mebbe 2" />
@@ -571,6 +568,7 @@
     <MESSAGE value="Standard zmk" />
     <MESSAGE value="Remove mouse_keys.dtsi include" />
     <MESSAGE value="Restored mouse bits, moving underglow to 0,6 data pin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restored mouse bits, moving underglow to 0,6 data pin" />
+    <MESSAGE value="Moving pins around" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving pins around" />
   </component>
 </project>
