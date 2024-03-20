@@ -10,15 +10,15 @@
 
 &kscan0 {
     col-gpios
-			= <&gpio0 12  GPIO_ACTIVE_HIGH>  // PB3   / 1.12
-			, <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB4   / 0.19
+			= <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB4   / 0.19
             , <&gpio1 1  GPIO_ACTIVE_HIGH>  // PB5   / 1.01
-			, <&gpio1 0  GPIO_ACTIVE_HIGH>  // PB12   / 1.00
+			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // PB5   / 0.29
 			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB13   / 1.10
 			, <&gpio1 02  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
             , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
 			;
 };
+
 
 &right_encoder {
 	status = "okay";

@@ -9,8 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="nice_view alone on pillbug">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying spi0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +90,6 @@
       <workItem from="1709076925461" duration="1200000" />
       <workItem from="1709216390697" duration="596000" />
       <workItem from="1709233301357" duration="4187000" />
-    </task>
-    <task id="LOCAL-00058" summary="encoder and oled bits">
-      <option name="closed" value="true" />
-      <created>1704985862691</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1704985862691</updated>
     </task>
     <task id="LOCAL-00059" summary="Back to pillbug to debug">
       <option name="closed" value="true" />
@@ -479,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710967146310</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="trying spi0">
+      <option name="closed" value="true" />
+      <created>1710970469273</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1710970469273</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
     <MESSAGE value="Revert pins and add logging to right" />
@@ -566,6 +569,7 @@
     <MESSAGE value="shields" />
     <MESSAGE value="add nice_view_adapter nice_view shields to wyld_dm_right" />
     <MESSAGE value="nice_view alone on pillbug" />
-    <option name="LAST_COMMIT_MESSAGE" value="nice_view alone on pillbug" />
+    <MESSAGE value="trying spi0" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying spi0" />
   </component>
 </project>
