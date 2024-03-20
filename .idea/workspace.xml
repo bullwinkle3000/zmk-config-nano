@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Ensure NN working">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="too many pins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +83,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00102" summary="revert pins">
-      <option name="closed" value="true" />
-      <created>1705296332088</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1705296332088</updated>
     </task>
     <task id="LOCAL-00103" summary="i2c">
       <option name="closed" value="true" />
@@ -476,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710941748597</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="too many pins">
+      <option name="closed" value="true" />
+      <created>1710942207545</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942207545</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pin 0.17" />
     <MESSAGE value="ext pwr n" />
     <MESSAGE value="ext pwr n 2" />
     <MESSAGE value="nano works, but not pb" />
@@ -563,7 +562,8 @@
     <MESSAGE value="typos" />
     <MESSAGE value="trying with pillbug now" />
     <MESSAGE value="Ensure NN working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ensure NN working" />
+    <MESSAGE value="too many pins" />
+    <option name="LAST_COMMIT_MESSAGE" value="too many pins" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
