@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying with pillbug now">
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Ensure NN working">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="underglow_fix" />
+        <entry key="$PROJECT_DIR$" value="5a3e4d7d368b6ba722facc4e6af4beff629359af" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,14 +47,14 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "5a3e4d7d",
+    "git-widget-placeholder": "4x6__nano",
     "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,14 +83,6 @@
       <workItem from="1705183725119" duration="2470000" />
       <workItem from="1705216076760" duration="16030000" />
       <workItem from="1705794284838" duration="14315000" />
-    </task>
-    <task id="LOCAL-00101" summary="Test of left side with pillbug">
-      <option name="closed" value="true" />
-      <created>1705294922159</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1705294922159</updated>
     </task>
     <task id="LOCAL-00102" summary="revert pins">
       <option name="closed" value="true" />
@@ -476,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710883643744</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Ensure NN working">
+      <option name="closed" value="true" />
+      <created>1710941748597</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1710941748597</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated build.yml" />
     <MESSAGE value="Pin 0.17" />
     <MESSAGE value="ext pwr n" />
     <MESSAGE value="ext pwr n 2" />
@@ -563,6 +562,19 @@
     <MESSAGE value="try switch with keycode at correct spot" />
     <MESSAGE value="typos" />
     <MESSAGE value="trying with pillbug now" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying with pillbug now" />
+    <MESSAGE value="Ensure NN working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ensure NN working" />
   </component>
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "branch": "4x6_nano",
+      "currentBranchFilter": true
+    }
+  ],
+  "lastFilter": {
+    "branch": "4x6_nano",
+    "currentBranchFilter": true
+  }
+}]]></component>
 </project>
