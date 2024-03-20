@@ -21,22 +21,48 @@
 			;
 };
 
-///  NANO V2 PINS
 
-//&kscan0 {
-//    col-gpios
-//			= <&gpio0 22  GPIO_ACTIVE_HIGH>  // 0.22
-//			, <&gpio0 24  GPIO_ACTIVE_HIGH>  // 0.24
-//            , <&gpio1 0  GPIO_ACTIVE_HIGH>  // 1.00
-//			, <&gpio0 11  GPIO_ACTIVE_HIGH>  //  0.11
-//			, <&gpio1 4  GPIO_ACTIVE_HIGH>  // 1.04
-////			, <&gpio1 6  GPIO_ACTIVE_HIGH>  //  1.06
-////            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
-//			;
-//};
+&pinctrl {
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
+                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
+                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+        };
+    };
 
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
+                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
+                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+            low-power-enable;
+        };
+    };
+};
 
-//&right_encoder {
-//	status = "okay";
-//};
+&spi3 {
+    status = "okay";
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi3_default>;
+    pinctrl-1 = <&spi3_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
+    trackball: trackball@0 {
+        status = "okay";
+        compatible = "pixart,pmw3610";
+        reg = <0>;
+        spi-max-frequency = <2000000>;
+        irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        snipe-layers = <1>;
+        scroll-layers = <2>;
+        automouse-layer = <4>;
+    };
+};
 
+/ {
+  pmw3610_listener {
+    compatible = "zmk,input-listener";
+    device = <&trackball>;
+  };
+};
