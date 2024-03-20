@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="An oopsie">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="maybe maybe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +88,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00088" summary="Try 0.09">
-      <option name="closed" value="true" />
-      <created>1705174556179</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1705174556179</updated>
     </task>
     <task id="LOCAL-00089" summary="Nice!Nano mebbe">
       <option name="closed" value="true" />
@@ -483,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710962558563</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="maybe maybe">
+      <option name="closed" value="true" />
+      <created>1710972175005</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1710972175005</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated coords in info.json" />
     <MESSAGE value="mebbe 2" />
     <MESSAGE value="mebbe 3" />
     <MESSAGE value="mebbe 4" />
@@ -570,7 +567,8 @@
     <MESSAGE value="Restored mouse bits, moving underglow to 0,6 data pin" />
     <MESSAGE value="Moving pins around" />
     <MESSAGE value="An oopsie" />
-    <option name="LAST_COMMIT_MESSAGE" value="An oopsie" />
+    <MESSAGE value="maybe maybe" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe maybe" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
