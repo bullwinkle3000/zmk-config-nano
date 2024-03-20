@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: pillbug
     shield: wyld_dm_right
-  - board: nice_nano_v2
+  - board: pillbug
     shield: wyld_dm_left
-  - board: nice_nano_v2
+  - board: pillbug
     shield: settings_reset
