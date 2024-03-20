@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="going minimal">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="disable rgb off on idle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +89,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00080" summary="pmw3610 more config">
-      <option name="closed" value="true" />
-      <created>1705123947864</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1705123947864</updated>
-    </task>
-    <task id="LOCAL-00081" summary="nope">
-      <option name="closed" value="true" />
-      <created>1705124207477</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1705124207477</updated>
     </task>
     <task id="LOCAL-00082" summary="Reverted">
       <option name="closed" value="true" />
@@ -482,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710948031928</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="typos">
+      <option name="closed" value="true" />
+      <created>1710950192105</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950192105</updated>
+    </task>
+    <task id="LOCAL-00130" summary="disable rgb off on idle">
+      <option name="closed" value="true" />
+      <created>1710950542459</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950542459</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,8 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed conflicting i2c bits" />
-    <MESSAGE value="Trying specific revision" />
     <MESSAGE value="Added pmw3610_listener" />
     <MESSAGE value="Needs proper branch" />
     <MESSAGE value="Doing the DOH" />
@@ -569,6 +567,8 @@
     <MESSAGE value="checking pillbug behavior" />
     <MESSAGE value="enable ext pwr?" />
     <MESSAGE value="going minimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="going minimal" />
+    <MESSAGE value="typos" />
+    <MESSAGE value="disable rgb off on idle" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable rgb off on idle" />
   </component>
 </project>
