@@ -26,6 +26,6 @@ nice_view_spi: &blackpill_spi {
     cs-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
 };
 
-&pro_micro_i2c {
+&blackpill_i2c {
     status = "disabled";
 };

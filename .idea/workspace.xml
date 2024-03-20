@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="add nice_view_adapter nice_view shields to wyld_dm_right">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="nice_view alone on pillbug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,14 +87,6 @@
       <workItem from="1709076925461" duration="1200000" />
       <workItem from="1709216390697" duration="596000" />
       <workItem from="1709233301357" duration="4187000" />
-    </task>
-    <task id="LOCAL-00057" summary="Pin overlap between matrix and irq/cs on SPI.">
-      <option name="closed" value="true" />
-      <created>1704985663278</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1704985663278</updated>
     </task>
     <task id="LOCAL-00058" summary="encoder and oled bits">
       <option name="closed" value="true" />
@@ -481,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709263196697</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="nice_view alone on pillbug">
+      <option name="closed" value="true" />
+      <created>1710967146310</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1710967146310</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nope" />
     <MESSAGE value="Reverted" />
     <MESSAGE value="true revert" />
     <MESSAGE value="rgb pin" />
@@ -568,6 +566,7 @@
     <MESSAGE value="devices and devices" />
     <MESSAGE value="shields" />
     <MESSAGE value="add nice_view_adapter nice_view shields to wyld_dm_right" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nice_view_adapter nice_view shields to wyld_dm_right" />
+    <MESSAGE value="nice_view alone on pillbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="nice_view alone on pillbug" />
   </component>
 </project>
