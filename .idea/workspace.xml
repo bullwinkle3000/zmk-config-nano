@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="logging back and remove miso from niceview">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying leds on new pin">
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +88,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00092" summary="Adjusted pins for columns and underglow.">
-      <option name="closed" value="true" />
-      <created>1705264463051</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1705264463051</updated>
     </task>
     <task id="LOCAL-00093" summary="Reworked Pillbug pins and testing OLED again.">
       <option name="closed" value="true" />
@@ -484,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710983405582</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="trying leds on new pin">
+      <option name="closed" value="true" />
+      <created>1710984169378</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1710984169378</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mebbe 5" />
     <MESSAGE value="mebbe 6" />
     <MESSAGE value="mebbe 7" />
     <MESSAGE value="mebbe 8" />
@@ -571,7 +567,8 @@
     <MESSAGE value="maybe maybe without logging" />
     <MESSAGE value="drop underglow" />
     <MESSAGE value="logging back and remove miso from niceview" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging back and remove miso from niceview" />
+    <MESSAGE value="trying leds on new pin" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying leds on new pin" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
