@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="maybe maybe without logging">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="drop underglow">
       <change beforePath="$PROJECT_DIR$/config/boards/pillbug.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/pillbug.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +89,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00090" summary="Checking led chain length">
-      <option name="closed" value="true" />
-      <created>1705216475249</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1705216475249</updated>
     </task>
     <task id="LOCAL-00091" summary="Try another couple of pins">
       <option name="closed" value="true" />
@@ -485,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710972991526</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="drop underglow">
+      <option name="closed" value="true" />
+      <created>1710981875790</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1710981875790</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mebbe 3" />
     <MESSAGE value="mebbe 4" />
     <MESSAGE value="mebbe 5" />
     <MESSAGE value="mebbe 6" />
@@ -572,7 +568,8 @@
     <MESSAGE value="An oopsie" />
     <MESSAGE value="maybe maybe" />
     <MESSAGE value="maybe maybe without logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe maybe without logging" />
+    <MESSAGE value="drop underglow" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop underglow" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
