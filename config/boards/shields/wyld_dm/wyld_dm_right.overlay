@@ -4,7 +4,7 @@
 #include <dt-bindings/led/led.h>
 
 &default_transform {
-    col-offset = <5>;
+    col-offset = <7>;
 };
 
 ///  PILLBUG PINS
@@ -17,6 +17,7 @@
 			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB13   / 1.10
 			, <&gpio1 02  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
             , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
+            , <&gpio1 06 GPIO_ACTIVE_HIGH>  // PB13   / 1.06  encoder column only
 			;
 };
 
