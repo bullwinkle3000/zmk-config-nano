@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,14 +89,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00102" summary="updated nano pins">
-      <option name="closed" value="true" />
-      <created>1710703781635</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1710703781635</updated>
     </task>
     <task id="LOCAL-00103" summary="updated nano pins">
       <option name="closed" value="true" />
@@ -482,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711150682060</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="adjustments 2">
+      <option name="closed" value="true" />
+      <created>1711150867528</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1711150867528</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="no ext_power keys" />
     <MESSAGE value="eh??" />
     <MESSAGE value="checking pillbug behavior" />
     <MESSAGE value="enable ext pwr?" />
@@ -569,7 +568,8 @@
     <MESSAGE value="Reordered info.json" />
     <MESSAGE value="Reordered info.json 2" />
     <MESSAGE value="adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjustments" />
+    <MESSAGE value="adjustments 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjustments 2" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
