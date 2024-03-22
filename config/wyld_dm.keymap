@@ -90,7 +90,7 @@
                                                                  &kp LALT  &kp RCTL
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;p
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		lower_layer {
