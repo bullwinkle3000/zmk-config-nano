@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying leds on new pin">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Update keymap and layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +89,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00093" summary="Reworked Pillbug pins and testing OLED again.">
-      <option name="closed" value="true" />
-      <created>1705265827064</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1705265827064</updated>
     </task>
     <task id="LOCAL-00094" summary="Keymap maybe and back to i2c on OLED">
       <option name="closed" value="true" />
@@ -485,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710984169378</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Update keymap and layout">
+      <option name="closed" value="true" />
+      <created>1711137604253</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1711137604253</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mebbe 6" />
     <MESSAGE value="mebbe 7" />
     <MESSAGE value="mebbe 8" />
     <MESSAGE value="mebbe 9" />
@@ -572,7 +568,8 @@
     <MESSAGE value="drop underglow" />
     <MESSAGE value="logging back and remove miso from niceview" />
     <MESSAGE value="trying leds on new pin" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying leds on new pin" />
+    <MESSAGE value="Update keymap and layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update keymap and layout" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
