@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Thumb row is row 0">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typos galore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,22 +91,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00095" summary="dtsi issue">
-      <option name="closed" value="true" />
-      <created>1705682309591</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1705682309591</updated>
-    </task>
-    <task id="LOCAL-00096" summary="keymap type">
-      <option name="closed" value="true" />
-      <created>1705682652186</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1705682652186</updated>
     </task>
     <task id="LOCAL-00097" summary="keymap K_MUTE not MUTE">
       <option name="closed" value="true" />
@@ -481,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711139297679</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="typos">
+      <option name="closed" value="true" />
+      <created>1711139573967</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1711139573967</updated>
+    </task>
+    <task id="LOCAL-00145" summary="typos galore">
+      <option name="closed" value="true" />
+      <created>1711139987779</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1711139987780</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mebbe 8" />
     <MESSAGE value="mebbe 9" />
     <MESSAGE value="why god why" />
     <MESSAGE value="include" />
@@ -553,7 +555,6 @@
     <MESSAGE value="checking pillbug behavior" />
     <MESSAGE value="enable ext pwr?" />
     <MESSAGE value="going minimal" />
-    <MESSAGE value="typos" />
     <MESSAGE value="disable rgb off on idle" />
     <MESSAGE value="Reenable auto off on idle" />
     <MESSAGE value="Standard zmk" />
@@ -568,7 +569,9 @@
     <MESSAGE value="trying leds on new pin" />
     <MESSAGE value="Update keymap and layout" />
     <MESSAGE value="Thumb row is row 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thumb row is row 0" />
+    <MESSAGE value="typos" />
+    <MESSAGE value="typos galore" />
+    <option name="LAST_COMMIT_MESSAGE" value="typos galore" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
