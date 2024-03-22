@@ -72,7 +72,7 @@
 //	};
 //};
 
-//# 4x[6 with encoders
+//# 4x6 with encoders
 / {
 	keymap {
 		compatible = "zmk,keymap";
