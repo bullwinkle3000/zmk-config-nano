@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reordered info.json 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00100" summary="3x5 first pass">
-      <option name="closed" value="true" />
-      <created>1710635038682</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1710635038683</updated>
     </task>
     <task id="LOCAL-00101" summary="Added #include &lt;behaviors/mouse_keys.dtsi&gt;">
       <option name="closed" value="true" />
@@ -482,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711150033125</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="adjustments">
+      <option name="closed" value="true" />
+      <created>1711150415021</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1711150415021</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="building mebbe" />
     <MESSAGE value="no ext_power keys" />
     <MESSAGE value="eh??" />
     <MESSAGE value="checking pillbug behavior" />
@@ -569,7 +567,8 @@
     <MESSAGE value="4 key trackball cluster, reworked rows, updated info.json" />
     <MESSAGE value="Reordered info.json" />
     <MESSAGE value="Reordered info.json 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reordered info.json 2" />
+    <MESSAGE value="adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjustments" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
