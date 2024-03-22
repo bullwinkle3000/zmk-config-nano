@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="4 key trackball cluster, reworked rows, updated info.json">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reordered info.json">
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,14 +88,6 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00098" summary="keymap KP_MULTIPLY">
-      <option name="closed" value="true" />
-      <created>1705684564666</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1705684564666</updated>
     </task>
     <task id="LOCAL-00099" summary="No &amp;kb, just &amp;kp">
       <option name="closed" value="true" />
@@ -482,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711148827488</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Reordered info.json">
+      <option name="closed" value="true" />
+      <created>1711149976812</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1711149976812</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="why god why" />
     <MESSAGE value="include" />
     <MESSAGE value="building mebbe" />
     <MESSAGE value="no ext_power keys" />
@@ -569,7 +567,8 @@
     <MESSAGE value="typos" />
     <MESSAGE value="typos galore" />
     <MESSAGE value="4 key trackball cluster, reworked rows, updated info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 key trackball cluster, reworked rows, updated info.json" />
+    <MESSAGE value="Reordered info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reordered info.json" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
