@@ -87,7 +87,7 @@
                     &kp LSHFT &kp Z    &kp X     &kp C    &kp V       &kp B                        &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                                                              &mo RAISE &kp SPACE                 &mo LOWER
                                                                &kp BSPC   &kp TAB                &kp ENTER
-                                                                 &kp LALT  &kp RCTL      &kp DEL &kp RCTL
+                                                                 &kp LALT  &kp LCTL      &kp DEL &kp RCTL
 			>;
 
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
