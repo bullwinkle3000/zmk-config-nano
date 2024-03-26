@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments ok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="row tweaks">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,15 +89,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
       <workItem from="1711338384848" duration="1608000" />
-      <workItem from="1711478792751" duration="727000" />
-    </task>
-    <task id="LOCAL-00108" summary="Doing the DOH">
-      <option name="closed" value="true" />
-      <created>1710706532171</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1710706532171</updated>
+      <workItem from="1711478792751" duration="986000" />
     </task>
     <task id="LOCAL-00109" summary="pin adjust on right">
       <option name="closed" value="true" />
@@ -484,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711152724998</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="row tweaks">
+      <option name="closed" value="true" />
+      <created>1711479665455</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1711479665456</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reenable auto off on idle" />
     <MESSAGE value="Standard zmk" />
     <MESSAGE value="Remove mouse_keys.dtsi include" />
     <MESSAGE value="Restored mouse bits, moving underglow to 0,6 data pin" />
@@ -571,7 +569,8 @@
     <MESSAGE value="adjustments 9999" />
     <MESSAGE value="adjustments eh?" />
     <MESSAGE value="adjustments ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjustments ok" />
+    <MESSAGE value="row tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="row tweaks" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
