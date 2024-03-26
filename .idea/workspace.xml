@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments eh?">
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="adjustments ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +89,8 @@
       <workItem from="1705601074856" duration="597000" />
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
-    </task>
-    <task id="LOCAL-00107" summary="Needs proper branch">
-      <option name="closed" value="true" />
-      <created>1710706388118</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1710706388118</updated>
+      <workItem from="1711338384848" duration="1608000" />
+      <workItem from="1711478792751" duration="727000" />
     </task>
     <task id="LOCAL-00108" summary="Doing the DOH">
       <option name="closed" value="true" />
@@ -481,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711152570037</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="adjustments ok">
+      <option name="closed" value="true" />
+      <created>1711152724997</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1711152724998</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="disable rgb off on idle" />
     <MESSAGE value="Reenable auto off on idle" />
     <MESSAGE value="Standard zmk" />
     <MESSAGE value="Remove mouse_keys.dtsi include" />
@@ -568,22 +570,31 @@
     <MESSAGE value="adjustments 999" />
     <MESSAGE value="adjustments 9999" />
     <MESSAGE value="adjustments eh?" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjustments eh?" />
+    <MESSAGE value="adjustments ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjustments ok" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;branch&quot;: &quot;nice_view_v2&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "nice_view_v2",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-    &quot;currentBranchFilter&quot;: true
+  "lastFilter": {
+    "branch": "pmw3610_4x6",
+    "currentBranchFilter": true
   }
-}</component>
+}]]></component>
 </project>
