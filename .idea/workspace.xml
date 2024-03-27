@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="re-enable encoders">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="missed encoder status">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,15 +89,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
       <workItem from="1711338384848" duration="1608000" />
-      <workItem from="1711478792751" duration="6491000" />
-    </task>
-    <task id="LOCAL-00113" summary="mebbe 2">
-      <option name="closed" value="true" />
-      <created>1710905126233</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1710905126233</updated>
+      <workItem from="1711478792751" duration="6789000" />
     </task>
     <task id="LOCAL-00114" summary="mebbe 3">
       <option name="closed" value="true" />
@@ -485,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711560915959</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="missed encoder status">
+      <option name="closed" value="true" />
+      <created>1711561463518</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1711561463518</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="An oopsie" />
     <MESSAGE value="maybe maybe" />
     <MESSAGE value="maybe maybe without logging" />
     <MESSAGE value="drop underglow" />
@@ -572,7 +569,8 @@
     <MESSAGE value="some bad search and replace" />
     <MESSAGE value="reverse columns for right side" />
     <MESSAGE value="re-enable encoders" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-enable encoders" />
+    <MESSAGE value="missed encoder status" />
+    <option name="LAST_COMMIT_MESSAGE" value="missed encoder status" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
