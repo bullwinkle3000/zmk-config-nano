@@ -90,27 +90,27 @@
 
     };
 
-//    left_encoder: encoder_left {
-//		compatible = "alps,ec11";
-//		label = "LEFT_ENCODER";
-//		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		steps = <60>;
-//		status = "disabled";
-//	};
-//
-//	right_encoder: encoder_right {
-//		compatible = "alps,ec11";
-//		label = "RIGHT_ENCODER";
-//		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		steps = <60>;
-//		status = "disabled";
-//	};
-//
-//    sensors: sensors {
-//        compatible = "zmk,keymap-sensors";
-//        sensors = <&left_encoder &right_encoder>;
-//        triggers-per-rotation = <15>;
-//    };
+    left_encoder: encoder_left {
+		compatible = "alps,ec11";
+		label = "LEFT_ENCODER";
+		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		steps = <60>;
+		status = "disabled";
+	};
+
+	right_encoder: encoder_right {
+		compatible = "alps,ec11";
+		label = "RIGHT_ENCODER";
+		a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		steps = <60>;
+		status = "disabled";
+	};
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <15>;
+    };
 };
