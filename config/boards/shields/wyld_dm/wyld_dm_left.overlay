@@ -32,9 +32,9 @@
 //};
 
 
-//&left_encoder {
-//	status = "okay";
-//};
+&left_encoder {
+	status = "okay";
+};
 
 //&pinctrl {
 //    blackpill_spi_default: blackpill_spi_default {
