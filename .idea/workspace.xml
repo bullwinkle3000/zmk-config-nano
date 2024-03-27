@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="missed encoder status">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders on row 0, thumbs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,15 +90,7 @@
       <workItem from="1705678784246" duration="5903000" />
       <workItem from="1710700334664" duration="11692000" />
       <workItem from="1711338384848" duration="1608000" />
-      <workItem from="1711478792751" duration="6789000" />
-    </task>
-    <task id="LOCAL-00114" summary="mebbe 3">
-      <option name="closed" value="true" />
-      <created>1710905563737</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1710905563737</updated>
+      <workItem from="1711478792751" duration="7654000" />
     </task>
     <task id="LOCAL-00115" summary="mebbe 4">
       <option name="closed" value="true" />
@@ -483,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711561463518</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="encoders on row 0, thumbs">
+      <option name="closed" value="true" />
+      <created>1711561772319</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1711561772319</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="maybe maybe" />
     <MESSAGE value="maybe maybe without logging" />
     <MESSAGE value="drop underglow" />
     <MESSAGE value="logging back and remove miso from niceview" />
@@ -570,7 +570,8 @@
     <MESSAGE value="reverse columns for right side" />
     <MESSAGE value="re-enable encoders" />
     <MESSAGE value="missed encoder status" />
-    <option name="LAST_COMMIT_MESSAGE" value="missed encoder status" />
+    <MESSAGE value="encoders on row 0, thumbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="encoders on row 0, thumbs" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
