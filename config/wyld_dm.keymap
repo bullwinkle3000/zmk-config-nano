@@ -106,7 +106,7 @@
                     &kp LSHFT &kp Z    &kp X     &kp C    &kp V       &kp B                        &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                                                              &mo RAISE &kp SPACE                 &mo LOWER
                                                                &kp BSPC   &kp TAB                &kp ENTER
-                                                                 &kp LALT  &kp LCTL      &kp DEL &kp RCTL
+                                                                 &mkp LCLK  &mkp RCLK    &kp DEL &kp RCTL
 			>;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -140,6 +140,22 @@
                                                                          &trans  &trans                          &trans
                                                                             &trans  &trans                       &trans
                                                                                 &trans  &trans           &trans  &trans
+			>;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+		};
+
+        mouse_layer {
+			display-name = "MOUSE";
+
+			bindings = <
+                    &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans     &trans     &trans  &trans  &trans
+                    &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans     &trans     &trans  &trans  &trans
+                    &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+                    &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans     &trans     &trans  &trans  &trans
+                                                      &trans  &trans                     &trans
+                                                       &trans  &trans                    &trans
+                                                        &mkp LCLK  &mkp RCLK     &trans  &trans
 			>;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;

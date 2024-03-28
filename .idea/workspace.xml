@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="added RGB control keys">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Swap home and mute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,15 +92,8 @@
       <workItem from="1710700334664" duration="11692000" />
       <workItem from="1711338384848" duration="1608000" />
       <workItem from="1711478792751" duration="9732000" />
-      <workItem from="1711590711763" duration="881000" />
-    </task>
-    <task id="LOCAL-00116" summary="mebbe 5">
-      <option name="closed" value="true" />
-      <created>1710907080450</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1710907080453</updated>
+      <workItem from="1711590711763" duration="2122000" />
+      <workItem from="1711646266065" duration="1195000" />
     </task>
     <task id="LOCAL-00117" summary="mebbe 6">
       <option name="closed" value="true" />
@@ -485,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711562641039</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Swap home and mute">
+      <option name="closed" value="true" />
+      <created>1711591617869</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1711591617869</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="drop underglow" />
     <MESSAGE value="logging back and remove miso from niceview" />
     <MESSAGE value="trying leds on new pin" />
     <MESSAGE value="Update keymap and layout" />
@@ -572,12 +573,17 @@
     <MESSAGE value="missed encoder status" />
     <MESSAGE value="encoders on row 0, thumbs" />
     <MESSAGE value="added RGB control keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="added RGB control keys" />
+    <MESSAGE value="Swap home and mute" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swap home and mute" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
     {
       "branch": "nice_view_v2",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "pmw3610_4x6",
       "currentBranchFilter": true
     },
     {
