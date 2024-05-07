@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="spi issue">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Spi always and forever">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,15 +100,7 @@
       <workItem from="1714599159439" duration="6000" />
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
-      <workItem from="1715106364904" duration="3117000" />
-    </task>
-    <task id="LOCAL-00067" summary="Removed underglow again">
-      <option name="closed" value="true" />
-      <created>1705085467392</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1705085467392</updated>
+      <workItem from="1715106364904" duration="6179000" />
     </task>
     <task id="LOCAL-00068" summary="Pillbug board returned">
       <option name="closed" value="true" />
@@ -495,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715109210333</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Spi always and forever">
+      <option name="closed" value="true" />
+      <created>1715109719594</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1715109719594</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checking led chain length" />
     <MESSAGE value="Try another couple of pins" />
     <MESSAGE value="Adjusted pins for columns and underglow." />
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
@@ -582,7 +580,8 @@
     <MESSAGE value="Latest 3x5 try one" />
     <MESSAGE value="Wrong encoder" />
     <MESSAGE value="spi issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="spi issue" />
+    <MESSAGE value="Spi always and forever" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spi always and forever" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
