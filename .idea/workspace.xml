@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Latest 3x5 try one">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Wrong encoder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,15 +101,7 @@
       <workItem from="1714599159439" duration="6000" />
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
-      <workItem from="1715106364904" duration="1845000" />
-    </task>
-    <task id="LOCAL-00065" summary="Worked up i2c2">
-      <option name="closed" value="true" />
-      <created>1705084760534</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1705084760534</updated>
+      <workItem from="1715106364904" duration="2614000" />
     </task>
     <task id="LOCAL-00066" summary="Back to i2c0">
       <option name="closed" value="true" />
@@ -493,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715107950129</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Wrong encoder">
+      <option name="closed" value="true" />
+      <created>1715108227652</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108227652</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Try 0.09" />
     <MESSAGE value="Nice!Nano mebbe" />
     <MESSAGE value="Checking led chain length" />
     <MESSAGE value="Try another couple of pins" />
@@ -580,7 +581,8 @@
     <MESSAGE value="Column and rows set to 10 and 4" />
     <MESSAGE value="Updated coords in info.json" />
     <MESSAGE value="Latest 3x5 try one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Latest 3x5 try one" />
+    <MESSAGE value="Wrong encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrong encoder" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
