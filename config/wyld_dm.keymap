@@ -14,6 +14,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 
+// triggering build
 
 #define QWERTY 0
 #define LOWER 1
