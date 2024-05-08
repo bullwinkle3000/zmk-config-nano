@@ -9,11 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Weird gpi0 error uncaught in sides, but caught in reset build.">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Enable logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,15 +102,7 @@
       <workItem from="1714599159439" duration="6000" />
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
-      <workItem from="1715106364904" duration="7688000" />
-    </task>
-    <task id="LOCAL-00069" summary="typo">
-      <option name="closed" value="true" />
-      <created>1705086566611</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1705086566611</updated>
+      <workItem from="1715106364904" duration="8809000" />
     </task>
     <task id="LOCAL-00070" summary="Trying spi2 instead of 3">
       <option name="closed" value="true" />
@@ -496,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715122047230</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Enable logging">
+      <option name="closed" value="true" />
+      <created>1715177776830</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1715177776830</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adjusted pins for columns and underglow." />
     <MESSAGE value="Reworked Pillbug pins and testing OLED again." />
     <MESSAGE value="Keymap maybe and back to i2c on OLED" />
     <MESSAGE value="dtsi issue" />
@@ -583,7 +582,8 @@
     <MESSAGE value="spi issue" />
     <MESSAGE value="Spi always and forever" />
     <MESSAGE value="Weird gpi0 error uncaught in sides, but caught in reset build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Weird gpi0 error uncaught in sides, but caught in reset build." />
+    <MESSAGE value="Enable logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable logging" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

@@ -1,4 +1,4 @@
-#include <dt-bindings/led/led.h>
+//#include <dt-bindings/led/led.h>
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -27,6 +27,10 @@ nice_view_spi: &spi0 {
 };
 
 &pro_micro_i2c {
+    status = "disabled";
+};
+
+&pro_micro_serial {
     status = "disabled";
 };
 
