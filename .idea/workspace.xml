@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Merged from pillbug setup">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Grah">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +92,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00120" summary="mebbe 9">
-      <option name="closed" value="true" />
-      <created>1710908157807</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1710908157807</updated>
     </task>
     <task id="LOCAL-00121" summary="why god why">
       <option name="closed" value="true" />
@@ -486,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715191247995</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Grah">
+      <option name="closed" value="true" />
+      <created>1715191613739</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1715191613739</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update keymap and layout" />
     <MESSAGE value="Thumb row is row 0" />
     <MESSAGE value="typos" />
     <MESSAGE value="typos galore" />
@@ -573,7 +571,8 @@
     <MESSAGE value="Swap home and mute" />
     <MESSAGE value="Added mouse layer" />
     <MESSAGE value="Merged from pillbug setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged from pillbug setup" />
+    <MESSAGE value="Grah" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grah" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
