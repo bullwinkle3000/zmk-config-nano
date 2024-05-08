@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added mouse layer">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Merged from pillbug setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pmw3610_4x6" />
+        <entry key="$PROJECT_DIR$" value="wylderbuilds_00255" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "wylderbuilds__00255",
+    "git-widget-placeholder": "pill__to__nano",
     "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,14 +94,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00118" summary="mebbe 7">
-      <option name="closed" value="true" />
-      <created>1710907463137</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1710907463137</updated>
     </task>
     <task id="LOCAL-00119" summary="mebbe 8">
       <option name="closed" value="true" />
@@ -486,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711647900338</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Merged from pillbug setup">
+      <option name="closed" value="true" />
+      <created>1715190864236</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1715190864236</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trying leds on new pin" />
     <MESSAGE value="Update keymap and layout" />
     <MESSAGE value="Thumb row is row 0" />
     <MESSAGE value="typos" />
@@ -573,7 +573,8 @@
     <MESSAGE value="added RGB control keys" />
     <MESSAGE value="Swap home and mute" />
     <MESSAGE value="Added mouse layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mouse layer" />
+    <MESSAGE value="Merged from pillbug setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged from pillbug setup" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
@@ -604,10 +605,14 @@
     {
       "branch": "wylderbuilds_00255",
       "currentBranchFilter": true
+    },
+    {
+      "branch": "pill_to_nano",
+      "currentBranchFilter": true
     }
   ],
   "lastFilter": {
-    "branch": "wylderbuilds_00255",
+    "branch": "pill_to_nano",
     "currentBranchFilter": true
   }
 }]]></component>
