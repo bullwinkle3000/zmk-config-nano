@@ -1,23 +1,9 @@
 // wyld_dm_left.overlay
 
 #include "wyld_dm.dtsi"
-#include <dt-bindings/led/led.h>
+//#include <dt-bindings/led/led.h>
 
 ///  PILLBUG PINS
-
-&kscan0 {
-    col-gpios
-			= <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB4   / 0.19
-            , <&gpio1 1  GPIO_ACTIVE_HIGH>  // PB5   / 1.01
-			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // PB5   / 0.29
-			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB13   / 1.10
-			, <&gpio1 02  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
-            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
-	        , <&gpio1 06 GPIO_ACTIVE_HIGH>  // PB13   / 1.06  encoder column only
-			;
-};
-
-///  NANO V2 PINS
 
 //&kscan0 {
 //    col-gpios
@@ -30,6 +16,20 @@
 ////            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
 //			;
 //};
+
+///  NANO V2 PINS
+
+&kscan0 {
+    col-gpios
+			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
+			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>  // 0.02
+			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
+			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
+//			, <&gpio1 6  GPIO_ACTIVE_HIGH>  //  1.06
+//            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
+			;
+};
 
 
 &left_encoder {
