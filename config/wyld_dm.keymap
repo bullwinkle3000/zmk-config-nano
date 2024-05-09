@@ -96,11 +96,11 @@
 			bindings = <
                     &kp N1      &kp N2           &kp N3             &kp N4             &kp N5                &kp N6     &kp N7      &kp N8           &kp N9    &kp N0
                     &kp EXCL    &kp AT           &kp HASH           &kp DOLLAR         &kp PRCNT             &kp CARET  &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
-                    &bootloader &ext_power EP_ON &ext_power EP_OFF  &ext_power EP_TOG  &trans  &trans        &kp MINUS &kp KP_PLUS  &kp LBRC         &kp RBRC  &bootloader
+                    &bootloader &ext_power EP_ON &ext_power EP_OFF  &ext_power EP_TOG  &trans  &kp HOME        &kp MINUS &kp KP_PLUS  &kp LBRC         &kp RBRC  &bootloader
                                                    &trans             &kp TAB            &kp LALT          &kp PIPE    &trans  &trans
 			>;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 
 		};
 
