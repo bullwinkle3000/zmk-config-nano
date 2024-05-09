@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="BT keys missing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +101,6 @@
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
-    </task>
-    <task id="LOCAL-00076" summary="set up external power bits">
-      <option name="closed" value="true" />
-      <created>1705098194179</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1705098194180</updated>
     </task>
     <task id="LOCAL-00077" summary="Actual pmw3610">
       <option name="closed" value="true" />
@@ -494,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715274475753</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="BT keys missing">
+      <option name="closed" value="true" />
+      <created>1715279975099</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1715279975099</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="No &amp;kb, just &amp;kp" />
     <MESSAGE value="3x5 first pass" />
     <MESSAGE value="Added #include &lt;behaviors/mouse_keys.dtsi&gt;" />
     <MESSAGE value="updated nano pins" />
@@ -581,7 +580,8 @@
     <MESSAGE value="we shall see 2" />
     <MESSAGE value="changes to logging" />
     <MESSAGE value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
+    <MESSAGE value="BT keys missing" />
+    <option name="LAST_COMMIT_MESSAGE" value="BT keys missing" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
