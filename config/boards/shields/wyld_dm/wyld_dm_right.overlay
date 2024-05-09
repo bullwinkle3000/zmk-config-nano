@@ -72,11 +72,9 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-        /*   optional features   */
-         snipe-layers = <1>;
-         scroll-layers = <2>;
-         automouse-layer = <3>;
+        snipe-layers = <1>;
+        scroll-layers = <2>;
+        automouse-layer = <3>;
     };
 };
 
@@ -84,6 +82,5 @@
   pmw3610_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-
   };
 };

@@ -86,6 +86,8 @@
                     &kp Z  &kp X  &kp C    &kp V    &kp B &kp K_MUTE    &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH
                                   &mo RAISE &kp SPACE &kp BSPC       &kp DEL &kp ENTER  &mo LOWER
 			>;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		lower_layer {
@@ -97,6 +99,9 @@
                     &bootloader &ext_power EP_ON &ext_power EP_OFF  &ext_power EP_TOG  &trans  &trans        &kp MINUS &kp KP_PLUS  &kp LBRC         &kp RBRC  &bootloader
                                                    &trans             &kp TAB            &kp LALT          &kp PIPE    &trans  &trans
 			>;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+
 		};
 
 		raise_layer {
@@ -109,6 +114,7 @@
                                               &trans  &trans    &trans       &trans    &trans      &trans
 			>;
 
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
         mouse_layer {
