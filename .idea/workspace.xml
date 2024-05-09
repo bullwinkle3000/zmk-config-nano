@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="changes to logging">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +101,6 @@
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
-    </task>
-    <task id="LOCAL-00075" summary="last try on underglow">
-      <option name="closed" value="true" />
-      <created>1705097647495</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1705097647495</updated>
     </task>
     <task id="LOCAL-00076" summary="set up external power bits">
       <option name="closed" value="true" />
@@ -496,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715270116964</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder">
+      <option name="closed" value="true" />
+      <created>1715274475753</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1715274475753</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="keymap KP_MULTIPLY" />
     <MESSAGE value="No &amp;kb, just &amp;kp" />
     <MESSAGE value="3x5 first pass" />
     <MESSAGE value="Added #include &lt;behaviors/mouse_keys.dtsi&gt;" />
@@ -583,7 +580,8 @@
     <MESSAGE value="we shall see" />
     <MESSAGE value="we shall see 2" />
     <MESSAGE value="changes to logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to logging" />
+    <MESSAGE value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
