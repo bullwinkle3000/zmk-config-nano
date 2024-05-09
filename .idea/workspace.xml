@@ -9,15 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Trying pro_micro 1">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="we shall see">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +102,6 @@
       <workItem from="1714599429699" duration="629000" />
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
-    </task>
-    <task id="LOCAL-00072" summary="dummy sck pins">
-      <option name="closed" value="true" />
-      <created>1705095145665</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1705095145665</updated>
     </task>
     <task id="LOCAL-00073" summary="And dummy miso">
       <option name="closed" value="true" />
@@ -500,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715181453099</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="we shall see">
+      <option name="closed" value="true" />
+      <created>1715266162085</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1715266162085</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dtsi issue" />
     <MESSAGE value="keymap type" />
     <MESSAGE value="keymap K_MUTE not MUTE" />
     <MESSAGE value="keymap KP_MULTIPLY" />
@@ -587,7 +581,8 @@
     <MESSAGE value="Enable logging" />
     <MESSAGE value="Encoder not enabled, disabled uart0" />
     <MESSAGE value="Trying pro_micro 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying pro_micro 1" />
+    <MESSAGE value="we shall see" />
+    <option name="LAST_COMMIT_MESSAGE" value="we shall see" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
