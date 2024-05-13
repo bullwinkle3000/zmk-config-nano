@@ -4,7 +4,7 @@
 #include <dt-bindings/led/led.h>
 
 &default_transform {
-    col-offset = <7>;
+    col-offset = <6>;
 };
 
 ///  PILLBUG PINS
@@ -17,13 +17,13 @@
 			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB13   / 1.10
 			, <&gpio1 02  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
             , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
-            , <&gpio1 06 GPIO_ACTIVE_HIGH>  // PB13   / 1.06  encoder column only
+//            , <&gpio1 06 GPIO_ACTIVE_HIGH>  // PB13   / 1.06  encoder column only
 			;
 };
 
-&right_encoder {
-	status = "okay";
-};
+//&right_encoder {
+//	status = "okay";
+//};
 
 &pinctrl {
     blackpill_spi_default: blackpill_spi_default {
@@ -39,6 +39,24 @@
             psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
                 <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
                 <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+            low-power-enable;
+        };
+    };
+
+
+    spi0_default: spi0_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 00)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 25)>;
+//                <NRF_PSEL(SPIM_MISO, 0, 5)>;
+        };
+    };
+
+    spi0_sleep: spi0_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 00)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 25)>;
+//                <NRF_PSEL(SPIM_MISO, 0, 5)>;
             low-power-enable;
         };
     };
@@ -61,6 +79,14 @@
         scroll-layers = <2>;
         automouse-layer = <3>;
     };
+};
+
+nice_view_spi: &spi0 {
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>;
 };
 
 / {

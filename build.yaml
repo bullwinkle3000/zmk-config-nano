@@ -16,6 +16,6 @@ include:
   - board: pillbug
     shield: wyld_dm_right nice_view_adapter nice_view
   - board: pillbug
-    shield: wyld_dm_left nice_view_adapter nice_view
+    shield: wyld_dm_left
   - board: pillbug
     shield: settings_reset
