@@ -6,10 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
-
-if SHIELD_WYLD_DM_LEFT
-
 if ZMK_DISPLAY
 
 config I2C
