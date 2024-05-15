@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="First pass at 00252">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Updated for OLED, i2c, encoder, and more rows/columns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +103,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00081" summary="nope">
-      <option name="closed" value="true" />
-      <created>1705124207477</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1705124207477</updated>
     </task>
     <task id="LOCAL-00082" summary="Reverted">
       <option name="closed" value="true" />
@@ -497,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715726962037</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Updated for OLED, i2c, encoder, and more rows/columns">
+      <option name="closed" value="true" />
+      <created>1715798786074</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1715798786075</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed conflicting i2c bits" />
     <MESSAGE value="Trying specific revision" />
     <MESSAGE value="Added pmw3610_listener" />
     <MESSAGE value="Needs proper branch" />
@@ -584,7 +582,8 @@
     <MESSAGE value="Updated info.json" />
     <MESSAGE value="Added encoder" />
     <MESSAGE value="First pass at 00252" />
-    <option name="LAST_COMMIT_MESSAGE" value="First pass at 00252" />
+    <MESSAGE value="Updated for OLED, i2c, encoder, and more rows/columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated for OLED, i2c, encoder, and more rows/columns" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
