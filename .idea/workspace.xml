@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="oled configured for left not right in Kconfig.defconfig">
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="deprecated configs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +103,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00086" summary="Does seem a burned out pin">
-      <option name="closed" value="true" />
-      <created>1705173746874</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1705173746874</updated>
     </task>
     <task id="LOCAL-00087" summary="Try spi2?">
       <option name="closed" value="true" />
@@ -494,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715801740180</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="deprecated configs">
+      <option name="closed" value="true" />
+      <created>1715802008924</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1715802008924</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pin adjust on right" />
     <MESSAGE value="Column offset correction" />
     <MESSAGE value="Column and rows set to 10 and 4" />
     <MESSAGE value="Updated coords in info.json" />
@@ -581,7 +582,8 @@
     <MESSAGE value="errant oled" />
     <MESSAGE value="oled misbehaving" />
     <MESSAGE value="oled configured for left not right in Kconfig.defconfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="oled configured for left not right in Kconfig.defconfig" />
+    <MESSAGE value="deprecated configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="deprecated configs" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
