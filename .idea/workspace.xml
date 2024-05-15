@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="oled misbehaving">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="oled configured for left not right in Kconfig.defconfig">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +101,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00085" summary="Revert pins and add logging to right">
-      <option name="closed" value="true" />
-      <created>1705173092853</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1705173092853</updated>
     </task>
     <task id="LOCAL-00086" summary="Does seem a burned out pin">
       <option name="closed" value="true" />
@@ -496,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715800612946</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="oled configured for left not right in Kconfig.defconfig">
+      <option name="closed" value="true" />
+      <created>1715801740180</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1715801740180</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doing the DOH" />
     <MESSAGE value="pin adjust on right" />
     <MESSAGE value="Column offset correction" />
     <MESSAGE value="Column and rows set to 10 and 4" />
@@ -583,7 +580,8 @@
     <MESSAGE value="Typos forever" />
     <MESSAGE value="errant oled" />
     <MESSAGE value="oled misbehaving" />
-    <option name="LAST_COMMIT_MESSAGE" value="oled misbehaving" />
+    <MESSAGE value="oled configured for left not right in Kconfig.defconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="oled configured for left not right in Kconfig.defconfig" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
