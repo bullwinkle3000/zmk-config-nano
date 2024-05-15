@@ -70,7 +70,7 @@
 //			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PB0  / 1.09
 //			, <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA4  / 1.11
 //			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA3  / 0.31
-//            , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
+//            , <&gpio0 31 (    GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA2  / 1.15
 //			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
 //            ;
 
@@ -80,7 +80,8 @@
 			, <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.10
 			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
             , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
-//			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
+			, <&gpio1 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
+        	, <&gpio1 01 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.01
             ;
 
     };
@@ -90,8 +91,8 @@
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		a-gpios = <&gpio1 01 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio1 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&gpio0 06 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio0 08 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};

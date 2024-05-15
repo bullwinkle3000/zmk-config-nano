@@ -2,8 +2,14 @@
 
 #include "wyld_dm.dtsi"
 
+/ {
+    chosen {
+        zephyr,display = &oled;
+    };
+};
+
 &default_transform {
-    col-offset = <5>;
+    col-offset = <6>;
 };
 
 ///  PILLBUG PINSn
@@ -56,6 +62,22 @@
             low-power-enable;
         };
     };
+
+        pro_micro_i2c_default: pro_micro_i2c_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,  // 0.4
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;  // 0.5
+
+        };
+    };
+
+    pro_micro_i2c_sleep: pro_micro_i2c_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            low-power-enable;
+        };
+    };
 };
 
 &spi1 {
@@ -76,6 +98,30 @@
         scroll-layers = <2>;
         automouse-layer = <3>;
     };
+};
+
+&pro_micro_i2c {
+	status = "okay";
+    compatible = "nordic,nrf-twi";
+    pinctrl-0 = <&pro_micro_i2c_default>;
+    pinctrl-1 = <&pro_micro_i2c_sleep>;
+    pinctrl-names = "default", "sleep";
+
+    oled: ssd1306@3c {
+		compatible = "solomon,ssd1306fb";
+		reg = <0x3c>;
+		label = "DISPLAY";
+		width = <128>;
+		height = <32>;
+		segment-offset = <0>;
+		page-offset = <0>;
+		display-offset = <0>;
+		multiplex-ratio = <31>;
+		segment-remap;
+		com-invdir;
+		com-sequential;
+		prechargep = <0x22>;
+	};
 };
 
 / {
