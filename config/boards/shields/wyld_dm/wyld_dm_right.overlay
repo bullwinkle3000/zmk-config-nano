@@ -63,21 +63,6 @@
         };
     };
 
-    pro_micro_i2c_default: pro_micro_i2c_default {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,  // 0.4
-                    <NRF_PSEL(TWIM_SCL, 0, 20)>;  // 0.5
-
-        };
-    };
-
-    pro_micro_i2c_sleep: pro_micro_i2c_sleep {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
-                <NRF_PSEL(TWIM_SCL, 0, 20)>;
-            low-power-enable;
-        };
-    };
 };
 
 &spi1 {
@@ -100,11 +85,11 @@
     };
 };
 
-&pro_micro_i2c {
+&i2c0 {
 	status = "okay";
     compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&pro_micro_i2c_default>;
-    pinctrl-1 = <&pro_micro_i2c_sleep>;
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
 
     oled: ssd1306@3c {
