@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo crazy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="test layout">
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +101,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00091" summary="Try another couple of pins">
-      <option name="closed" value="true" />
-      <created>1705260123203</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1705260123203</updated>
     </task>
     <task id="LOCAL-00092" summary="Adjusted pins for columns and underglow.">
       <option name="closed" value="true" />
@@ -495,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715887251194</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="test layout">
+      <option name="closed" value="true" />
+      <created>1715891774024</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1715891774024</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrong encoder" />
     <MESSAGE value="spi issue" />
     <MESSAGE value="Spi always and forever" />
     <MESSAGE value="Weird gpi0 error uncaught in sides, but caught in reset build." />
@@ -582,7 +580,8 @@
     <MESSAGE value="Missing bracket" />
     <MESSAGE value="Updated info.json and corrected dupe key on encoder" />
     <MESSAGE value="typo crazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo crazy" />
+    <MESSAGE value="test layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="test layout" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
