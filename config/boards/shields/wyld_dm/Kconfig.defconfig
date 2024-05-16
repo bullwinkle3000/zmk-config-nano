@@ -34,6 +34,7 @@ endchoice
 endif # LVGL
 
 endif
+
 if SHIELD_WYLD_DM_LEFT || SHIELD_WYLD_DM_RIGHT
 
 config ZMK_SPLIT
