@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="revert info.json">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="rotate sensor">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +101,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00093" summary="Reworked Pillbug pins and testing OLED again.">
-      <option name="closed" value="true" />
-      <created>1705265827064</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1705265827064</updated>
     </task>
     <task id="LOCAL-00094" summary="Keymap maybe and back to i2c on OLED">
       <option name="closed" value="true" />
@@ -494,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715895182608</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="rotate sensor">
+      <option name="closed" value="true" />
+      <created>1715895310818</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1715895310818</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spi always and forever" />
     <MESSAGE value="Weird gpi0 error uncaught in sides, but caught in reset build." />
     <MESSAGE value="Enable logging" />
     <MESSAGE value="Encoder not enabled, disabled uart0" />
@@ -581,7 +580,8 @@
     <MESSAGE value="typo crazy" />
     <MESSAGE value="test layout" />
     <MESSAGE value="revert info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert info.json" />
+    <MESSAGE value="rotate sensor" />
+    <option name="LAST_COMMIT_MESSAGE" value="rotate sensor" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
