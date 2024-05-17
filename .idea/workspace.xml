@@ -104,14 +104,6 @@
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
     </task>
-    <task id="LOCAL-00098" summary="keymap KP_MULTIPLY">
-      <option name="closed" value="true" />
-      <created>1705684564666</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1705684564666</updated>
-    </task>
     <task id="LOCAL-00099" summary="No &amp;kb, just &amp;kp">
       <option name="closed" value="true" />
       <created>1705684831816</created>
@@ -496,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715914772578</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="fix keymap">
+      <option name="closed" value="true" />
+      <created>1715917350280</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1715917350280</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
