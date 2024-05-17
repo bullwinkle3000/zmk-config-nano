@@ -25,25 +25,6 @@
 //	status = "okay";
 //};
 
-&pinctrl {
-    spi1_default: spi1_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 0, 24)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
-                <NRF_PSEL(SPIM_MISO, 0, 22)>;
-        };
-    };
-
-    spi1_sleep: spi1_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 0, 24)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
-                <NRF_PSEL(SPIM_MISO, 0, 22)>;
-            low-power-enable;
-        };
-    };
-};
-
 &spi1 {
     status = "okay";
     compatible = "nordic,nrf-spim";
@@ -64,10 +45,10 @@
     };
 };
 
-nice_view_spi: &spi1 {
+nice_view_spi: &spi0 {
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi1_default>;
-    pinctrl-1 = <&spi1_sleep>;
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
 };
