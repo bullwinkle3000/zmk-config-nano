@@ -17,7 +17,7 @@
     };
 };
 
-&spi3 {t
+&spi3 {
   compatible = "nordic,nrf-spim";
   status = "okay";
 
