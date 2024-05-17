@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing rework of encoder key location in dtsi and keymap">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="fix keymap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,14 +103,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00097" summary="keymap K_MUTE not MUTE">
-      <option name="closed" value="true" />
-      <created>1705684209937</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1705684209937</updated>
     </task>
     <task id="LOCAL-00098" summary="keymap KP_MULTIPLY">
       <option name="closed" value="true" />
@@ -495,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715898135970</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="fix keymap">
+      <option name="closed" value="true" />
+      <created>1715914772578</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1715914772578</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying pro_micro 1" />
     <MESSAGE value="we shall see" />
     <MESSAGE value="we shall see 2" />
     <MESSAGE value="changes to logging" />
@@ -582,7 +582,8 @@
     <MESSAGE value="missing column pin on right" />
     <MESSAGE value="12 columns" />
     <MESSAGE value="testing rework of encoder key location in dtsi and keymap" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing rework of encoder key location in dtsi and keymap" />
+    <MESSAGE value="fix keymap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix keymap" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
