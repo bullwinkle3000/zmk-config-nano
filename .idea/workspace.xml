@@ -9,10 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trackball and led share spi">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Another test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
@@ -96,14 +96,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00121" summary="why god why">
-      <option name="closed" value="true" />
-      <created>1710908577616</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1710908577616</updated>
     </task>
     <task id="LOCAL-00122" summary="include">
       <option name="closed" value="true" />
@@ -489,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715976048923</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Another test">
+      <option name="closed" value="true" />
+      <created>1715983629601</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1715983629601</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typos" />
     <MESSAGE value="typos galore" />
     <MESSAGE value="4 key trackball cluster, reworked rows, updated info.json" />
     <MESSAGE value="Reordered info.json" />
@@ -576,7 +575,8 @@
     <MESSAGE value="New 4x6 setup" />
     <MESSAGE value="Trying with nice nano" />
     <MESSAGE value="trackball and led share spi" />
-    <option name="LAST_COMMIT_MESSAGE" value="trackball and led share spi" />
+    <MESSAGE value="Another test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another test" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
