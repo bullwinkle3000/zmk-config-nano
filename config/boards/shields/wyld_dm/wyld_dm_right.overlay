@@ -11,13 +11,13 @@
 
 &kscan0 {
     col-gpios
-			= <&gpio0 19  GPIO_ACTIVE_HIGH>  // PB4   / 0.19
-            , <&gpio1 1  GPIO_ACTIVE_HIGH>  // PB5   / 1.01
-			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // PB5   / 0.29
-			, <&gpio1 10  GPIO_ACTIVE_HIGH>  // PB13   / 1.10
-			, <&gpio1 02  GPIO_ACTIVE_HIGH>  // PB13   / 1.02
-            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
-//            , <&gpio1 06 GPIO_ACTIVE_HIGH>  // PB13   / 1.06  encoder column only
+			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
+			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>  // 0.02
+			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
+			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
+			, <&gpio1 6  GPIO_ACTIVE_HIGH>  //  1.06
+//            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
 			;
 };
 
@@ -26,67 +26,50 @@
 //};
 
 &pinctrl {
-    blackpill_spi_default: blackpill_spi_default {
+    spi1_default: spi1_default {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
+            psels = <NRF_PSEL(SPIM_SCK, 0, 24)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
+                <NRF_PSEL(SPIM_MISO, 0, 22)>;
         };
     };
 
-    blackpill_spi_sleep: blackpill_spi_sleep {
+    spi1_sleep: spi1_sleep {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 8)>,  // 1.8
-                <NRF_PSEL(SPIM_MOSI, 0, 26)>,    // 0.26
-                <NRF_PSEL(SPIM_MISO, 0, 26)>;    // 0.26
-            low-power-enable;
-        };
-    };
-
-
-    spi0_default: spi0_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 00)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 25)>;
-//                <NRF_PSEL(SPIM_MISO, 0, 5)>;
-        };
-    };
-
-    spi0_sleep: spi0_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 00)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 25)>;
-//                <NRF_PSEL(SPIM_MISO, 0, 5)>;
+            psels = <NRF_PSEL(SPIM_SCK, 0, 24)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
+                <NRF_PSEL(SPIM_MISO, 0, 22)>;
             low-power-enable;
         };
     };
 };
 
-&blackpill_spi {
+&spi1 {
     status = "okay";
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&blackpill_spi_default>;
-    pinctrl-1 = <&blackpill_spi_sleep>;
+    pinctrl-0 = <&spi1_default>;
+    pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
-        reg = <0>;
+        reg = <1>;
         spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        irq-gpios = <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <1>;
         scroll-layers = <2>;
         automouse-layer = <3>;
     };
 };
 
-nice_view_spi: &spi0 {
+nice_view_spi: &spi1 {
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi0_default>;
-    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-0 = <&spi1_default>;
+    pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
 };
 
 / {
