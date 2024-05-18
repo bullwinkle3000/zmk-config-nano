@@ -9,14 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="cat 2">
-      <change afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.keymap" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Updated keymap and set underglow to overall conf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,14 +93,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00126" summary="checking pillbug behavior">
-      <option name="closed" value="true" />
-      <created>1710946624547</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1710946624547</updated>
     </task>
     <task id="LOCAL-00127" summary="enable ext pwr?">
       <option name="closed" value="true" />
@@ -491,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715988193506</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Updated keymap and set underglow to overall conf">
+      <option name="closed" value="true" />
+      <created>1716058207017</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1716058207017</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,8 +501,8 @@
         <option value="Default.Root" />
         <option value="Default.Author" />
         <option value="Default.Date" />
-        <option value="Default.Subject" />
         <option value="Space.CommitStatus" />
+        <option value="Default.Subject" />
       </list>
     </option>
   </component>
@@ -553,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reordered info.json 2" />
     <MESSAGE value="adjustments" />
     <MESSAGE value="adjustments 2" />
     <MESSAGE value="adjustments 99" />
@@ -578,7 +572,8 @@
     <MESSAGE value="maybe" />
     <MESSAGE value="cat" />
     <MESSAGE value="cat 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="cat 2" />
+    <MESSAGE value="Updated keymap and set underglow to overall conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated keymap and set underglow to overall conf" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
