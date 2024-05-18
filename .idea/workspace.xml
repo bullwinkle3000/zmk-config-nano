@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="wrong  trackball setup and updated keymap">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Right cluster backwards">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +94,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00129" summary="typos">
-      <option name="closed" value="true" />
-      <created>1710950192105</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1710950192105</updated>
     </task>
     <task id="LOCAL-00130" summary="disable rgb off on idle">
       <option name="closed" value="true" />
@@ -485,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716060174205</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Right cluster backwards">
+      <option name="closed" value="true" />
+      <created>1716060256135</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1716060256135</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjustments 99" />
     <MESSAGE value="adjustments 999" />
     <MESSAGE value="adjustments 9999" />
     <MESSAGE value="adjustments eh?" />
@@ -572,7 +573,8 @@
     <MESSAGE value="Updated keymap and set underglow to overall conf" />
     <MESSAGE value="dropped a row" />
     <MESSAGE value="wrong  trackball setup and updated keymap" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong  trackball setup and updated keymap" />
+    <MESSAGE value="Right cluster backwards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Right cluster backwards" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
