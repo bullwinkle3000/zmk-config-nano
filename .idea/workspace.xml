@@ -9,10 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="dropped a row">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="wrong  trackball setup and updated keymap">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,14 +92,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00128" summary="going minimal">
-      <option name="closed" value="true" />
-      <created>1710948031928</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1710948031928</updated>
     </task>
     <task id="LOCAL-00129" summary="typos">
       <option name="closed" value="true" />
@@ -488,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716059305271</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="wrong  trackball setup and updated keymap">
+      <option name="closed" value="true" />
+      <created>1716060174205</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1716060174205</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjustments 2" />
     <MESSAGE value="adjustments 99" />
     <MESSAGE value="adjustments 999" />
     <MESSAGE value="adjustments 9999" />
@@ -575,7 +571,8 @@
     <MESSAGE value="cat 2" />
     <MESSAGE value="Updated keymap and set underglow to overall conf" />
     <MESSAGE value="dropped a row" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropped a row" />
+    <MESSAGE value="wrong  trackball setup and updated keymap" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong  trackball setup and updated keymap" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
