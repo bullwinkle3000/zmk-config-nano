@@ -46,8 +46,8 @@
                     &kp TAB   &kp Q    &kp W     &kp E    &kp R       &kp T                        &kp Y       &kp U     &kp I        &kp O    &kp P    &kp LBKT
                     &kp CAPS  &kp A    &kp S     &kp D    &kp F       &kp G                        &kp H       &kp J     &kp K        &kp L    &kp SEMI &kp SQT
                     &kp LSHFT &kp Z    &kp X     &kp C    &kp V       &kp B                        &kp N       &kp M     &kp COMMA    &kp DOT  &kp FSLH &kp RSHFT
-                                       &kp LBRC  &kp RBRC    &mo RAISE &kp SPACE                               &kp KP_PLUS  &kp KP_MINUS
-                    &kp DEL &mkp LCLK  &mkp RCLK   &kp TAB           &kp K_MUTE              &mo LOWER &kp ENTER  &kp BSPC  &kp RCTL
+                                       &kp LBRC  &kp RBRC    &mo RAISE &kp SPACE                                         &kp KP_PLUS  &kp KP_MINUS
+                    &kp DEL &mkp LCLK  &mkp RCLK   &kp TAB           &kp K_MUTE                    &mo LOWER   &kp ENTER &kp BSPC     &kp RCTL
 			>;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -57,11 +57,11 @@
 			display-name = "LOWER";
 
 			bindings = <
-                    &trans       &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                                          &kp F6     &kp F7    &kp F8           &kp F9    &kp F10   &kp F11
-                    &kp GRAVE    &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR &kp PRCNT                                       &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp F12
-                    &bootloader  &trans    &trans  &trans    &trans     &trans   &rgb_ug RGB_TOG                        &trans     &kp MINUS &kp KP_PLUS      &kp LBRC  &kp RBRC  &bootloader
-                                 &trans    &trans            &trans     &trans                                                               &trans           &trans
-                    &trans  &trans &trans  &trans                       &trans                                          &trans  &trans       &trans           &trans
+                    &trans       &kp N1            &kp N2             &kp N3          &kp N4              &kp N5                     &kp N6     &kp N7    &kp N8           &kp N9    &kp N0    &kp F11
+                    &kp GRAVE    &kp EXCL          &kp AT             &kp HASH        &kp DOLLAR          &kp PRCNT                  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp F12
+                    &bootloader  &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_OFF     &trans                     &trans     &kp MINUS &kp KP_PLUS      &kp LBRC  &kp RBRC  &bootloader
+                                 &trans            &trans             &trans          &trans                                                              &trans           &trans
+                    &trans       &trans            &trans             &trans                             &rgb_ug RGB_TOG             &trans     &trans    &trans           &trans
 			>;
 
 			sensor-bindings = <&rgb_encoder_bright>;
@@ -73,10 +73,10 @@
 
 			bindings = <
                     &trans     &trans       &trans       &trans       &trans       &kp LBKT                        &kp RBKT     &trans        &kp KP_N7     &kp KP_N8  &kp KP_N9    &kp KP_DIVIDE
-                    &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &kp PGUP     &kp LPAR  &kp HOME              &kp RPAR     &trans        &kp KP_N4     &kp KP_N5  &kp KP_N6    &kp KP_MULTIPLY
+                    &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &kp PGUP     &kp LPAR                        &kp RPAR     &trans        &kp KP_N4     &kp KP_N5  &kp KP_N6    &kp KP_MULTIPLY
                     &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                    &trans       &trans        &kp KP_N1     &kp KP_N2  &kp KP_N3    &kp KP_MINUS
                                             &kp PG_UP    &kp PG_DN       &trans    &trans                                                     &kp KP_PLUS   &kp KP_MINUS
-                    &trans     &trans       &trans       &trans                    &trans                          &trans        &trans       &trans        &trans
+                    &trans     &trans       &trans       &trans                    &kp HOME                        &trans        &trans       &trans        &trans
 			>;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -86,11 +86,11 @@
 			display-name = "MOUSE";
 
 			bindings = <
-                    &trans  &trans  &trans  &trans  &trans          &trans                        &trans  &trans     &trans     &trans  &trans  &trans
-                    &trans  &trans  &trans  &mkp LCLK  &mkp RCLK    &trans                        &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-                    &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans     &trans     &trans  &trans  &trans
-                                    &trans  &trans    &trans  &trans                                                 &trans     &trans
-                    &trans  &mkp LCLK  &mkp RCLK      &trans        &trans                        &trans  &trans     &trans     &trans
+                    &trans  &trans     &trans     &trans     &trans    &trans                        &trans  &trans     &trans     &trans  &trans  &trans
+                    &trans  &trans     &trans     &mkp LCLK  &mkp RCLK &trans                        &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+                    &trans  &trans     &trans     &trans     &trans    &trans                        &trans  &trans     &trans     &trans  &trans  &trans
+                                       &trans     &trans     &trans    &trans                                           &trans     &trans
+                    &trans  &mkp LCLK  &mkp RCLK  &trans               &trans                        &trans  &trans     &trans     &trans
 			>;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -98,9 +98,8 @@
 	};
 };
 
-
 &led_strip {
-    chain-length = <40>;
+    chain-length = <62>;
 };
 
 
