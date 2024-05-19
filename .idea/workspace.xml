@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Found weirdness in underglow">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="disable logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +93,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00133" summary="Remove mouse_keys.dtsi include">
-      <option name="closed" value="true" />
-      <created>1710958518981</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1710958518981</updated>
     </task>
     <task id="LOCAL-00134" summary="Restored mouse bits, moving underglow to 0,6 data pin">
       <option name="closed" value="true" />
@@ -486,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716077171485</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="disable logging">
+      <option name="closed" value="true" />
+      <created>1716130262983</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130262983</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjustments ok" />
     <MESSAGE value="row tweaks" />
     <MESSAGE value="typos forever" />
     <MESSAGE value="some bad search and replace" />
@@ -573,7 +572,8 @@
     <MESSAGE value="wiring off in layouts" />
     <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Found weirdness in underglow" />
+    <MESSAGE value="disable logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable logging" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

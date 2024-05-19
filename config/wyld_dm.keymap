@@ -57,11 +57,11 @@
 			display-name = "LOWER";
 
 			bindings = <
-                    &trans       &kp N1            &kp N2             &kp N3          &kp N4              &kp N5                     &kp N6     &kp N7    &kp N8           &kp N9    &kp N0    &kp F11
-                    &kp GRAVE    &kp EXCL          &kp AT             &kp HASH        &kp DOLLAR          &kp PRCNT                  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp F12
-                    &bootloader  &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_OFF     &trans                     &trans     &kp MINUS &kp KP_PLUS      &kp LBRC  &kp RBRC  &bootloader
-                                 &trans            &trans             &trans          &trans                                                              &trans           &trans
-                    &trans       &trans            &trans             &trans                             &rgb_ug RGB_TOG             &trans     &trans    &trans           &trans
+                    &trans       &kp N1            &kp N2             &kp N3          &kp N4             &kp N5                     &kp N6     &kp N7    &kp N8           &kp N9    &kp N0    &kp F11
+                    &kp GRAVE    &kp EXCL          &kp AT             &kp HASH        &kp DOLLAR         &kp PRCNT                  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp F12
+                    &bootloader  &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_OFF    &trans                     &trans     &kp MINUS &kp KP_PLUS      &kp LBRC  &kp RBRC  &bootloader
+                                                   &rgb_ug RGB_EFF    &rgb_ug RGB_EFR &trans             &trans                                          &trans           &trans
+                    &trans       &trans            &trans             &trans                             &rgb_ug RGB_TOG            &trans     &trans    &trans           &trans
 			>;
 
 			sensor-bindings = <&rgb_encoder_bright>;
