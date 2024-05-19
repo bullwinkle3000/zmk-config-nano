@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Added rgb effect keys">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="BT tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
@@ -93,14 +93,6 @@
       <workItem from="1711478792751" duration="9732000" />
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
-    </task>
-    <task id="LOCAL-00135" summary="Moving pins around">
-      <option name="closed" value="true" />
-      <created>1710961955180</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1710961955180</updated>
     </task>
     <task id="LOCAL-00136" summary="An oopsie">
       <option name="closed" value="true" />
@@ -486,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716145449464</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="BT tweaks">
+      <option name="closed" value="true" />
+      <created>1716146180199</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1716146180199</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typos forever" />
     <MESSAGE value="some bad search and replace" />
     <MESSAGE value="reverse columns for right side" />
     <MESSAGE value="re-enable encoders" />
@@ -573,7 +572,8 @@
     <MESSAGE value="Found weirdness in underglow" />
     <MESSAGE value="disable logging" />
     <MESSAGE value="Added rgb effect keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rgb effect keys" />
+    <MESSAGE value="BT tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="BT tweaks" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
