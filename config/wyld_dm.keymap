@@ -51,7 +51,7 @@
                                                                        &kp K_MUTE
 			>;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP, &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>;
 		};
 
 		lower_layer {
@@ -66,7 +66,7 @@
                                                                                                          &rgb_ug RGB_TOG
 			>;
 
-			sensor-bindings = <&rgb_encoder_bright, &rgb_encoder_hue>;
+			sensor-bindings = <&rgb_encoder_bright>, <&rgb_encoder_hue>;
 
 		};
 
@@ -82,7 +82,7 @@
                                                                                    &trans
 			>;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP, &inc_dec_kp PG_UP PG_DN>
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>
 		};
 
         mouse_layer {
@@ -97,7 +97,7 @@
                                                                   &trans
 			>;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP, &inc_dec_kp PG_UP PG_DN>
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>
 		};
 	};
 };
