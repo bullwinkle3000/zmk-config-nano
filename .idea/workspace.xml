@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="First pass">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap issues">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,15 +93,7 @@
       <workItem from="1711590711763" duration="2122000" />
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
-      <workItem from="1716505005789" duration="4880000" />
-    </task>
-    <task id="LOCAL-00136" summary="An oopsie">
-      <option name="closed" value="true" />
-      <created>1710962558563</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1710962558563</updated>
+      <workItem from="1716505005789" duration="5384000" />
     </task>
     <task id="LOCAL-00137" summary="maybe maybe">
       <option name="closed" value="true" />
@@ -488,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716569954468</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="keymap issues">
+      <option name="closed" value="true" />
+      <created>1716570263166</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1716570263166</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some bad search and replace" />
     <MESSAGE value="reverse columns for right side" />
     <MESSAGE value="re-enable encoders" />
     <MESSAGE value="missed encoder status" />
@@ -575,7 +573,8 @@
     <MESSAGE value="disable logging" />
     <MESSAGE value="Added rgb effect keys" />
     <MESSAGE value="First pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="First pass" />
+    <MESSAGE value="keymap issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="keymap issues" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
