@@ -18,9 +18,9 @@
 			;
 };
 
-&right_encoder {
-	status = "okay";
-};
+//&right_encoder {
+//	status = "okay";
+//};
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -44,7 +44,7 @@
         };
     };
     spi1_sleep: sp10_sleep {
-        group1 {
+        group1 {                                          bb
             psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 8)>,
                 <NRF_PSEL(SPIM_MISO, 0, 8)>;
