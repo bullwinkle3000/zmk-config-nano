@@ -9,10 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="first pass at wylderbuilds_200">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,15 +96,7 @@
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="6342000" />
-      <workItem from="1716674051936" duration="1794000" />
-    </task>
-    <task id="LOCAL-00140" summary="logging back and remove miso from niceview">
-      <option name="closed" value="true" />
-      <created>1710983405582</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1710983405582</updated>
+      <workItem from="1716674051936" duration="2427000" />
     </task>
     <task id="LOCAL-00141" summary="trying leds on new pin">
       <option name="closed" value="true" />
@@ -490,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716675285303</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="encoders">
+      <option name="closed" value="true" />
+      <created>1716675878276</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1716675878276</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="encoders on row 0, thumbs" />
     <MESSAGE value="added RGB control keys" />
     <MESSAGE value="Swap home and mute" />
     <MESSAGE value="Added mouse layer" />
@@ -577,7 +576,8 @@
     <MESSAGE value="Parse error" />
     <MESSAGE value="kphome" />
     <MESSAGE value="first pass at wylderbuilds_200" />
-    <option name="LAST_COMMIT_MESSAGE" value="first pass at wylderbuilds_200" />
+    <MESSAGE value="encoders" />
+    <option name="LAST_COMMIT_MESSAGE" value="encoders" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
