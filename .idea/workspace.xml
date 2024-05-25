@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo and RGB keys">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
@@ -96,15 +98,7 @@
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="6342000" />
-      <workItem from="1716674051936" duration="2427000" />
-    </task>
-    <task id="LOCAL-00141" summary="trying leds on new pin">
-      <option name="closed" value="true" />
-      <created>1710984169378</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1710984169378</updated>
+      <workItem from="1716674051936" duration="2746000" />
     </task>
     <task id="LOCAL-00142" summary="Update keymap and layout">
       <option name="closed" value="true" />
@@ -490,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716675878276</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="typo and RGB keys">
+      <option name="closed" value="true" />
+      <created>1716676501539</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1716676501539</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added RGB control keys" />
     <MESSAGE value="Swap home and mute" />
     <MESSAGE value="Added mouse layer" />
     <MESSAGE value="New 4x6 setup" />
@@ -577,7 +578,8 @@
     <MESSAGE value="kphome" />
     <MESSAGE value="first pass at wylderbuilds_200" />
     <MESSAGE value="encoders" />
-    <option name="LAST_COMMIT_MESSAGE" value="encoders" />
+    <MESSAGE value="typo and RGB keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo and RGB keys" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
