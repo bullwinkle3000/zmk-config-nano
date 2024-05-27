@@ -9,12 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="led remnants">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
-    </list>
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="pass at info.json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,15 +92,7 @@
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="6342000" />
-      <workItem from="1716674051936" duration="7296000" />
-    </task>
-    <task id="LOCAL-00143" summary="Thumb row is row 0">
-      <option name="closed" value="true" />
-      <created>1711139297679</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1711139297679</updated>
+      <workItem from="1716674051936" duration="8052000" />
     </task>
     <task id="LOCAL-00144" summary="typos">
       <option name="closed" value="true" />
@@ -491,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716676819234</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="pass at info.json">
+      <option name="closed" value="true" />
+      <created>1716841773984</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841773984</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added mouse layer" />
     <MESSAGE value="New 4x6 setup" />
     <MESSAGE value="Trying with nice nano" />
     <MESSAGE value="trackball and led share spi" />
@@ -578,7 +572,8 @@
     <MESSAGE value="encoders" />
     <MESSAGE value="typo and RGB keys" />
     <MESSAGE value="led remnants" />
-    <option name="LAST_COMMIT_MESSAGE" value="led remnants" />
+    <MESSAGE value="pass at info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass at info.json" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
