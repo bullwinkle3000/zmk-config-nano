@@ -9,10 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders whacked 2 on 232 info.json">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap oddness on 232">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +96,6 @@
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
-    </task>
-    <task id="LOCAL-00141" summary="trying leds on new pin">
-      <option name="closed" value="true" />
-      <created>1710984169378</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1710984169378</updated>
     </task>
     <task id="LOCAL-00142" summary="Update keymap and layout">
       <option name="closed" value="true" />
@@ -489,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716850987375</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="keymap oddness on 232">
+      <option name="closed" value="true" />
+      <created>1716868347758</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1716868347758</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added RGB control keys" />
     <MESSAGE value="Swap home and mute" />
     <MESSAGE value="Added mouse layer" />
     <MESSAGE value="New 4x6 setup" />
@@ -576,7 +575,8 @@
     <MESSAGE value="pass 1 on 232 info.json" />
     <MESSAGE value="encoders whacked on 232 info.json" />
     <MESSAGE value="encoders whacked 2 on 232 info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="encoders whacked 2 on 232 info.json" />
+    <MESSAGE value="keymap oddness on 232" />
+    <option name="LAST_COMMIT_MESSAGE" value="keymap oddness on 232" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

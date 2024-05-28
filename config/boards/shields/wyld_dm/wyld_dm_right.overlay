@@ -11,19 +11,20 @@
     col-gpios
 			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
 			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
-            , <&gpio0 2  GPIO_ACTIVE_HIGH>  // 0.02
+            , <&gpio0  2  GPIO_ACTIVE_HIGH>  // 0.02
 			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
 			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
-			, <&gpio1 11 (GPIO_ACTIVE_HIGH )>  // 1.11
+			, <&gpio1 11  GPIO_ACTIVE_HIGH>  // 1.11
 			;
 
     row-gpios
             = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
-			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
-            , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
-			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
-        	, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.01
-            ;
+			, <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
+            , <&gpio1 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
+			, <&gpio1 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
+        	, <&gpio1 1  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.01
+            , <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // dummy row, not on n!n
+    ;
 };
 
 &right_encoder {
