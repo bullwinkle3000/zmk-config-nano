@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="keymap oddness and encoder fix 4 on 232">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="colemak on 232">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +94,6 @@
       <workItem from="1711646266065" duration="3702000" />
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
-    </task>
-    <task id="LOCAL-00144" summary="typos">
-      <option name="closed" value="true" />
-      <created>1711139573967</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1711139573967</updated>
     </task>
     <task id="LOCAL-00145" summary="typos galore">
       <option name="closed" value="true" />
@@ -489,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716923981113</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="colemak on 232">
+      <option name="closed" value="true" />
+      <created>1716939236330</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1716939236330</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New 4x6 setup" />
     <MESSAGE value="Trying with nice nano" />
     <MESSAGE value="trackball and led share spi" />
     <MESSAGE value="Another test" />
@@ -576,7 +573,8 @@
     <MESSAGE value="keymap oddness on 232" />
     <MESSAGE value="keymap oddness 2 on 232" />
     <MESSAGE value="keymap oddness and encoder fix 4 on 232" />
-    <option name="LAST_COMMIT_MESSAGE" value="keymap oddness and encoder fix 4 on 232" />
+    <MESSAGE value="colemak on 232" />
+    <option name="LAST_COMMIT_MESSAGE" value="colemak on 232" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
