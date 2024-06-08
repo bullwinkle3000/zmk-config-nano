@@ -13,4 +13,12 @@ if SHIELD_WYLD_DM_LEFT || SHIELD_WYLD_DM_RIGHT
 config ZMK_SPLIT
     default y
 
+config I2C
+    default y
+
+config GPIO_HOGS
+    default y
+
+config GPIO_HOGS_INIT_PRIORITY
+    default 99
 endif
