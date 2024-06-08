@@ -147,3 +147,17 @@
         triggers-per-rotation = <15>;
     };
 };
+
+&pro_micro_i2c {
+	status = "okay";
+
+	expander: mcp23017@20 {
+	    compatible = "microchip,mcp230xx";
+        status = "okay";
+        gpio-controller;
+        reg = <0x20>;
+        int-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
+        #gpio-cells = <2>;
+        ngpios = <16>;
+    };
+};

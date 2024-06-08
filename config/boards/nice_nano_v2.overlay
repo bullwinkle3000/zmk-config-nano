@@ -74,24 +74,19 @@
 //  };
 //};
 
-&pro_micro_i2c {
-	status = "okay";
-//    compatible = "nordic,nrf-twi";
-//    pinctrl-0 = <&i2c0_default>;
-//    pinctrl-1 = <&i2c0_sleep>;
-//    pinctrl-names = "default", "sleep";
-
-	expander: mcp23017@20 {
-	    compatible = "microchip,mcp230xx";
-        status = "okay";
-        gpio-controller;
-        reg = <0x20>;
-        int-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
-        #gpio-cells = <2>;
-        ngpios = <16>;
-    };
-
-};
+//&pro_micro_i2c {
+//	status = "okay";
+//
+//	expander: mcp23017@20 {
+//	    compatible = "microchip,mcp230xx";
+//        status = "okay";
+//        gpio-controller;
+//        reg = <0x20>;
+//        int-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
+//        #gpio-cells = <2>;
+//        ngpios = <16>;
+//    };
+//};
 
 //&spi0 {
 //    compatible = "nordic,nrf-spim";
