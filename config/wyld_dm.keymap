@@ -24,25 +24,25 @@
 
 //# 4x6 with encoders
 / {
-    behaviors {
-        rgb_encoder_bright: rgb_encoder_bright {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
-        };
-
-        rgb_encoder_hue: rgb_encoder_hue {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
-        };
-    };
+//    behaviors {
+//        rgb_encoder_bright: rgb_encoder_bright {
+//            compatible = "zmk,behavior-sensor-rotate";
+//            #sensor-binding-cells = <0>;
+//            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+//        };
+//
+//        rgb_encoder_hue: rgb_encoder_hue {
+//            compatible = "zmk,behavior-sensor-rotate";
+//            #sensor-binding-cells = <0>;
+//            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
+//        };
+//    };
 
 	keymap {
 		compatible = "zmk,keymap";
 
 		default_layer {
-			display-name = "QWERTY";
+//			display-name = "QWERTY";
 
 			bindings = <
                     &kp ESC   &kp N1    &kp N2   &kp N3     &kp N4     &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0   &kp MINUS
@@ -57,7 +57,7 @@
 		};
 
         colemak_layer {
-			display-name = "COLEMAK";
+//			display-name = "COLEMAK";
 
 			bindings = <
                     &kp ESC   &kp N1    &kp N2   &kp N3     &kp N4     &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0   &kp MINUS
@@ -72,7 +72,7 @@
 		};
 
 		lower_layer {
-			display-name = "LOWER";
+//			display-name = "LOWER";
 
 			bindings = <
                     &trans       &kp F1            &kp F2             &kp F3          &kp F4             &kp F5                     &kp F6     &kp F7    &kp F8           &kp F9    &kp F10   &kp F11
@@ -83,12 +83,12 @@
                                                                                                          &rgb_ug RGB_TOG
 			>;
 
-			sensor-bindings = <&rgb_encoder_bright &rgb_encoder_hue>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
 		};
 
 		raise_layer {
-			display-name = "RAISE";
+//			display-name = "RAISE";
 
 			bindings = <
                     &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                    &out OUT_BLE &out OUT_USB  &trans        &trans     &trans     &trans
@@ -103,7 +103,7 @@
 		};
 
         mouse_layer {
-			display-name = "MOUSE";
+//			display-name = "MOUSE";
 
 			bindings = <
                     &trans  &trans  &trans  &trans     &trans     &trans                        &trans  &trans     &trans     &trans  &trans  &trans
@@ -119,8 +119,8 @@
 	};
 };
 
-&led_strip {
-    chain-length = <88>;
-};
+//&led_strip {
+//    chain-length = <88>;
+//};
 
 
