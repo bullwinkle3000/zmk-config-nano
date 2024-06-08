@@ -9,11 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="row2col">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="i2c attempt">
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,15 +95,7 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
       <workItem from="1717606584538" duration="4065000" />
-      <workItem from="1717793301301" duration="19476000" />
-    </task>
-    <task id="LOCAL-00156" summary="adjustments ok">
-      <option name="closed" value="true" />
-      <created>1711152724997</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152724998</updated>
+      <workItem from="1717793301301" duration="19797000" />
     </task>
     <task id="LOCAL-00157" summary="row tweaks">
       <option name="closed" value="true" />
@@ -493,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717869441787</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="i2c attempt">
+      <option name="closed" value="true" />
+      <created>1717886932699</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1717886932699</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
     <MESSAGE value="disable logging" />
     <MESSAGE value="Added rgb effect keys" />
@@ -580,7 +575,8 @@
     <MESSAGE value="expander only" />
     <MESSAGE value="old config" />
     <MESSAGE value="row2col" />
-    <option name="LAST_COMMIT_MESSAGE" value="row2col" />
+    <MESSAGE value="i2c attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="i2c attempt" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
