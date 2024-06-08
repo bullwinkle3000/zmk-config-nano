@@ -9,16 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="colemak on 232">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try 1 00249 oled expander">
       <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/Kconfig.defconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,15 +95,7 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
       <workItem from="1717606584538" duration="4065000" />
-      <workItem from="1717793301301" duration="6285000" />
-    </task>
-    <task id="LOCAL-00145" summary="typos galore">
-      <option name="closed" value="true" />
-      <created>1711139987779</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1711139987780</updated>
+      <workItem from="1717793301301" duration="6660000" />
     </task>
     <task id="LOCAL-00146" summary="4 key trackball cluster, reworked rows, updated info.json">
       <option name="closed" value="true" />
@@ -497,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716939236330</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Try 1 00249 oled expander">
+      <option name="closed" value="true" />
+      <created>1717853149622</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1717853149622</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying with nice nano" />
     <MESSAGE value="trackball and led share spi" />
     <MESSAGE value="Another test" />
     <MESSAGE value="maybe" />
@@ -584,7 +575,8 @@
     <MESSAGE value="keymap oddness 2 on 232" />
     <MESSAGE value="keymap oddness and encoder fix 4 on 232" />
     <MESSAGE value="colemak on 232" />
-    <option name="LAST_COMMIT_MESSAGE" value="colemak on 232" />
+    <MESSAGE value="Try 1 00249 oled expander" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try 1 00249 oled expander" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
