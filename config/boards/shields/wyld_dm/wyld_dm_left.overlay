@@ -50,17 +50,17 @@
     };
 };
 
-nice_view_spi: &spi0 {
-    compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi0_default>;
-    pinctrl-1 = <&spi0_sleep>;
-    pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
-};
-
-/ {
-    chosen {
-        zephyr,display = &nice_view;
-    };
-};
+//nice_view_spi: &spi0 {
+//    compatible = "nordic,nrf-spim";
+//    pinctrl-0 = <&spi0_default>;
+//    pinctrl-1 = <&spi0_sleep>;
+//    pinctrl-names = "default", "sleep";
+//    cs-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
+//};
+//
+/// {
+//    chosen {
+//        zephyr,display = &nice_view;
+//    };
+//};
 
