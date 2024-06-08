@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try 4 00249 spi1">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Try 4 00249 spi2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,15 +96,7 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
       <workItem from="1717606584538" duration="4065000" />
-      <workItem from="1717793301301" duration="8444000" />
-    </task>
-    <task id="LOCAL-00150" summary="adjustments">
-      <option name="closed" value="true" />
-      <created>1711150682060</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1711150682060</updated>
+      <workItem from="1717793301301" duration="9113000" />
     </task>
     <task id="LOCAL-00151" summary="adjustments 2">
       <option name="closed" value="true" />
@@ -491,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717854798693</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Try 4 00249 spi2">
+      <option name="closed" value="true" />
+      <created>1717855288309</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1717855288309</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cat 2" />
     <MESSAGE value="Updated keymap and set underglow to overall conf" />
     <MESSAGE value="dropped a row" />
     <MESSAGE value="wrong  trackball setup and updated keymap" />
@@ -578,7 +576,8 @@
     <MESSAGE value="Try 3 00249 typos" />
     <MESSAGE value="Try 4 00249 nice view" />
     <MESSAGE value="Try 4 00249 spi1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try 4 00249 spi1" />
+    <MESSAGE value="Try 4 00249 spi2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try 4 00249 spi2" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
