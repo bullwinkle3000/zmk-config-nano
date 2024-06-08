@@ -83,7 +83,7 @@
 
         led_disable {
             gpio-hog;
-            gpios = <35 GPIO_ACTIVE_HIGH>;
+            gpios = <45 GPIO_ACTIVE_HIGH>;
             output-high;
         };
     };
