@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="defconfig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="pinctrl">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,15 +95,7 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
       <workItem from="1717606584538" duration="4065000" />
-      <workItem from="1717793301301" duration="22995000" />
-    </task>
-    <task id="LOCAL-00162" summary="missed encoder status">
-      <option name="closed" value="true" />
-      <created>1711561463518</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1711561463518</updated>
+      <workItem from="1717793301301" duration="23306000" />
     </task>
     <task id="LOCAL-00163" summary="encoders on row 0, thumbs">
       <option name="closed" value="true" />
@@ -490,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717889645372</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="pinctrl">
+      <option name="closed" value="true" />
+      <created>1717890498964</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1717890498964</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="keymap issues" />
     <MESSAGE value="Parse error" />
     <MESSAGE value="pass 1 on 232 info.json" />
     <MESSAGE value="encoders whacked on 232 info.json" />
@@ -577,7 +575,8 @@
     <MESSAGE value="i2c attempt 3" />
     <MESSAGE value="i2c attempt 4" />
     <MESSAGE value="defconfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="defconfig" />
+    <MESSAGE value="pinctrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="pinctrl" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
