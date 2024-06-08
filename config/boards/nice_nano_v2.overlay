@@ -76,7 +76,7 @@
         gpio-controller;
         spi-max-frequency = <800000>;
         reg = <0>;
-        label = "MCP23S17";
+//        label = "MCP23S17";
         #gpio-cells = <2>;
         ngpios = <16>;
         int-gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;

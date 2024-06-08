@@ -78,7 +78,7 @@
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
+//        label = "KSCAN";
         diode-direction = "col2row";
 
 		// expander pins
@@ -125,7 +125,7 @@
 
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
-		label = "LEFT_ENCODER";
+//		label = "LEFT_ENCODER";
 		a-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
@@ -134,7 +134,7 @@
 
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
-		label = "RIGHT_ENCODER";
+//		label = "RIGHT_ENCODER";
 		a-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
@@ -154,7 +154,7 @@
 	oled: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
 		reg = <0x3c>;
-		label = "DISPLAY";
+//		label = "DISPLAY";
 		width = <128>;
 		height = <32>;
 		segment-offset = <0>;
