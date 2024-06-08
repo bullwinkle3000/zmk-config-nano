@@ -1,6 +1,6 @@
 //#include <dt-bindings/led/led.h>
 
-&pinctrl {
+//&pinctrl {
 //    spi3_default: spi3_default {
 //        group1 {
 //            psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
@@ -32,22 +32,22 @@
 //        };
 //    };
 
-    i2c0_default: i2c0_default {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
-                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
-
-        };
-    };
-
-    i2c0_sleep: i2c0_sleep {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
-                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
-            low-power-enable;
-        };
-    };
-};
+//    i2c0_default: i2c0_default {
+//        group1 {
+//            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+//                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+//
+//        };
+//    };
+//
+//    i2c0_sleep: i2c0_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+//                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+//            low-power-enable;
+//        };
+//    };
+//};
 
 //&spi3 {
 //  compatible = "nordic,nrf-spim";
@@ -76,10 +76,10 @@
 
 &pro_micro_i2c {
 	status = "okay";
-    compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
+//    compatible = "nordic,nrf-twi";
+//    pinctrl-0 = <&i2c0_default>;
+//    pinctrl-1 = <&i2c0_sleep>;
+//    pinctrl-names = "default", "sleep";
 
 	expander: mcp23017@20 {
 	    compatible = "microchip,mcp230xx";
