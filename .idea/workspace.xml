@@ -9,8 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="old config">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="row2col">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wylderbuilds_00249" />
+        <entry key="$PROJECT_DIR$" value="nano_expander" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +50,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "nano__expander",
+    "git-widget-placeholder": "i2c__expander",
     "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -95,15 +99,7 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="5715000" />
       <workItem from="1717606584538" duration="4065000" />
-      <workItem from="1717793301301" duration="15763000" />
-    </task>
-    <task id="LOCAL-00155" summary="adjustments eh?">
-      <option name="closed" value="true" />
-      <created>1711152570036</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152570037</updated>
+      <workItem from="1717793301301" duration="19476000" />
     </task>
     <task id="LOCAL-00156" summary="adjustments ok">
       <option name="closed" value="true" />
@@ -489,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717868583943</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="row2col">
+      <option name="closed" value="true" />
+      <created>1717869441787</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1717869441787</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wiring off in layouts" />
     <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
     <MESSAGE value="disable logging" />
@@ -576,7 +579,8 @@
     <MESSAGE value="Wrong pin for expander led" />
     <MESSAGE value="expander only" />
     <MESSAGE value="old config" />
-    <option name="LAST_COMMIT_MESSAGE" value="old config" />
+    <MESSAGE value="row2col" />
+    <option name="LAST_COMMIT_MESSAGE" value="row2col" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
@@ -647,10 +651,14 @@
     {
       "branch": "nano_expander",
       "currentBranchFilter": true
+    },
+    {
+      "branch": "i2c_expander",
+      "currentBranchFilter": true
     }
   ],
   "lastFilter": {
-    "branch": "nano_expander",
+    "branch": "i2c_expander",
     "currentBranchFilter": true
   }
 }]]></component>

@@ -79,7 +79,7 @@
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
 //        label = "KSCAN";
-        diode-direction = "row2col";
+        diode-direction = "col2row";
 
 		// expander pins
 		row-gpios
@@ -89,7 +89,7 @@
         , <&expander 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         , <&expander 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         , <&expander 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
 
         // PILLBUG PINS

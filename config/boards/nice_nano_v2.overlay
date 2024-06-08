@@ -16,18 +16,34 @@
 //        };
 //    };
 
-    spi0_default: spi0_default {
+//    spi0_default: spi0_default {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 1, 0)>,
+//                <NRF_PSEL(SPIM_MISO, 0, 22)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 24)>;
+//        };
+//    };
+//    spi0_sleep: spi0_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 1, 0)>,
+//                <NRF_PSEL(SPIM_MISO, 0, 22)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 24)>;
+//            low-power-enable;
+//        };
+//    };
+
+    i2c0_default: i2c0_default {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 0)>,
-                <NRF_PSEL(SPIM_MISO, 0, 22)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 24)>;
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,  // 0.4
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;  // 0.5
+
         };
     };
-    spi0_sleep: spi0_sleep {
+
+    i2c0_sleep: i2c0_sleep {
         group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 0)>,
-                <NRF_PSEL(SPIM_MISO, 0, 22)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 24)>;
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                <NRF_PSEL(TWIM_SCL, 0, 20)>;
             low-power-enable;
         };
     };
@@ -58,36 +74,55 @@
 //  };
 //};
 
-&spi0 {
-    compatible = "nordic,nrf-spim";
-    status = "okay";
-
-    pinctrl-0 = <&spi0_default>;
-    pinctrl-1 = <&spi0_sleep>;
+&i2c0 {
+	status = "okay";
+    compatible = "nordic,nrf-twi";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
 
-    cs-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
-    //    &xiao_d 1 GPIO_ACTIVE_LOW
-    //    &xiao_d 0 GPIO_ACTIVE_HIGH>;
-
-    expander: mcp23sxx@0 {
-        compatible = "microchip,mcp23sxx";
+	expander: mcp23017@20 {
+	    compatible = "microchip,mcp230xx";
         status = "okay";
         gpio-controller;
-        spi-max-frequency = <800000>;
-        reg = <0>;
-//        label = "MCP23S17";
+        reg = <0x20>;
+        int-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
         #gpio-cells = <2>;
         ngpios = <16>;
-        int-gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
-
-        led_disable {
-            gpio-hog;
-            gpios = <45 GPIO_ACTIVE_HIGH>;
-            output-high;
-        };
     };
+
 };
+
+//&spi0 {
+//    compatible = "nordic,nrf-spim";
+//    status = "okay";
+//
+//    pinctrl-0 = <&spi0_default>;
+//    pinctrl-1 = <&spi0_sleep>;
+//    pinctrl-names = "default", "sleep";
+//
+//    cs-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
+//    //    &xiao_d 1 GPIO_ACTIVE_LOW
+//    //    &xiao_d 0 GPIO_ACTIVE_HIGH>;
+//
+//    expander: mcp23sxx@0 {
+//        compatible = "microchip,mcp23sxx";
+//        status = "okay";
+//        gpio-controller;
+//        spi-max-frequency = <800000>;
+//        reg = <0>;
+////        label = "MCP23S17";
+//        #gpio-cells = <2>;
+//        ngpios = <16>;
+//        int-gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
+//
+//        led_disable {
+//            gpio-hog;
+//            gpios = <45 GPIO_ACTIVE_HIGH>;
+//            output-high;
+//        };
+//    };
+//};
 
 /// {
 //    chosen {
@@ -119,6 +154,6 @@
     status = "disabled";
 };
 
-&pro_micro_i2c {
-    status = "disabled";
-};
+//&pro_micro_i2c {
+//    status = "disabled";
+//};
