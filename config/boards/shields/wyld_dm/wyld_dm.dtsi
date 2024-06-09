@@ -83,13 +83,14 @@
 
 		// expander pins
 		row-gpios
-        = <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&expander 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&expander 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&expander 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&expander 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+
         ;
 
         // PILLBUG PINS
