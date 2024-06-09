@@ -83,13 +83,13 @@
 
 		// expander pins
 		row-gpios
-        = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		= <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&expander 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 
         ;
 
@@ -172,6 +172,7 @@
 	status = "okay";
 
     compatible = "nordic,nrf-twi";
+	clock-frequency = <I2C_BITRATE_FAST>;
 
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
@@ -182,8 +183,8 @@
         status = "okay";
         gpio-controller;
         reg = <0x20>;
-        int-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
+        int-gpios = <&gpio1 0 (GPIO_ACTIVE_LOW)>;
         #gpio-cells = <2>;
         ngpios = <16>;
-    };
+    };888888888
 };
