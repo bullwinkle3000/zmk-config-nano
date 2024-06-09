@@ -1,21 +1,21 @@
-#include <dt-bindings/led/led.h>
+//#include <dt-bindings/led/led.h>
 
 &pinctrl {
-    spi3_default: spi3_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 11)>;
-        };
-    };
-
-    spi3_sleep: spi3_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 11)>;
-            low-power-enable;
-        };
-    };
-
+//    spi3_default: spi3_default {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 11)>;
+//        };
+//    };
+//
+//    spi3_sleep: spi3_sleep {
+//        group1 {
+//            psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
+//                <NRF_PSEL(SPIM_MOSI, 0, 11)>;
+//            low-power-enable;
+//        };
+//    };
+//
     spi2_default: spi2_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 0)>,
@@ -32,31 +32,31 @@
         };
     };
 };
-
-&spi3 {
-  compatible = "nordic,nrf-spim";
-  status = "okay";
-
-  pinctrl-0 = <&spi3_default>;
-  pinctrl-1 = <&spi3_sleep>;
-  pinctrl-names = "default", "sleep";
-
-  led_strip: ws2812@0 {
-    compatible = "worldsemi,ws2812-spi";
-
-    /* SPI */
-    reg = <0>; /* ignored, but necessary for SPI bindings */
-    spi-max-frequency = <4000000>;
-
-    /* WS2812 */
-    chain-length = <88>; /* number of LEDs */
-    spi-one-frame = <0x70>;
-    spi-zero-frame = <0x40>;
-    color-mapping = <LED_COLOR_ID_GREEN
-                          LED_COLOR_ID_RED
-                          LED_COLOR_ID_BLUE>;
-  };
-};
+//
+//&spi3 {
+//  compatible = "nordic,nrf-spim";
+//  status = "okay";
+//
+//  pinctrl-0 = <&spi3_default>;
+//  pinctrl-1 = <&spi3_sleep>;
+//  pinctrl-names = "default", "sleep";
+//
+//  led_strip: ws2812@0 {
+//    compatible = "worldsemi,ws2812-spi";
+//
+//    /* SPI */
+//    reg = <0>; /* ignored, but necessary for SPI bindings */
+//    spi-max-frequency = <4000000>;
+//
+//    /* WS2812 */
+//    chain-length = <88>; /* number of LEDs */
+//    spi-one-frame = <0x70>;
+//    spi-zero-frame = <0x40>;
+//    color-mapping = <LED_COLOR_ID_GREEN
+//                          LED_COLOR_ID_RED
+//                          LED_COLOR_ID_BLUE>;
+//  };
+//};
 
 &spi2 {
     compatible = "nordic,nrf-spim";
@@ -66,8 +66,8 @@
     pinctrl-1 = <&spi2_sleep>;
     pinctrl-names = "default", "sleep";
 
-    cs-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
-    //    &xiao_d 1 GPIO_ACTIVE_LOW
+    cs-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;
+//                &gpio0 29 GPIO_ACTIVE_LOW>;
     //    &xiao_d 0 GPIO_ACTIVE_HIGH>;
 
     expander: mcp23sxx@0 {
@@ -81,39 +81,39 @@
         ngpios = <16>;
         int-gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
 
-        led_disable {
-            gpio-hog;
-            gpios = <45 GPIO_ACTIVE_HIGH>;
-            output-high;
-        };
+//        led_disable {
+//            gpio-hog;
+//            gpios = <45 GPIO_ACTIVE_HIGH>;
+//            output-high;
+//        };
     };
 };
 
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-};
+/// {
+//    chosen {
+//        zmk,underglow = &led_strip;
+//    };
+//};
 
-&pro_micro_i2c {
-	status = "okay";
-
-	oled: ssd1306@3c {
-		compatible = "solomon,ssd1306fb";
-		reg = <0x3c>;
-		label = "DISPLAY";
-		width = <128>;
-		height = <32>;
-		segment-offset = <0>;
-		page-offset = <0>;
-		display-offset = <0>;
-		multiplex-ratio = <31>;
-		segment-remap;
-		com-invdir;
-		com-sequential;
-		prechargep = <0x22>;
-	};
-};
+//&pro_micro_i2c {
+//	status = "okay";
+//
+//	oled: ssd1306@3c {
+//		compatible = "solomon,ssd1306fb";
+//		reg = <0x3c>;
+//		label = "DISPLAY";
+//		width = <128>;
+//		height = <32>;
+//		segment-offset = <0>;
+//		page-offset = <0>;
+//		display-offset = <0>;
+//		multiplex-ratio = <31>;
+//		segment-remap;
+//		com-invdir;
+//		com-sequential;
+//		prechargep = <0x22>;
+//	};
+//};
 
 &pro_micro_serial {
     status = "disabled";
