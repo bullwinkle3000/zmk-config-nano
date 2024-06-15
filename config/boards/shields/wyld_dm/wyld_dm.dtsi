@@ -79,19 +79,20 @@
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
 //        label = "KSCAN";
-        diode-direction = "col2row";
+        diode-direction = "row2col";
 
+		// HAD TO CHANGE TO ROW2COL WITH THIS SETUP FOR THE KEY MATRIX TO WORK.
 		// expander pins
 		row-gpios
-		= <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-		, <&expander 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		= <&expander 7 (GPIO_ACTIVE_LOW)>
+		, <&expander 9 (GPIO_ACTIVE_LOW)>
+		, <&expander 10 (GPIO_ACTIVE_LOW)>
+		, <&expander 11 (GPIO_ACTIVE_LOW)>
+		, <&expander 12 (GPIO_ACTIVE_LOW)>
+		, <&expander 13 (GPIO_ACTIVE_LOW)>
+		, <&expander 14 (GPIO_ACTIVE_LOW)>
+		;
 
-        ;
 
         // PILLBUG PINS
 //        row-gpios
