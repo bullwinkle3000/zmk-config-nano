@@ -9,16 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="expander and sensor working">
-      <change afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/pmw3610.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="getting there">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +99,6 @@
       <workItem from="1717606584538" duration="4065000" />
       <workItem from="1717793301301" duration="10518000" />
       <workItem from="1718294714616" duration="1275000" />
-    </task>
-    <task id="LOCAL-00153" summary="adjustments 999">
-      <option name="closed" value="true" />
-      <created>1711152295819</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152295819</updated>
     </task>
     <task id="LOCAL-00154" summary="adjustments 9999">
       <option name="closed" value="true" />
@@ -499,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717967269760</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="getting there">
+      <option name="closed" value="true" />
+      <created>1718551713881</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1718551713881</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wrong  trackball setup and updated keymap" />
     <MESSAGE value="Right cluster backwards" />
     <MESSAGE value="wiring off in layouts" />
     <MESSAGE value="typos" />
@@ -598,7 +590,8 @@
     <MESSAGE value="Try 4 00249 spi2" />
     <MESSAGE value="Try 6 00249 enable logging" />
     <MESSAGE value="expander and sensor working" />
-    <option name="LAST_COMMIT_MESSAGE" value="expander and sensor working" />
+    <MESSAGE value="getting there" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting there" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
