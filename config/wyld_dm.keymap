@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/led/led.h>
-#include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
 
 // triggering build
 
@@ -23,21 +23,22 @@
 #define MOUSE 4
 
 / {
-	/* assign `input-listener` to all pointing devices */
-	/* &pd0 on central, &pd1 on peripheral */
+    /* assign `input-listener` to all pointing devices */
+    /* &pd0 on central, &pd1 on peripheral */
 
     trackball_central_listener {
         compatible = "zmk,input-listener";
         device = <&pd0>;
-	};
+    };
 
     trackball_peripheral_listener {
         compatible = "zmk,input-listener";
         device = <&pd1>;
-	};
+    };
 };
 
 //# 4x6 with encoders
+
 / {
     behaviors {
         rgb_encoder_bright: rgb_encoder_bright {
@@ -53,75 +54,69 @@
         };
     };
 
-	keymap {
-		compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
             display-name = "QWERTY";
-			bindings = <
-&kp ESC   &kp F1    &kp F2   &kp F3   &kp F4   &kp F5   &kp F6                     &kp F7 &kp F8   &kp F9    &kp F10  &kp F11  &kp F12    &kp BSPC
-&trans    &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9   &kp N0   &kp LBKT   &kp RBKT
-&trans    &kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O    &kp P    &kp MINUS  &trans
-&trans    &kp LCTRL &kp A    &kp S    &kp D    &kp F    &kp G &kp K_MUTE &kp HOME  &kp H  &kp J    &kp K     &kp L    &kp SEMI &kp SQT    &kp BSLH
-&trans    &kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B                      &kp N  &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT  &trans
-&trans    &kp LCTRL &kp LGUI &kp LBKT &kp RBKT                                                     &kp EQUAL &kp RGUI &kp RALT &kp RCTRL  &trans
-                                   &mo 1 &kp SPACE &kp BSPC &kp TAB          &kp RALT &kp RCTRL &kp ENTER  &mo 2
+            bindings = <
+&kp ESC  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5    &kp F6                           &kp F7    &kp F8     &kp F9     &kp F10   &kp F11   &kp F12           &kp BSPC
+&trans   &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4    &kp N5                           &kp N6    &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS         &kp EQUAL
+&trans   &kp TAB    &kp Q     &kp W     &kp E      &kp R     &kp T                            &kp Y     &kp U      &kp I      &kp O     &kp P     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans   &kp CAPS   &kp A     &kp S     &kp D      &kp F     &kp G    &kp K_MUTE    &kp HOME  &kp H     &kp J      &kp K      &kp L     &kp SEMI  &kp SQT           &kp BSLH
+&trans   &kp LSHFT  &kp Z     &kp X     &kp C      &kp V     &kp B                            &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT         &trans
+&trans   &kp LCTRL  &kp LGUI  &kp LBKT  &kp RBKT                                                                   &kp EQUAL  &kp RGUI  &kp RALT  &kp RCTRL         &trans
+                              &mo 1     &kp SPACE  &kp BSPC  &kp TAB                          &kp RALT  &kp RCTRL  &kp ENTER  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
-		};
+        };
 
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&bt BT_CLR &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3 &bt BT_SEL 4  &out OUT_BLE                      &out OUT_USB &trans    &trans           &trans   &trans    &trans   &trans
-&sys_reset &kp GRAVE         &kp EXCL           &kp AT             &kp HASH     &kp DOLLAR    &kp PRCNT                         &kp CARET    &kp AMPS  &kp KP_MULTIPLY  &kp LPAR &kp RPAR  &trans   &sys_reset
-&trans     &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &bootloader  &trans        &trans                            &trans       &kp MINUS &kp KP_PLUS      &kp LBRC &kp RBRC  &kp PIPE &trans
-&trans     &trans            &trans             &trans             &trans       &trans        &trans  &rgb_ug RGB_TOG  &trans   &trans       &trans    &trans           &trans   &trans    &trans   &trans
-&trans     &trans            &trans             &trans             &trans       &trans        &trans                            &trans       &trans    &trans           &trans   &trans    &trans   &trans
-&bootloader &trans           &trans             &trans             &trans                                                                              &trans           &trans   &trans    &trans   &bootloader
-                                                                           &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans
+&bt BT_CLR   &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_BLE                             &out OUT_USB  &trans     &trans           &trans    &trans    &trans    &trans
+&sys_reset   &kp GRAVE         &kp EXCL           &kp AT             &kp HASH      &kp DOLLAR    &kp PRCNT                                &kp CARET     &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans    &sys_reset
+&trans       &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &bootloader   &trans        &trans                                   &trans        &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE  &trans
+&trans       &trans            &trans             &trans             &trans        &trans        &trans        &rgb_ug RGB_TOG    &trans  &trans        &trans     &trans           &trans    &trans    &trans    &trans
+&trans       &trans            &trans             &trans             &trans        &trans        &trans                                   &trans        &trans     &trans           &trans    &trans    &trans    &trans
+&bootloader  &trans            &trans             &trans             &trans                                                                                        &trans           &trans    &trans    &trans    &bootloader
+                                                  &trans             &trans        &trans        &trans                                   &trans        &trans     &trans           &trans
             >;
 
-			sensor-bindings = <&rgb_encoder_bright &rgb_encoder_hue>;
+            sensor-bindings = <&rgb_encoder_bright &rgb_encoder_hue>;
+        };
 
-		};
-
-		raise_layer {
-                    display-name = "RAISE";
-			bindings = <
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &kp RBKT  &kp KP_N7  &kp KP_N8  &kp KP_N9    &kp KP_DIVIDE   &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &kp LBKT                   &kp RPAR  &kp KP_N4  &kp KP_N5  &kp KP_N6    &kp KP_MULTIPLY &trans  &trans
-&trans    &trans  &kp LEFT  &kp DOWN &kp UP  &kp RIGHT &kp LPAR  &trans  &trans   &trans    &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp KP_MINUS    &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &kp KP_N0  &kp KP_DOT &kp KP_EQUAL &kp KP_PLUS     &trans  &trans
-&trans    &trans  &trans    &trans   &trans                                                            &trans     &trans        &trans         &trans  &trans
-                                   &trans &trans   &trans   &trans             &trans &trans     &trans    &trans
-			>;
+        raise_layer {
+            display-name = "RAISE";
+            bindings = <
+&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &trans     &trans      &trans        &trans           &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &kp RBKT  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_DIVIDE    &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans     &kp LBKT                    &kp RPAR  &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MULTIPLY  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LPAR  &trans    &trans  &trans    &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_MINUS     &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &kp KP_N0  &kp KP_DOT  &kp KP_EQUAL  &kp KP_PLUS      &trans  &trans
+&trans  &trans  &trans    &trans    &trans                                                              &trans      &trans        &trans           &trans  &trans
+                          &trans    &trans  &trans     &trans                      &trans    &trans     &trans      &trans
+            >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
-		};
+        };
 
         mouse_layer {
-			display-name = "MOUSE";
-
-			bindings = <
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans  &trans    &trans   &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans  &trans    &trans                     &trans    &trans     &trans     &trans       &trans          &trans  &trans
-&trans    &trans  &trans    &trans   &trans                                                            &trans     &trans       &trans          &trans  &trans
-                                      &trans &trans   &trans   &trans             &trans &trans     &trans    &trans
+            display-name = "MOUSE";
+            bindings = <
+&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans    &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans                                                                &trans     &trans     &trans  &trans  &trans
+                        &trans     &mkp LCLK  &mkp MCLK  &mkp LCLK                    &trans  &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
-		};
-	};
+        };
+    };
 };
 
-&led_strip {
-    chain-length = <88>;
-};
-
-
+&led_strip { chain-length = <88>; };
