@@ -35,17 +35,67 @@
 
 
 
-//nice_view_spi: &spi0 {
-//    compatible = "nordic,nrf-spim";
-//    pinctrl-0 = <&spi0_default>;
-//    pinctrl-1 = <&spi0_sleep>;
-//    pinctrl-names = "default", "sleep";
-//    cs-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
-//};
-//
-/// {
-//    chosen {
-//        zephyr,display = &nice_view;
-//    };
-//};
+&pinctrl {
+	spi1_default: spi1_default {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+					<NRF_PSEL(SPIM_MISO, 0, 8)>;
+		};
+	};
+
+	spi1_sleep: spi1_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+					<NRF_PSEL(SPIM_MISO, 0, 8)>;
+			low-power-enable;
+		};
+	};
+
+};
+
+
+&spi1 {
+	compatible = "nordic,nrf-spim";
+	status = "okay";
+
+	pinctrl-0 = <&spi1_default>;
+	pinctrl-1 = <&spi1_sleep>;
+	pinctrl-names = "default", "sleep";
+	cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
+
+	pd0: pd@0 {
+		status = "okay";
+		compatible = "pixart,pmw3610";
+		reg = <0>;
+		spi-max-frequency = <2000000>;
+		irq-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		cpi = <1200>;
+		evt-type = <INPUT_EV_REL>;
+		x-input-code = <INPUT_REL_X>;
+		y-input-code = <INPUT_REL_Y>;
+	};
+};
+
+
+/ {
+	pd1: virtual_input {
+		compatible = "zmk,virtual-input";
+	};
+
+	/* for peripheral side, define (input-device)-to-(relay-channel) mapping */
+	input_relay_config_102 {
+		compatible = "zmk,split-peripheral-input-relay";
+
+		/* peripheral side input device, used to be intecepted and be resurrected on central */
+		device = <&pd0>;
+
+		/* channel id, used to annotate raw input event */
+		/* NOTE: should matching relay-channel on central overlay */
+		relay-channel = <102>;
+	};
+};
+
+
 
