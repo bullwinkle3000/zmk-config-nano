@@ -56,13 +56,13 @@
             x-input-code = <INPUT_REL_X>;
             y-input-code = <INPUT_REL_Y>;
             scale-multiplier = <1>;
-            scale-divisor = <1>;
+            scale-divisor = <3>;
 
             /* bind a behavior to auto activate MSK layer for &mkp */
             bindings = <&ib_tog_layer MOUSE>;
 
             /* align to CCW 45 degree */
-            /* rotate-deg = <315>; */
+            /* rotate-deg = <180>; */
             /* NOTE 1: This settings do not compatible with y-invert and x-invert */
             /* NOTE 2: Floating point computation requires alot of ram. */
             /*         This feature will cause stackoverflow with CONFIG_ZMK_USB_LOGGING=y */
@@ -78,6 +78,7 @@
             /* slienting x-axis with alt event code */
             x-input-code = <INPUT_REL_MISC>;
             y-input-code = <INPUT_REL_WHEEL>;
+            scale-divisor = <16>;
 
             /* invent scrolling direction */
             y-invert;
@@ -92,7 +93,7 @@
             /* NOTE: This behavior is different to scale-divisor. */
             /*       The delta value is accumlated until result >= 1 after cast. */
             /*       The scrolling is preented in hi-res and allow precise scrolling */
-            bindings = <&ib_wheel_scaler 1 8>;
+            /* bindings = <&ib_wheel_scaler 1 8>; */
     };
 
     /* adjust cooldown waiting period for mouse key layer (MSK) after activated */

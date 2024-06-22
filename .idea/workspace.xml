@@ -9,9 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Copied from badjeff setup">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo led to no scrolling from left side, working now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,15 +114,7 @@
       <workItem from="1717606584538" duration="4065000" />
       <workItem from="1717793301301" duration="10518000" />
       <workItem from="1718397491177" duration="4056000" />
-      <workItem from="1718993681342" duration="3841000" />
-    </task>
-    <task id="LOCAL-00154" summary="adjustments 9999">
-      <option name="closed" value="true" />
-      <created>1711152416908</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152416908</updated>
+      <workItem from="1718993681342" duration="9123000" />
     </task>
     <task id="LOCAL-00155" summary="adjustments eh?">
       <option name="closed" value="true" />
@@ -506,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718748931183</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="typo led to no scrolling from left side, working now.">
+      <option name="closed" value="true" />
+      <created>1718998773203</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1718998773204</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Right cluster backwards" />
     <MESSAGE value="wiring off in layouts" />
     <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
@@ -593,7 +594,8 @@
     <MESSAGE value="Try 6 00249 enable logging" />
     <MESSAGE value="getting there" />
     <MESSAGE value="Copied from badjeff setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copied from badjeff setup" />
+    <MESSAGE value="typo led to no scrolling from left side, working now." />
+    <option name="LAST_COMMIT_MESSAGE" value="typo led to no scrolling from left side, working now." />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
