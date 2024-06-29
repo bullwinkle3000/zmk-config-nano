@@ -11,7 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="mebbe 99">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wylderbuilds_00232" />
+        <entry key="$PROJECT_DIR$" value="wylderbuilds_00200" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +53,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "wylderbuilds__00200",
+    "git-widget-placeholder": "etsy__3211063597",
     "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -578,72 +584,72 @@
     <MESSAGE value="mebbe 99" />
     <option name="LAST_COMMIT_MESSAGE" value="mebbe 99" />
   </component>
-  <component name="WfRunsListSearchHistory"><![CDATA[{
-  "history": [
+  <component name="WfRunsListSearchHistory">{
+  &quot;history&quot;: [
     {
-      "branch": "nice_view_v2",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;nice_view_v2&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00255",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00255&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229_to_nano",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229_to_nano&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00232",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00232",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00200",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00200&quot;,
+      &quot;currentBranchFilter&quot;: true
     }
   ],
-  "lastFilter": {
-    "branch": "wylderbuilds_00200",
-    "currentBranchFilter": true
+  &quot;lastFilter&quot;: {
+    &quot;branch&quot;: &quot;wylderbuilds_00200&quot;,
+    &quot;currentBranchFilter&quot;: true
   }
-}]]></component>
+}</component>
 </project>

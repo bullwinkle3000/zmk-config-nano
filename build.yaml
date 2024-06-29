@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: wyld_dm_right nice_view
+    shield: wyld_dm_right
   - board: nice_nano_v2
-    shield: wyld_dm_left nice_view
+    shield: wyld_dm_left
   - board: nice_nano_v2
     shield: settings_reset

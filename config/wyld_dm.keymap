@@ -47,11 +47,12 @@
                     &kp TAB   &kp Q     &kp W    &kp E      &kp R      &kp T                        &kp Y       &kp U     &kp I     &kp O    &kp P    &kp LBKT
                     &kp CAPS  &kp A     &kp S    &kp D      &kp F      &kp G                        &kp H       &kp J     &kp K     &kp L    &kp SEMI &kp SQT
                     &kp LSHFT &kp Z     &kp X    &kp C      &kp V      &kp B                        &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                                        &kp LBKT &kp RBKT   &mo RAISE  &kp SPACE                                          &kp EQUAL &kp PLUS
-                                        &kp TAB  &mkp LCLK  &mkp RCLK  &kp DEL                      &kp BSPC    &kp ENTER &mo LOWER
+                                        &kp LBKT &kp RBKT                                                                 &kp EQUAL &kp PLUS
+                                                            &mo RAISE  &kp SPACE                   &mo LOWER
+                                                              &kp TAB   &kp DEL                    &kp ENTER
+			                                                    &mkp LCLK  &mkp RCLK      &kp BSPC &kp RALT
 			>;
 
-//            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>;
 		};
 
 		lower_layer {
@@ -62,11 +63,11 @@
                     &kp GRAVE    &kp EXCL          &kp AT             &kp HASH        &kp DOLLAR         &kp PRCNT                  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp F12
                     &bootloader  &trans            &trans             &trans          &trans             &trans                     &trans     &kp MINUS &kp KP_PLUS      &kp LBRC  &kp RBRC  &bootloader
                     &trans       &ext_power EP_ON  &ext_power EP_OFF  &trans          &trans             &trans                     &trans     &trans    &trans           &trans    &trans    &trans
-                                                   &trans             &trans          &trans             &trans                                          &trans           &trans
-                                                   &trans             &trans          &trans             &trans                     &trans     &trans    &trans
+                                                   &trans             &trans                                                                             &trans           &trans
+			                                                                          &trans             &trans                     &trans
+			                                                                            &trans             &trans                   &trans
+			                                                                              &trans             &trans          &trans	&trans
 			>;
-
-//			sensor-bindings = <&rgb_encoder_bright>, <&rgb_encoder_hue>;
 
 		};
 
@@ -78,11 +79,12 @@
                     &trans     &trans       &trans       &trans       &trans       &kp LBKT                        &kp RBKT     &trans        &kp KP_N7     &kp KP_N8  &kp KP_N9    &kp KP_DIVIDE
                     &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &kp PGUP     &kp LPAR                        &kp RPAR     &trans        &kp KP_N4     &kp KP_N5  &kp KP_N6    &kp KP_MULTIPLY
                     &trans     &trans       &trans       &trans       &kp PGDN     &trans                          &trans       &trans        &kp KP_N1     &kp KP_N2  &kp KP_N3    &kp KP_MINUS
-                                            &trans       &trans       &trans       &trans                                                     &trans        &trans
-                                            &trans       &trans       &trans       &trans                          &trans     &trans    &trans
+                                            &trans       &trans                                                                               &trans        &trans
+			                                                          &trans       &trans                          &trans
+			                                                            &trans       &trans                        &trans
+			                                                              &trans       &trans             &trans   &trans
 			>;
 
-//            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>;
 		};
 
         mouse_layer {
@@ -93,11 +95,12 @@
                     &trans  &trans  &trans  &trans     &trans     &trans                        &trans  &trans     &trans     &trans  &trans  &trans
                     &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans                        &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                     &trans  &trans  &trans  &trans     &trans     &trans                        &trans  &trans     &trans     &trans  &trans  &trans
-                                    &trans  &trans     &trans     &trans                                           &trans     &trans
-                                    &trans  &mkp LCLK  &mkp RCLK  &trans                        &trans  &trans     &trans
+                                    &trans  &trans                                                                             &trans           &trans
+			                                           &trans      &trans                       &trans
+			                                             &trans      &trans                     &trans
+			                                               &mkp LCLK   &mkp RCLK        &trans  &trans
 			>;
 
-//            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp PG_UP PG_DN>;
 		};
 	};
 };
