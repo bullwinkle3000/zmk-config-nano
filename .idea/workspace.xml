@@ -9,15 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="mebbe 99">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Almost ready oh 5x6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,14 +98,6 @@
       <workItem from="1716397483553" duration="600000" />
       <workItem from="1716505005789" duration="6342000" />
       <workItem from="1716674051936" duration="9128000" />
-    </task>
-    <task id="LOCAL-00149" summary="adjustments">
-      <option name="closed" value="true" />
-      <created>1711150415021</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1711150415021</updated>
     </task>
     <task id="LOCAL-00150" summary="adjustments">
       <option name="closed" value="true" />
@@ -495,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716844281277</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Almost ready oh 5x6">
+      <option name="closed" value="true" />
+      <created>1719699892215</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1719699892216</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,8 +506,8 @@
         <option value="Default.Root" />
         <option value="Default.Author" />
         <option value="Default.Date" />
-        <option value="Space.CommitStatus" />
         <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
       </list>
     </option>
   </component>
@@ -557,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cat" />
     <MESSAGE value="cat 2" />
     <MESSAGE value="Updated keymap and set underglow to overall conf" />
     <MESSAGE value="dropped a row" />
@@ -582,7 +577,8 @@
     <MESSAGE value="typo 99" />
     <MESSAGE value="hmm" />
     <MESSAGE value="mebbe 99" />
-    <option name="LAST_COMMIT_MESSAGE" value="mebbe 99" />
+    <MESSAGE value="Almost ready oh 5x6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost ready oh 5x6" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
