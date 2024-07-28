@@ -1,0 +1,35 @@
+#!/bin/bash
+
+user_config_root=/workspaces/zmk-config
+build_yaml=$user_config_root/build.yaml
+
+function build() {
+  cd /root/zmk/app
+  side=$1
+  for i in $(yq e '.include | keys | .[]' $build_yaml); do
+    board=$(yq e ".include[$i].board" $build_yaml)
+    shield=$(yq e ".include[$i].shield" $build_yaml)
+    if [[ "$shield" == *"_$side" ]]; then
+      west build \
+        -d build/${side} \
+        -b $board -- \
+          -DSHIELD=$shield \
+          -DZMK_CONFIG="/workspaces/zmk-config/config" \
+          -DZMK_EXTRA_MODULES="/workspaces/zmk-config" \
+      && cp build/${side}/zephyr/zmk.uf2 /workspaces/zmk-config/${side}.uf2
+    fi
+  done
+}
+
+if [ "$1" == "" ]; then
+  build right && \
+  build left && \
+  echo "---------------" && \
+  echo "built: [right.uf2 left.uf2]" && \
+  echo "---------------"
+else
+  build $1 && \
+  echo "---------------" && \
+  echo "built: [$1.uf2]" && \
+  echo "---------------"
+fi

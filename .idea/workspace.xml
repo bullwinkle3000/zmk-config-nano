@@ -9,9 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reworked 00120 to ZMK first pass">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,15 +117,7 @@
       <workItem from="1718993681342" duration="9123000" />
       <workItem from="1721404465862" duration="598000" />
       <workItem from="1721426459477" duration="600000" />
-      <workItem from="1722117436565" duration="4605000" />
-    </task>
-    <task id="LOCAL-00156" summary="adjustments ok">
-      <option name="closed" value="true" />
-      <created>1711152724997</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152724998</updated>
+      <workItem from="1722117436565" duration="5501000" />
     </task>
     <task id="LOCAL-00157" summary="row tweaks">
       <option name="closed" value="true" />
@@ -508,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722196894788</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="typo">
+      <option name="closed" value="true" />
+      <created>1722197549932</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1722197549932</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
     <MESSAGE value="disable logging" />
     <MESSAGE value="Added rgb effect keys" />
@@ -595,7 +597,8 @@
     <MESSAGE value="Copied from badjeff setup" />
     <MESSAGE value="typo led to no scrolling from left side, working now." />
     <MESSAGE value="Reworked 00120 to ZMK first pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked 00120 to ZMK first pass" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

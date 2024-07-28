@@ -1,0 +1,6 @@
+services:
+  zmk:
+    build:
+      context: .
+    volumes:
+      - .:/workspaces/zmk-config
