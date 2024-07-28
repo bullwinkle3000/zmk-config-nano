@@ -21,7 +21,7 @@
 #define RAISE 2
 #define MOUSE 3
 
-
+/ {
     keymap {
         compatible = "zmk,keymap";
 

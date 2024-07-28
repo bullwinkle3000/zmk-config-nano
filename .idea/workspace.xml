@@ -9,17 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo led to no scrolling from left side, working now.">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Reworked 00120 to ZMK first pass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.zmk.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.zmk.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,15 +114,7 @@
       <workItem from="1718993681342" duration="9123000" />
       <workItem from="1721404465862" duration="598000" />
       <workItem from="1721426459477" duration="600000" />
-      <workItem from="1722117436565" duration="3952000" />
-    </task>
-    <task id="LOCAL-00155" summary="adjustments eh?">
-      <option name="closed" value="true" />
-      <created>1711152570036</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1711152570037</updated>
+      <workItem from="1722117436565" duration="4605000" />
     </task>
     <task id="LOCAL-00156" summary="adjustments ok">
       <option name="closed" value="true" />
@@ -517,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718998773204</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Reworked 00120 to ZMK first pass">
+      <option name="closed" value="true" />
+      <created>1722196894787</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1722196894788</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wiring off in layouts" />
     <MESSAGE value="typos" />
     <MESSAGE value="Found weirdness in underglow" />
     <MESSAGE value="disable logging" />
@@ -604,7 +594,8 @@
     <MESSAGE value="getting there" />
     <MESSAGE value="Copied from badjeff setup" />
     <MESSAGE value="typo led to no scrolling from left side, working now." />
-    <option name="LAST_COMMIT_MESSAGE" value="typo led to no scrolling from left side, working now." />
+    <MESSAGE value="Reworked 00120 to ZMK first pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked 00120 to ZMK first pass" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
