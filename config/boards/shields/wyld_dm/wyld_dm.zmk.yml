@@ -9,8 +9,6 @@ exposes:
   - i2c_oled
 features:
   - keys
-  - display
-  - encoders
   - pointer
 siblings:
   - wyld_dm_left

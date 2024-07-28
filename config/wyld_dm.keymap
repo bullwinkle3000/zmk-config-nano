@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <dt-bindings/led/led.h>
+//#include <dt-bindings/led/led.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -12,7 +12,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/rgb.h>
+//#include <dt-bindings/zmk/rgb.h>
 
 // triggering build
 
@@ -21,109 +21,6 @@
 #define RAISE 2
 #define MOUSE 3
 
-/ {
-    /* assign `input-listener` to all pointing devices */
-    /* &pd0 on central, &pd1 on peripheral */
-
-    trackball_central_listener {
-        compatible = "zmk,input-listener";
-        device = <&pd0>;
-    };
-
-    trackball_peripheral_listener {
-        compatible = "zmk,input-listener";
-        device = <&pd1>;
-    };
-};
-
-//# 4x6 with encoders
-
-/ {
-    tb0_mmv_ibl {
-            /* new forked compatible name */
-            compatible = "zmk,input-behavior-listener";
-
-            /* the input point device alias */
-            device = <&pd0>;
-
-            /* only enable in default layer (DEF) & mouse key layer (MSK) */
-            layers = <QWERTY LOWER RAISE MOUSE>;
-
-            /* event code value to override raw input event */
-            /* designed for switching to mouse scroll, xy-swap, precise-mode+, etc */
-            /* NOTE: only apply input-code overriding for INPUT_EV_REL */
-            evt-type = <INPUT_EV_REL>;
-            x-input-code = <INPUT_REL_X>;
-            y-input-code = <INPUT_REL_Y>;
-            scale-multiplier = <1>;
-            scale-divisor = <3>;
-
-            /* bind a behavior to auto activate MSK layer for &mkp */
-            bindings = <&ib_tog_layer MOUSE>;
-
-            /* align to CCW 45 degree */
-            /* rotate-deg = <180>; */
-            /* NOTE 1: This settings do not compatible with y-invert and x-invert */
-            /* NOTE 2: Floating point computation requires alot of ram. */
-            /*         This feature will cause stackoverflow with CONFIG_ZMK_USB_LOGGING=y */
-    };
-
-    /* input config for mouse scroll mode on */
-    tb1_msl_ibl {
-            compatible = "zmk,input-behavior-listener";
-            device = <&pd1>;
-            layers = <QWERTY LOWER RAISE MOUSE>;
-            evt-type = <INPUT_EV_REL>;
-
-            /* slienting x-axis with alt event code */
-            x-input-code = <INPUT_REL_MISC>;
-            y-input-code = <INPUT_REL_WHEEL>;
-            scale-divisor = <16>;
-
-            /* invent scrolling direction */
-            y-invert;
-
-            /* align to CCW 45 degree */
-            /* rotate-deg = <315>; */
-            /* NOTE 1: This settings do not compitable with y-invert and x-invert */
-            /* NOTE 2: Floating point computation requires alot of ram. */
-            /*         This feature will cuase stackove flow with CONFIG_ZMK_USB_LOGGING=y */
-
-            /* bind a behavior to down scaling input value to (1/8) */
-            /* NOTE: This behavior is different to scale-divisor. */
-            /*       The delta value is accumlated until result >= 1 after cast. */
-            /*       The scrolling is preented in hi-res and allow precise scrolling */
-            /* bindings = <&ib_wheel_scaler 1 8>; */
-    };
-
-    /* adjust cooldown waiting period for mouse key layer (MSK) after activated */
-    ib_tog_layer: ib_tog_layer {
-            compatible = "zmk,input-behavior-tog-layer";
-            #binding-cells = <1>;
-            time-to-live-ms = <1000>;
-    };
-
-    /* define a resolution down scaler only for INPUT_REL_WHEEL */
-    ib_wheel_scaler: ib_wheel_scaler {
-            compatible = "zmk,input-behavior-scaler";
-            #binding-cells = <2>;
-            evt-type = <INPUT_EV_REL>;
-            input-code = <INPUT_REL_WHEEL>;
-    };
-
-    behaviors {
-        rgb_encoder_bright: rgb_encoder_bright {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
-        };
-
-        rgb_encoder_hue: rgb_encoder_hue {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -131,63 +28,68 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5    &kp F6                           &kp F7    &kp F8     &kp F9     &kp F10   &kp F11   &kp F12           &kp BSPC
-&trans   &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4    &kp N5                           &kp N6    &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS         &kp EQUAL
-&trans   &kp TAB    &kp Q     &kp W     &kp E      &kp R     &kp T                            &kp Y     &kp U      &kp I      &kp O     &kp P     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans   &kp CAPS   &kp A     &kp S     &kp D      &kp F     &kp G    &kp K_MUTE    &kp HOME  &kp H     &kp J      &kp K      &kp L     &kp SEMI  &kp SQT           &kp BSLH
-&trans   &kp LSHFT  &kp Z     &kp X     &kp C      &kp V     &kp B                            &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT         &trans
-&trans   &kp LCTRL  &kp LGUI  &kp LBKT  &kp RBKT                                                                   &kp EQUAL  &kp RGUI  &kp RALT  &kp RCTRL         &trans
-                              &mo 1     &kp SPACE  &kp BSPC  &kp TAB                          &kp RALT  &kp RCTRL  &kp ENTER  &mo 2
+&kp F1     &kp F2    &kp F3    &kp F4     &kp F5    &kp F6                           &kp F7    &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4    &kp N5                           &kp N6    &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q     &kp W     &kp E      &kp R     &kp T                            &kp Y     &kp U      &kp I      &kp O     &kp P     &kp LEFT_BRACKET
+&kp CAPS   &kp A     &kp S     &kp D      &kp F     &kp G                            &kp H     &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V     &kp B                            &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+                     &kp LALT  &kp LCTRL                                                                  &kp RCTL  &kp RALT
+                                          &mo 1      &kp SPACE  &kp BSPC             &mo 2
+                                          &kp TAB    &kp LGUI   &kp HOME             &kp ENTER
+                                                                            &kp RGUI &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&bt BT_CLR   &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &out OUT_BLE                             &out OUT_USB  &trans     &trans           &trans    &trans    &trans    &trans
-&sys_reset   &kp GRAVE         &kp EXCL           &kp AT             &kp HASH         &kp DOLLAR    &kp PRCNT                                &kp CARET     &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans    &sys_reset
-&trans       &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &bootloader      &trans        &trans                                   &trans        &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE  &trans
-&trans       &rgb_ug RGB_ON    &rgb_ug RGB_OFF    &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &trans        &trans    &rgb_ug RGB_TOG    &trans      &trans        &trans     &trans           &trans    &trans    &trans    &trans
-&trans       &trans            &trans             &trans             &trans           &trans        &trans                                   &trans        &trans     &trans           &trans    &trans    &trans    &trans
-&bootloader  &trans            &trans             &trans             &trans                                                                                        &trans           &trans    &trans    &trans    &bootloader
-                                                  &trans             &trans        &trans        &trans                                   &trans        &trans     &trans           &trans
+&bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &out OUT_BLE  &out OUT_USB  &trans           &trans    &trans    &trans
+&kp GRAVE         &kp EXCL           &kp AT             &kp HASH      &kp DOLLAR    &kp PRCNT                      &kp CARET     &kp AMPS      &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &sys_reset
+&ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans                         &trans        &kp MINUS     &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
+&trans            &trans             &trans             &trans        &trans        &trans                         &trans        &trans        &trans           &trans    &trans    &trans
+&trans            &trans             &trans             &trans        &trans        &trans                         &trans        &trans        &trans           &trans    &trans    &trans
+&bootloader       &trans             &trans             &trans        &trans        &trans                         &trans        &trans        &trans           &trans    &trans    &bootloader
+                                     &trans             &trans                                                                                 &trans           &trans
+                                                                      &trans        &trans   &trans                &trans
+                                                                      &trans        &trans   &trans                &trans
+                                                                                                            &trans &trans
             >;
 
-            sensor-bindings = <&rgb_encoder_bright &rgb_encoder_hue>;
         };
 
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &trans     &trans      &trans        &trans           &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &kp RBKT  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_DIVIDE    &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans     &kp LBKT                    &kp RPAR  &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MULTIPLY  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LPAR  &trans    &trans  &trans    &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_MINUS     &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &kp KP_N0  &kp KP_DOT  &kp KP_EQUAL  &kp KP_PLUS      &trans  &trans
-&trans  &trans  &trans    &trans    &trans                                                              &trans      &trans        &trans           &trans  &trans
-                          &trans    &trans  &trans     &trans                      &trans    &trans     &trans      &trans
+  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &trans     &trans      &trans        &trans           &trans
+  &trans  &trans    &trans    &trans  &trans     &trans                      &kp RBKT  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_DIVIDE    &trans
+  &trans  &trans    &trans    &trans  &trans     &kp LBKT                    &kp RPAR  &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MULTIPLY  &trans
+  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LPAR                    &trans    &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_MINUS     &trans
+  &trans  &trans    &trans    &trans  &trans     &trans                      &trans    &kp KP_N0  &kp KP_DOT  &kp KP_EQUAL  &kp KP_PLUS      &trans
+                    &trans    &trans                                                              &trans      &trans
+                                      &trans     &trans   &trans             &trans
+                                      &trans     &trans   &trans             &trans
+                                                                      &trans &trans
+
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans    &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans                                                                &trans     &trans     &trans  &trans  &trans
-                        &trans     &mkp LCLK  &mkp MCLK  &mkp LCLK                    &trans  &trans     &trans     &trans
+  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans
+  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans
+  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans
+  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+  &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans
+                  &trans    &trans                                                                 &trans      &trans
+                                        &trans     &trans   &trans              &trans
+                                        &trans     &trans   &trans              &trans
+                                                                         &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
 
-&led_strip { chain-length = <88>; };

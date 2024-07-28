@@ -1,7 +1,6 @@
 // wyld_dm_right.overlay
 
 #include "wyld_dm.dtsi"
-#include <dt-bindings/led/led.h>
 
 &default_transform {
     col-offset = <7>;
@@ -10,96 +9,65 @@
 
 &kscan0 {
     col-gpios
-	= <&expander 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-
-	;
+			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
+			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>  // 0.02
+			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
+			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
+			, <&gpio1 11 (GPIO_ACTIVE_HIGH )>  // 1.11
+			, <&gpio0 10 (GPIO_ACTIVE_HIGH )>  // 1.11
+			;
 };
 
-
-&right_encoder {
-	status = "okay";
-};
+//&right_encoder {
+//	status = "okay";
+//};
 
 &pinctrl {
-	spi1_default: spi1_default {
-		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
-					<NRF_PSEL(SPIM_MISO, 0, 8)>;
-		};
-	};
-
-	spi1_sleep: spi1_sleep {
-		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
-					<NRF_PSEL(SPIM_MISO, 0, 8)>;
-			low-power-enable;
-		};
-	};
-
+    spi1_default: spi1_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 8)>,
+                <NRF_PSEL(SPIM_MISO, 0, 8)>;
+        };
+    };
+    spi1_sleep: sp10_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 8)>,
+                <NRF_PSEL(SPIM_MISO, 0, 8)>;
+            low-power-enable;
+        };
+    };
 };
-
 
 &spi1 {
-	compatible = "nordic,nrf-spim";
-	status = "okay";
+  compatible = "nordic,nrf-spim";
+  status = "okay";
 
-	pinctrl-0 = <&spi1_default>;
-	pinctrl-1 = <&spi1_sleep>;
-	pinctrl-names = "default", "sleep";
-	cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
-
-	pd0: pd@0 {
-		status = "okay";
-		compatible = "pixart,pmw3610";
-		reg = <0>;
-		spi-max-frequency = <2000000>;
-		irq-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <1200>;
-		evt-type = <INPUT_EV_REL>;
-		x-input-code = <INPUT_REL_X>;
-		y-input-code = <INPUT_REL_Y>;
-	};
+  pinctrl-0 = <&spi1_default>;
+  pinctrl-1 = <&spi1_sleep>;
+  pinctrl-names = "default", "sleep";
+  cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+  trackball: trackball@0 {
+      status = "okay";
+      compatible = "pixart,pmw3610";
+      reg = <0>;
+      spi-max-frequency = <2000000>;
+      irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+      snipe-layers = <1>;
+      scroll-layers = <2>;
+      automouse-layer = <3>;
+  };
 };
+
 
 / {
-	/* define virtual input, will be resurrected for emitting input event */
-	/* NOTE: set `device = <&pd1>` in `zmk,input-listener` */
-	pd1: virtual_input {
-		compatible = "zmk,virtual-input";
-	};
-
-	/* for central side, define (relay-channel)-to-(virtual-input) mapping */
-	input_relay_config_102 {
-		compatible = "zmk,split-peripheral-input-relay";
-
-		/* channel id, used to filter incoming annotated input event from split peripheral */
-		/* NOTE: should matching relay-channel on peripheral overlay */
-		relay-channel = <102>;
-
-		/* virtual input device on central, which used to emit input event as an agent device */
-		device = <&pd1>;
-	};
+  pmw3610_listener {
+    compatible = "zmk,input-listener";
+    device = <&trackball>;
+  };
 };
-
-///{
-//	central_pmw3610_listener {
-//		compatible = "zmk,input-listener";
-//		device = <&pd0>;
-//	};
-//
-//	peripheral_pmw3610_listener {
-//		compatible = "zmk,input-listener";
-//		device = <&pd1>;
-//	};
-//};
 
 ///{
 //	/* auto toggle mouse key layer */
