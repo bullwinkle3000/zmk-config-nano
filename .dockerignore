@@ -1,0 +1,11 @@
+scripts/build
+.github
+.git
+.dockerignore
+tmp
+.gitignore
+.tool-versions
+*.uf2
+README.md
+Dockerfile
+docker-compose.*
