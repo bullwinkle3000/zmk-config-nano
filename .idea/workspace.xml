@@ -9,12 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Docker added">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.tool-versions" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusted build files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,15 +116,7 @@
       <workItem from="1721404465862" duration="598000" />
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
-      <workItem from="1722264959679" duration="883000" />
-    </task>
-    <task id="LOCAL-00158" summary="typos forever">
-      <option name="closed" value="true" />
-      <created>1711479884569</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1711479884569</updated>
+      <workItem from="1722264959679" duration="5873000" />
     </task>
     <task id="LOCAL-00159" summary="some bad search and replace">
       <option name="closed" value="true" />
@@ -512,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722200149317</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="Adjusted build files">
+      <option name="closed" value="true" />
+      <created>1722265858744</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1722265858744</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="disable logging" />
     <MESSAGE value="Added rgb effect keys" />
     <MESSAGE value="First pass" />
     <MESSAGE value="keymap issues" />
@@ -599,7 +596,8 @@
     <MESSAGE value="Reworked 00120 to ZMK first pass" />
     <MESSAGE value="typo" />
     <MESSAGE value="Docker added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker added" />
+    <MESSAGE value="Adjusted build files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted build files" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
