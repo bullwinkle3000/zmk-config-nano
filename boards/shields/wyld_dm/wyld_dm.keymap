@@ -3,4 +3,4 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "../../../wyld_dm.keymap"
+#include "../../../config/wyld_dm.keymap"
