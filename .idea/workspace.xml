@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="update info.json">
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,15 +122,7 @@
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
       <workItem from="1722264959679" duration="5873000" />
-      <workItem from="1723574773314" duration="2212000" />
-    </task>
-    <task id="LOCAL-00166" summary="Added mouse layer">
-      <option name="closed" value="true" />
-      <created>1711647900338</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1711647900338</updated>
+      <workItem from="1723574773314" duration="2250000" />
     </task>
     <task id="LOCAL-00167" summary="New 4x6 setup">
       <option name="closed" value="true" />
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723576898977</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="update info.json">
+      <option name="closed" value="true" />
+      <created>1723576998220</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1723576998220</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
