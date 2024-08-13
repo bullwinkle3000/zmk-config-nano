@@ -38,12 +38,12 @@
     &quot;assignee&quot;: &quot;bullwinkle3000&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/bullwinkle3000/zmk-config-nano.git&quot;,
-    &quot;accountId&quot;: &quot;8f950a47-6ef8-4643-81a1-8ddfbeefe1cb&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:bullwinkle3000/zmk-config-nano.git",
+    "accountId": "8b556ffe-0185-4ce2-b756-070cb1ec95ce"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -117,9 +117,7 @@
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
       <workItem from="1722264959679" duration="5873000" />
-      <workItem from="1722606765021" duration="5208000" />
-      <workItem from="1723245516530" duration="6273000" />
-      <workItem from="1723414300635" duration="8328000" />
+      <workItem from="1723574773314" duration="319000" />
     </task>
     <task id="LOCAL-00159" summary="some bad search and replace">
       <option name="closed" value="true" />
@@ -602,96 +600,100 @@
     <MESSAGE value="Adjusted build files" />
     <option name="LAST_COMMIT_MESSAGE" value="Adjusted build files" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;branch&quot;: &quot;nice_view_v2&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "nice_view_v2",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "pmw3610_4x6",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00255&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00255",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00229",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00229_to_nano&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00229_to_nano",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00229",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00229",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00229",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00232",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00232",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00232",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00249",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00249",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00249",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00249",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00120",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00120",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00120",
+      "currentBranchFilter": true
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
-    &quot;currentBranchFilter&quot;: true
+  "lastFilter": {
+    "branch": "wylderbuilds_00120",
+    "currentBranchFilter": true
   }
-}</component>
+}]]></component>
 </project>
