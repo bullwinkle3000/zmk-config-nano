@@ -9,7 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusted build files">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="update info.json">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,15 +123,7 @@
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
       <workItem from="1722264959679" duration="5873000" />
-      <workItem from="1723574773314" duration="1218000" />
-    </task>
-    <task id="LOCAL-00161" summary="re-enable encoders">
-      <option name="closed" value="true" />
-      <created>1711560915959</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1711560915959</updated>
+      <workItem from="1723574773314" duration="1480000" />
     </task>
     <task id="LOCAL-00162" summary="missed encoder status">
       <option name="closed" value="true" />
@@ -516,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723575880638</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="update info.json">
+      <option name="closed" value="true" />
+      <created>1723576004884</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1723576004884</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added rgb effect keys" />
     <MESSAGE value="First pass" />
     <MESSAGE value="keymap issues" />
     <MESSAGE value="Parse error" />
@@ -603,7 +603,8 @@
     <MESSAGE value="typo" />
     <MESSAGE value="Docker added" />
     <MESSAGE value="Adjusted build files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted build files" />
+    <MESSAGE value="update info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="update info.json" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
