@@ -84,8 +84,8 @@
   &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
   &trans  &trans  &trans     &trans     &trans     &trans                       &trans  &trans     &trans     &trans     &trans  &trans
                   &trans    &trans                                                                 &trans      &trans
-                                        &trans     &LCLK    &RCLK               &trans
-                                        &trans     &MCLK    &trans              &trans
+                                        &trans     &mkp LCLK    &mkp RCLK       &trans
+                                        &trans     &mkp MCLK    &trans          &trans
                                                                          &trans &trans
             >;
 
