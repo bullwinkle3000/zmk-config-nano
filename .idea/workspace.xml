@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusted build files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +117,9 @@
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
       <workItem from="1722264959679" duration="5873000" />
+      <workItem from="1722606765021" duration="5208000" />
+      <workItem from="1723245516530" duration="6273000" />
+      <workItem from="1723414300635" duration="8328000" />
     </task>
     <task id="LOCAL-00159" summary="some bad search and replace">
       <option name="closed" value="true" />
@@ -599,96 +602,96 @@
     <MESSAGE value="Adjusted build files" />
     <option name="LAST_COMMIT_MESSAGE" value="Adjusted build files" />
   </component>
-  <component name="WfRunsListSearchHistory"><![CDATA[{
-  "history": [
+  <component name="WfRunsListSearchHistory">{
+  &quot;history&quot;: [
     {
-      "branch": "nice_view_v2",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;nice_view_v2&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "pmw3610_4x6",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;pmw3610_4x6&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00255",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00255&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229_to_nano",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229_to_nano&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00229",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00229&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00232",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00232",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00232",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00232&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00249",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00249",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00249",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00249",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00249&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00120",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
+      &quot;currentBranchFilter&quot;: true
     },
     {
-      "branch": "wylderbuilds_00120",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
+      &quot;currentBranchFilter&quot;: true
     }
   ],
-  "lastFilter": {
-    "branch": "wylderbuilds_00120",
-    "currentBranchFilter": true
+  &quot;lastFilter&quot;: {
+    &quot;branch&quot;: &quot;wylderbuilds_00120&quot;,
+    &quot;currentBranchFilter&quot;: true
   }
-}]]></component>
+}</component>
 </project>
