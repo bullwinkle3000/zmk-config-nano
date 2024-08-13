@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusted build files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,15 +122,7 @@
       <workItem from="1721426459477" duration="600000" />
       <workItem from="1722117436565" duration="6730000" />
       <workItem from="1722264959679" duration="5873000" />
-      <workItem from="1723574773314" duration="1090000" />
-    </task>
-    <task id="LOCAL-00160" summary="reverse columns for right side">
-      <option name="closed" value="true" />
-      <created>1711483095053</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1711483095053</updated>
+      <workItem from="1723574773314" duration="1218000" />
     </task>
     <task id="LOCAL-00161" summary="re-enable encoders">
       <option name="closed" value="true" />
@@ -517,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723575094763</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Adjusted build files">
+      <option name="closed" value="true" />
+      <created>1723575880637</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1723575880638</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
