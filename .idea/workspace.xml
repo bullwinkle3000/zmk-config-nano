@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="missing config">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="rollback and rollback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +103,6 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-    </task>
-    <task id="LOCAL-00087" summary="Try spi2?">
-      <option name="closed" value="true" />
-      <created>1705174286660</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1705174286660</updated>
     </task>
     <task id="LOCAL-00088" summary="Try 0.09">
       <option name="closed" value="true" />
@@ -496,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723749431310</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="rollback and rollback">
+      <option name="closed" value="true" />
+      <created>1723749793349</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1723749793349</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Column offset correction" />
     <MESSAGE value="Column and rows set to 10 and 4" />
     <MESSAGE value="Updated coords in info.json" />
     <MESSAGE value="Latest 3x5 try one" />
@@ -583,7 +582,8 @@
     <MESSAGE value="enable logging, add delay and BT config" />
     <MESSAGE value="Use pointer branch" />
     <MESSAGE value="missing config" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing config" />
+    <MESSAGE value="rollback and rollback" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollback and rollback" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
