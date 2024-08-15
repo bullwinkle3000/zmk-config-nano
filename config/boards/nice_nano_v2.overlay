@@ -28,7 +28,7 @@ nice_view_spi: &spi0 {
     status = "disabled";
 };
 
-&pro_micro_serial {
-    status = "disabled";
-};
+//&pro_micro_serial {
+//    status = "disabled";
+//};
 
