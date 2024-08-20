@@ -3,7 +3,7 @@
 #include "wyld_dm.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <7>;
 };
 
 
@@ -17,6 +17,7 @@
 			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
 			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
 			, <&gpio1 11 (GPIO_ACTIVE_HIGH )>  // 1.11
+	        , <&gpio1 04 (GPIO_ACTIVE_HIGH )>  // 1.11
 			;
 };
 

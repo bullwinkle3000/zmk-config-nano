@@ -13,6 +13,7 @@
 			, <&gpio0 02  GPIO_ACTIVE_HIGH>  //  1.15
 			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 1.13
 			, <&gpio0 31 (GPIO_ACTIVE_HIGH )>  // 1.11
+	        , <&gpio1 04 (GPIO_ACTIVE_HIGH )>  // 1.11
 			;
 };
 
