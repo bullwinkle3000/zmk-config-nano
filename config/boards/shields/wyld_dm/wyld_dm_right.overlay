@@ -28,4 +28,50 @@
 //	status = "okay";
 //};
 
+&pinctrl {
+    spi1_default: spi1_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 8)>,
+                <NRF_PSEL(SPIM_MISO, 0, 8)>;
+        };
+    };
+    spi1_sleep: spi1_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 8)>,
+                <NRF_PSEL(SPIM_MISO, 0, 8)>;
+            low-power-enable;
+        };
+    };
+};
+
+&spi1 {
+  compatible = "nordic,nrf-spim";
+  status = "okay";
+
+  pinctrl-0 = <&spi1_default>;
+  pinctrl-1 = <&spi1_sleep>;
+  pinctrl-names = "default", "sleep";
+  cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+  trackball: trackball@0 {
+      status = "okay";
+      compatible = "pixart,pmw3610";
+      reg = <0>;
+      spi-max-frequency = <2000000>;
+      irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+      snipe-layers = <1>;
+      scroll-layers = <2>;
+      automouse-layer = <3>;
+  };
+};
+
+
+/ {
+  pmw3610_listener {
+    compatible = "zmk,input-listener";
+    device = <&trackball>;
+  };
+};
+
 
