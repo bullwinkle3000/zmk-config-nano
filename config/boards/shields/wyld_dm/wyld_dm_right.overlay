@@ -53,13 +53,13 @@
   pinctrl-0 = <&spi1_default>;
   pinctrl-1 = <&spi1_sleep>;
   pinctrl-names = "default", "sleep";
-  cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+  cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
   trackball: trackball@0 {
       status = "okay";
       compatible = "pixart,pmw3610";
       reg = <0>;
       spi-max-frequency = <2000000>;
-      irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+      irq-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
       snipe-layers = <1>;
       scroll-layers = <2>;
       automouse-layer = <3>;
