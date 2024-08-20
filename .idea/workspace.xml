@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Updated info.json">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="First pass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,15 +114,7 @@
       <workItem from="1715011335726" duration="596000" />
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
-      <workItem from="1724185614266" duration="502000" />
-    </task>
-    <task id="LOCAL-00096" summary="keymap type">
-      <option name="closed" value="true" />
-      <created>1705682652186</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1705682652186</updated>
+      <workItem from="1724185614266" duration="1206000" />
     </task>
     <task id="LOCAL-00097" summary="keymap K_MUTE not MUTE">
       <option name="closed" value="true" />
@@ -511,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723837872805</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="First pass">
+      <option name="closed" value="true" />
+      <created>1724186136736</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186136736</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spi issue" />
     <MESSAGE value="Spi always and forever" />
     <MESSAGE value="Weird gpi0 error uncaught in sides, but caught in reset build." />
     <MESSAGE value="Enable logging" />
@@ -598,7 +594,8 @@
     <MESSAGE value="Missing ESC key" />
     <MESSAGE value="Remove logging snippet" />
     <MESSAGE value="Updated info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated info.json" />
+    <MESSAGE value="First pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="First pass" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
