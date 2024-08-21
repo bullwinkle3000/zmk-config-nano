@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="new branch to migrate">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="led_strip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,22 +115,6 @@
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
       <workItem from="1724185614266" duration="5998000" />
-    </task>
-    <task id="LOCAL-00102" summary="updated nano pins">
-      <option name="closed" value="true" />
-      <created>1710703781635</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1710703781635</updated>
-    </task>
-    <task id="LOCAL-00103" summary="updated nano pins">
-      <option name="closed" value="true" />
-      <created>1710704335645</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1710704335645</updated>
     </task>
     <task id="LOCAL-00104" summary="removed conflicting i2c bits">
       <option name="closed" value="true" />
@@ -510,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724193225465</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="missing led">
+      <option name="closed" value="true" />
+      <created>1724195861603</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1724195861603</updated>
+    </task>
+    <task id="LOCAL-00152" summary="led_strip">
+      <option name="closed" value="true" />
+      <created>1724264767423</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264767423</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,8 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="we shall see" />
-    <MESSAGE value="we shall see 2" />
     <MESSAGE value="changes to logging" />
     <MESSAGE value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
     <MESSAGE value="BT keys missing" />
@@ -597,7 +593,9 @@
     <MESSAGE value="Wrong zmk setup" />
     <MESSAGE value="column tweaks" />
     <MESSAGE value="new branch to migrate" />
-    <option name="LAST_COMMIT_MESSAGE" value="new branch to migrate" />
+    <MESSAGE value="missing led" />
+    <MESSAGE value="led_strip" />
+    <option name="LAST_COMMIT_MESSAGE" value="led_strip" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
