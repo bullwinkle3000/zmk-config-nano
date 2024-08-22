@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Remove mouse to try snippet on main ZMK">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="totally random adjustments">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,15 +115,7 @@
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
       <workItem from="1724185614266" duration="5998000" />
-      <workItem from="1724344244189" duration="4326000" />
-    </task>
-    <task id="LOCAL-00109" summary="pin adjust on right">
-      <option name="closed" value="true" />
-      <created>1710708299549</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1710708299549</updated>
+      <workItem from="1724344244189" duration="6423000" />
     </task>
     <task id="LOCAL-00110" summary="Column offset correction">
       <option name="closed" value="true" />
@@ -512,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724346067651</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="totally random adjustments">
+      <option name="closed" value="true" />
+      <created>1724354592256</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1724354592256</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added encoder" />
     <MESSAGE value="first 4x5 pass" />
     <MESSAGE value="no mouse_keys behaviors" />
     <MESSAGE value="encoder on wrong side" />
@@ -599,7 +595,8 @@
     <MESSAGE value="logging snippet" />
     <MESSAGE value="Remove logging in conf" />
     <MESSAGE value="Remove mouse to try snippet on main ZMK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove mouse to try snippet on main ZMK" />
+    <MESSAGE value="totally random adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="totally random adjustments" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
