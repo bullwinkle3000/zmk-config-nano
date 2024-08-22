@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Remove logging in conf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Remove mouse to try snippet on main ZMK">
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,15 +114,7 @@
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
       <workItem from="1724185614266" duration="5998000" />
-      <workItem from="1724344244189" duration="1417000" />
-    </task>
-    <task id="LOCAL-00107" summary="Needs proper branch">
-      <option name="closed" value="true" />
-      <created>1710706388118</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1710706388118</updated>
+      <workItem from="1724344244189" duration="1811000" />
     </task>
     <task id="LOCAL-00108" summary="Doing the DOH">
       <option name="closed" value="true" />
@@ -511,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724266551115</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Remove mouse to try snippet on main ZMK">
+      <option name="closed" value="true" />
+      <created>1724345690372</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1724345690372</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BT keys missing" />
     <MESSAGE value="Added encoder" />
     <MESSAGE value="first 4x5 pass" />
     <MESSAGE value="no mouse_keys behaviors" />
@@ -598,7 +594,8 @@
     <MESSAGE value="led_strip" />
     <MESSAGE value="logging snippet" />
     <MESSAGE value="Remove logging in conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove logging in conf" />
+    <MESSAGE value="Remove mouse to try snippet on main ZMK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove mouse to try snippet on main ZMK" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
