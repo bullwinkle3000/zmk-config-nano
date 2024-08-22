@@ -24,9 +24,9 @@
 };
 
 
-//&right_encoder {
-//	status = "okay";
-//};
+&right_encoder {
+	status = "okay";
+};
 
 //&pinctrl {
 //    spi1_default: spi1_default {
