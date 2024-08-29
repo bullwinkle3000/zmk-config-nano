@@ -9,9 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="logging snippet">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Testing with sensor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,14 +118,8 @@
       <workItem from="1715106364904" duration="12099000" />
       <workItem from="1715440931895" duration="44000" />
       <workItem from="1724185614266" duration="5998000" />
-    </task>
-    <task id="LOCAL-00106" summary="Added pmw3610_listener">
-      <option name="closed" value="true" />
-      <created>1710706298220</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1710706298220</updated>
+      <workItem from="1724768111089" duration="1333000" />
+      <workItem from="1724965773329" duration="288000" />
     </task>
     <task id="LOCAL-00107" summary="Needs proper branch">
       <option name="closed" value="true" />
@@ -509,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724265836236</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Testing with sensor">
+      <option name="closed" value="true" />
+      <created>1724366052457</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1724366052457</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder" />
     <MESSAGE value="BT keys missing" />
     <MESSAGE value="Added encoder" />
     <MESSAGE value="first 4x5 pass" />
@@ -596,98 +599,107 @@
     <MESSAGE value="missing led" />
     <MESSAGE value="led_strip" />
     <MESSAGE value="logging snippet" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging snippet" />
+    <MESSAGE value="Testing with sensor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing with sensor" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-    &quot;currentBranchFilter&quot;: true
+  "lastFilter": {
+    "branch": "wylderbuilds_00196_expander",
+    "currentBranchFilter": true
   }
-}</component>
+}]]></component>
 </project>
