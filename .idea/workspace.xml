@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="another test test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="wrong key order on left cluster">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,15 +116,7 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="7051000" />
-    </task>
-    <task id="LOCAL-00115" summary="spi issue">
-      <option name="closed" value="true" />
-      <created>1715109210333</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1715109210333</updated>
+      <workItem from="1724972467103" duration="7719000" />
     </task>
     <task id="LOCAL-00116" summary="Spi always and forever">
       <option name="closed" value="true" />
@@ -512,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725048463338</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="wrong key order on left cluster">
+      <option name="closed" value="true" />
+      <created>1725049250610</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1725049250610</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="enable logging, add delay and BT config" />
     <MESSAGE value="Use pointer branch" />
     <MESSAGE value="missing config" />
     <MESSAGE value="rollback and rollback" />
@@ -599,7 +596,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="another test" />
     <MESSAGE value="another test test" />
-    <option name="LAST_COMMIT_MESSAGE" value="another test test" />
+    <MESSAGE value="wrong key order on left cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong key order on left cluster" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
