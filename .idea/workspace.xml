@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="another test">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="another test test">
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,15 +116,7 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="6140000" />
-    </task>
-    <task id="LOCAL-00113" summary="Latest 3x5 try one">
-      <option name="closed" value="true" />
-      <created>1715107950129</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1715107950129</updated>
+      <workItem from="1724972467103" duration="6280000" />
     </task>
     <task id="LOCAL-00114" summary="Wrong encoder">
       <option name="closed" value="true" />
@@ -510,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725048030810</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="another test test">
+      <option name="closed" value="true" />
+      <created>1725048338857</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1725048338857</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="behaviors" />
     <MESSAGE value="enable logging, add delay and BT config" />
     <MESSAGE value="Use pointer branch" />
     <MESSAGE value="missing config" />
@@ -597,7 +596,8 @@
     <MESSAGE value="fixes on info.json" />
     <MESSAGE value="test" />
     <MESSAGE value="another test" />
-    <option name="LAST_COMMIT_MESSAGE" value="another test" />
+    <MESSAGE value="another test test" />
+    <option name="LAST_COMMIT_MESSAGE" value="another test test" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
