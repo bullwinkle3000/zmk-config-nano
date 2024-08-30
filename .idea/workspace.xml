@@ -9,9 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reverse left columns on gpio">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="alternate pins on column 6 and 7 on right">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,15 +118,7 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="10764000" />
-    </task>
-    <task id="LOCAL-00117" summary="Weird gpi0 error uncaught in sides, but caught in reset build.">
-      <option name="closed" value="true" />
-      <created>1715122047230</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1715122047230</updated>
+      <workItem from="1724972467103" duration="11765000" />
     </task>
     <task id="LOCAL-00118" summary="Enable logging">
       <option name="closed" value="true" />
@@ -511,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725051129049</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="alternate pins on column 6 and 7 on right">
+      <option name="closed" value="true" />
+      <created>1725054295959</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1725054295959</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="missing config" />
     <MESSAGE value="rollback and rollback" />
     <MESSAGE value="rollback and rollback and uart" />
     <MESSAGE value="new logging snippet" />
@@ -598,7 +598,8 @@
     <MESSAGE value="another test test" />
     <MESSAGE value="wrong key order on left cluster" />
     <MESSAGE value="reverse left columns on gpio" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse left columns on gpio" />
+    <MESSAGE value="alternate pins on column 6 and 7 on right" />
+    <option name="LAST_COMMIT_MESSAGE" value="alternate pins on column 6 and 7 on right" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
