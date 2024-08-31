@@ -9,8 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reworked left cluster, removed polling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reworked left cluster">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,15 +116,7 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="17055000" />
-    </task>
-    <task id="LOCAL-00120" summary="Trying pro_micro 1">
-      <option name="closed" value="true" />
-      <created>1715181453099</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1715181453099</updated>
+      <workItem from="1724972467103" duration="18664000" />
     </task>
     <task id="LOCAL-00121" summary="we shall see">
       <option name="closed" value="true" />
@@ -511,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725125782799</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="reworked left cluster">
+      <option name="closed" value="true" />
+      <created>1725126453211</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1725126453211</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new logging snippet" />
     <MESSAGE value="Missing ESC key" />
     <MESSAGE value="Remove logging snippet" />
     <MESSAGE value="Updated info.json" />
@@ -598,7 +596,8 @@
     <MESSAGE value="alternate pins on column 6 and 7 on right" />
     <MESSAGE value="trying polling" />
     <MESSAGE value="reworked left cluster, removed polling" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked left cluster, removed polling" />
+    <MESSAGE value="reworked left cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked left cluster" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
