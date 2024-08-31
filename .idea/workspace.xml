@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="alternate pins on column 6 and 7 on right">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying polling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +118,7 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="11765000" />
-    </task>
-    <task id="LOCAL-00118" summary="Enable logging">
-      <option name="closed" value="true" />
-      <created>1715177776830</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1715177776830</updated>
+      <workItem from="1724972467103" duration="16369000" />
     </task>
     <task id="LOCAL-00119" summary="Encoder not enabled, disabled uart0">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725054295959</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="trying polling">
+      <option name="closed" value="true" />
+      <created>1725055299962</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1725055299962</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rollback and rollback" />
     <MESSAGE value="rollback and rollback and uart" />
     <MESSAGE value="new logging snippet" />
     <MESSAGE value="Missing ESC key" />
@@ -599,7 +598,8 @@
     <MESSAGE value="wrong key order on left cluster" />
     <MESSAGE value="reverse left columns on gpio" />
     <MESSAGE value="alternate pins on column 6 and 7 on right" />
-    <option name="LAST_COMMIT_MESSAGE" value="alternate pins on column 6 and 7 on right" />
+    <MESSAGE value="trying polling" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying polling" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
