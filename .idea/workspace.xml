@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="reworked left cluster">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="right cluster">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +117,8 @@
       <workItem from="1724185614266" duration="5998000" />
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
-      <workItem from="1724972467103" duration="18664000" />
-    </task>
-    <task id="LOCAL-00121" summary="we shall see">
-      <option name="closed" value="true" />
-      <created>1715266162085</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266162085</updated>
+      <workItem from="1724972467103" duration="28672000" />
+      <workItem from="1725370045982" duration="21000" />
     </task>
     <task id="LOCAL-00122" summary="we shall see 2">
       <option name="closed" value="true" />
@@ -510,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725126453211</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="right cluster">
+      <option name="closed" value="true" />
+      <created>1725128080006</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1725128080006</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Missing ESC key" />
     <MESSAGE value="Remove logging snippet" />
     <MESSAGE value="Updated info.json" />
     <MESSAGE value="First pass" />
@@ -597,7 +598,8 @@
     <MESSAGE value="trying polling" />
     <MESSAGE value="reworked left cluster, removed polling" />
     <MESSAGE value="reworked left cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked left cluster" />
+    <MESSAGE value="right cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="right cluster" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
@@ -679,6 +681,10 @@
     },
     {
       "branch": "wylderbuilds_00196",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
       "currentBranchFilter": true
     },
     {
