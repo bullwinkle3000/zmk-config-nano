@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="right cluster">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="rotate sensor 180 degrees">
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,15 +118,7 @@
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
       <workItem from="1724972467103" duration="28672000" />
-      <workItem from="1725370045982" duration="21000" />
-    </task>
-    <task id="LOCAL-00122" summary="we shall see 2">
-      <option name="closed" value="true" />
-      <created>1715268170626</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1715268170626</updated>
+      <workItem from="1725370045982" duration="683000" />
     </task>
     <task id="LOCAL-00123" summary="changes to logging">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725128080006</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="rotate sensor 180 degrees">
+      <option name="closed" value="true" />
+      <created>1725370086419</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1725370086419</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove logging snippet" />
     <MESSAGE value="Updated info.json" />
     <MESSAGE value="First pass" />
     <MESSAGE value="oopsie" />
@@ -599,7 +598,8 @@
     <MESSAGE value="reworked left cluster, removed polling" />
     <MESSAGE value="reworked left cluster" />
     <MESSAGE value="right cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="right cluster" />
+    <MESSAGE value="rotate sensor 180 degrees" />
+    <option name="LAST_COMMIT_MESSAGE" value="rotate sensor 180 degrees" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
