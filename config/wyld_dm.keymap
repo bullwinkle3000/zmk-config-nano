@@ -24,12 +24,12 @@
 
         default_layer {
             bindings = <
-&kp N1    &kp N2          &kp N3     &kp N4     &kp N5                 &kp N6   &kp N7     &kp N8     &kp N9   &kp N0
-&kp Q     &kp W           &kp E      &kp R      &kp T                  &kp Y    &kp U      &kp I      &kp O    &kp P
-&kp A     &kp S           &kp D      &kp F      &kp G     &kp K_PASTE  &kp H    &kp J      &kp K      &kp L    &kp SEMI
-&kp Z     &kp X           &kp C      &kp V      &kp B                  &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH
-                          &mo RAISE  &kp SPACE  &kp BSPC               &kp DEL  &kp ENTER  &mo LOWER
-&kp LGUI  &kp LEFT_SHIFT                                                                              &kp ESC  &kp RALT
+&kp N1    &kp N2          &kp N3  &kp N4     &kp N5                 &kp N6   &kp N7     &kp N8     &kp N9   &kp N0
+&kp Q     &kp W           &kp E   &kp R      &kp T                  &kp Y    &kp U      &kp I      &kp O    &kp P
+&kp A     &kp S           &kp D   &kp F      &kp G     &kp K_PASTE  &kp H    &kp J      &kp K      &kp L    &kp SEMI
+&kp Z     &kp X           &kp C   &kp V      &kp B                  &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH
+                          &mo 1   &kp SPACE  &kp BSPC               &kp DEL  &kp ENTER  &mo 2
+&kp LGUI  &kp LEFT_SHIFT                                                                           &kp ESC  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -37,12 +37,12 @@
 
         lower_layer {
             bindings = <
-&kp F1       &kp F2     &kp F3             &kp F4             &kp F5               &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10
-&kp EXCL     &kp AT     &kp HASH           &kp DOLLAR         &kp PRCNT            &kp CARET  &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_VOLUME_UP
-&bootloader  &kp GRAVE  &ext_power EP_OFF  &ext_power EP_TOG  &trans     &kp HOME  &kp MINUS  &kp KP_PLUS   &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
-&trans       &trans     &trans             &trans             &trans               &kp TILDE  &kp ASTERISK  &trans                &trans                 &trans
-                        &trans             &kp TAB            &kp LALT             &kp PIPE   &trans        &trans
-&trans       &trans                                                                                                               &trans                 &trans
+&kp F1    &kp F2     &kp F3             &kp F4             &kp F5               &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10
+&kp EXCL  &kp AT     &kp HASH           &kp DOLLAR         &kp PRCNT            &kp CARET  &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_VOLUME_UP
+&kp TAB   &kp GRAVE  &ext_power EP_OFF  &ext_power EP_TOG  &trans     &kp HOME  &kp MINUS  &kp KP_PLUS   &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
+&trans    &trans     &trans             &trans             &trans               &kp TILDE  &kp ASTERISK  &trans                &trans                 &trans
+                     &trans             &kp TAB            &kp LALT             &kp PIPE   &kp TAB       &trans
+&trans    &trans                                                                                                               &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
