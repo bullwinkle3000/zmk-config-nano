@@ -50,7 +50,7 @@
             bindings = <
 &kp F1    &kp F2     &kp F3             &kp F4             &kp F5               &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10
 &kp EXCL  &kp AT     &kp HASH           &kp DOLLAR         &kp PRCNT            &kp CARET  &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_VOLUME_UP
-&kp TAB   &kp GRAVE  &ext_power EP_OFF  &ext_power EP_TOG  &trans     &kp HOME  &kp MINUS  &kp KP_PLUS   &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
+&kp TAB   &kp GRAVE  &ext_power EP_OFF  &ext_power EP_TOG  &trans     &kp HOME  &kp MINUS  &kp EQUAL     &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
 &trans    &trans     &trans             &trans             &trans               &kp TILDE  &kp ASTERISK  &trans                &trans                 &trans
                      &trans             &kp TAB            &kp LALT             &kp PIPE   &kp TAB       &trans
 &trans    &trans                                                                                                               &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES
