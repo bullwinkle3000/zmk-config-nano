@@ -26,12 +26,3 @@
     cs-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
 };
 
-/ {
-    chosen {
-        zmk,display = &nice_view_spi;
-    };
-};
-
-&nice_view_spi {
-    rotation = <180>;
-};
