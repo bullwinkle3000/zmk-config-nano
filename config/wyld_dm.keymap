@@ -48,12 +48,12 @@
 
         lower_layer {
             bindings = <
-&kp F1    &kp F2     &kp F3      &kp F4      &kp F5               &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10
-&kp EXCL  &kp AT     &kp HASH    &kp DOLLAR  &kp PRCNT            &kp CARET  &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_VOLUME_UP
-&kp TAB   &kp GRAVE  &kp DELETE  &kp DEL     &trans     &kp HOME  &kp MINUS  &kp EQUAL     &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
-&trans    &trans     &trans      &trans      &trans               &kp TILDE  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-                     &trans      &kp TAB     &kp LALT             &kp PIPE   &kp TAB       &trans
-&trans    &trans                                                                                                 &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES
+&kp F1    &kp F2  &kp F3      &kp F4      &kp F5               &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10
+&kp EXCL  &kp AT  &kp HASH    &kp DOLLAR  &kp PRCNT            &kp CARET  &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_VOLUME_UP
+&trans    &trans  &kp DELETE  &kp DEL     &trans     &kp HOME  &kp MINUS  &kp EQUAL     &kp LBRC              &kp RBRC               &kp C_VOLUME_DOWN
+&trans    &trans  &trans      &trans      &trans               &kp TILDE  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+                  &kp TAB     &trans      &trans               &kp PIPE   &kp TAB       &kp GRAVE
+&trans    &trans                                                                                              &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
