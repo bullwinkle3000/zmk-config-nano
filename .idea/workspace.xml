@@ -9,9 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Disable logging">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="RGB keys">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wylderbuilds_00249" />
+        <entry key="$PROJECT_DIR$" value="wylderbuilds_00196_expander" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;wylderbuilds__00196__expander&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "juan__o__squarspace",
+    "last_opened_file_path": "/Users/andrew/dev/wylderbuilds/zmk_customer_configs/zmk-config-nano/config/boards",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config/boards" />
@@ -118,15 +120,13 @@
       <workItem from="1724768111089" duration="1333000" />
       <workItem from="1724965773329" duration="1251000" />
       <workItem from="1724972467103" duration="28672000" />
-      <workItem from="1725370045982" duration="2646000" />
-    </task>
-    <task id="LOCAL-00124" summary="removed logging&#10;Reversed sensor to 270&#10;Added page scroll on lower layer to encoder">
-      <option name="closed" value="true" />
-      <created>1715274475753</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1715274475753</updated>
+      <workItem from="1725370045982" duration="3543000" />
+      <workItem from="1725626152218" duration="612000" />
+      <workItem from="1725814011232" duration="1000000" />
+      <workItem from="1726323160214" duration="640000" />
+      <workItem from="1726344728475" duration="5437000" />
+      <workItem from="1726450211276" duration="650000" />
+      <workItem from="1726507081426" duration="1419000" />
     </task>
     <task id="LOCAL-00125" summary="BT keys missing">
       <option name="closed" value="true" />
@@ -512,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725382522861</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="RGB keys">
+      <option name="closed" value="true" />
+      <created>1725388279007</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1725388279007</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First pass" />
     <MESSAGE value="oopsie" />
     <MESSAGE value="mouse keys" />
     <MESSAGE value="Wrong zmk setup" />
@@ -599,7 +606,8 @@
     <MESSAGE value="right cluster" />
     <MESSAGE value="rotate sensor 180 degrees" />
     <MESSAGE value="Disable logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disable logging" />
+    <MESSAGE value="RGB keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="RGB keys" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
@@ -702,10 +710,38 @@
     {
       "branch": "wylderbuilds_00196_expander",
       "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     }
   ],
   "lastFilter": {
-    "branch": "wylderbuilds_00196_expander",
+    "branch": "juan_o_squarspace",
     "currentBranchFilter": true
   }
 }]]></component>
