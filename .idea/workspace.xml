@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="trying same channel">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,15 +125,8 @@
       <workItem from="1726344728475" duration="5437000" />
       <workItem from="1726450211276" duration="650000" />
       <workItem from="1726507081426" duration="1465000" />
-      <workItem from="1726512103033" duration="105000" />
-    </task>
-    <task id="LOCAL-00126" summary="Updated info.json">
-      <option name="closed" value="true" />
-      <created>1715281892176</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1715281892176</updated>
+      <workItem from="1726512103033" duration="132000" />
+      <workItem from="1726515859613" duration="638000" />
     </task>
     <task id="LOCAL-00127" summary="Updated info.json">
       <option name="closed" value="true" />
@@ -520,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726510472508</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="typo">
+      <option name="closed" value="true" />
+      <created>1726512230134</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1726512230135</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mouse keys" />
     <MESSAGE value="Wrong zmk setup" />
     <MESSAGE value="column tweaks" />
     <MESSAGE value="new branch to migrate" />
@@ -607,7 +606,8 @@
     <MESSAGE value="Disable logging" />
     <MESSAGE value="RGB keys" />
     <MESSAGE value="trying same channel" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying same channel" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
@@ -733,6 +733,10 @@
     },
     {
       "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
       "currentBranchFilter": true
     },
     {

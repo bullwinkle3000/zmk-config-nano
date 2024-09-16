@@ -52,7 +52,7 @@ nice_view_spi: &spi0 {
   pinctrl-0 = <&spi1_default>;
   pinctrl-1 = <&spi1_sleep>;
   pinctrl-names = "default", "sleep";
-  cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>, <&gpio1 13 GPIO_ACTIVE_HIGH>;
+  cs-gpios = <&gpio0 31 GPIO_ACTIVE_HIGH>, <&gpio1 13 GPIO_ACTIVE_LOW>;
   trackball: trackball@1 {
       status = "okay";
       compatible = "pixart,pmw3610";
