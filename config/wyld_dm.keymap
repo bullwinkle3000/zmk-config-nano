@@ -94,4 +94,4 @@
 	};
 };
 
-&led_strip { chain-length = <88>; };
+//&led_strip { chain-length = <88>; };
