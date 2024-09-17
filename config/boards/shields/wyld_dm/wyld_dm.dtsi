@@ -101,9 +101,6 @@
 
     };
 
-
-	};
-
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
