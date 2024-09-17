@@ -126,25 +126,8 @@
     };
 };
 
-//&pinctrl {
-////	spi1_default: spi1_default {
-////		group1 {
-////			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
-////					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
-////					<NRF_PSEL(SPIM_MISO, 0, 8)>;
-////		};
-////	};
-////
-////	spi1_sleep: spi1_sleep {
-////		group1 {
-////			psels = <NRF_PSEL(SPIM_SCK, 0, 6)>,
-////					<NRF_PSEL(SPIM_MOSI, 0, 8)>,
-////					<NRF_PSEL(SPIM_MISO, 0, 8)>;
-////			low-power-enable;
-////		};
-////	};
-//
-//	spi3_default: spi3_default {
+&pinctrl {
+//	spi1_default: spi1_default {
 //		group1 {
 //			psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
 //					<NRF_PSEL(SPIM_MOSI, 0, 11)>;
@@ -158,7 +141,22 @@
 //			low-power-enable;
 //		};
 //	};
-//};
+
+	spi3_default: spi3_default {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 24)>;
+		};
+	};
+
+	spi3_sleep: spi3_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 24)>;
+			low-power-enable;
+		};
+	};
+};
 
 //&pinctrl {
 ////	spi1_default: spi1_default {
@@ -194,27 +192,27 @@
 ////	};
 //};
 
-//&spi3 {
-//	compatible = "nordic,nrf-spim";
-//	status = "okay";
-//
-//	pinctrl-0 = <&spi3_default>;
-//	pinctrl-1 = <&spi3_sleep>;
-//	pinctrl-names = "default", "sleep";
-//
-//	led_strip: ws2812@0 {
-//		compatible = "worldsemi,ws2812-spi";
-//
-//		/* SPI */
-//		reg = <0>; /* ignored, but necessary for SPI bindings */
-//		spi-max-frequency = <4000000>;
-//
-//		/* WS2812 */
-//		chain-length = <88>; /* number of LEDs */
-//		spi-one-frame = <0x70>;
-//		spi-zero-frame = <0x40>;
-//		color-mapping = <LED_COLOR_ID_GREEN
-//						 LED_COLOR_ID_RED
-//						 LED_COLOR_ID_BLUE>;
-//	};
-//};
+&spi3 {
+	compatible = "nordic,nrf-spim";
+	status = "okay";
+
+	pinctrl-0 = <&spi3_default>;
+	pinctrl-1 = <&spi3_sleep>;
+	pinctrl-names = "default", "sleep";
+
+	led_strip: ws2812@0 {
+		compatible = "worldsemi,ws2812-spi";
+
+		/* SPI */
+		reg = <0>; /* ignored, but necessary for SPI bindings */
+		spi-max-frequency = <4000000>;
+
+		/* WS2812 */
+		chain-length = <88>; /* number of LEDs */
+		spi-one-frame = <0x70>;
+		spi-zero-frame = <0x40>;
+		color-mapping = <LED_COLOR_ID_GREEN
+						 LED_COLOR_ID_RED
+						 LED_COLOR_ID_BLUE>;
+	};
+};
