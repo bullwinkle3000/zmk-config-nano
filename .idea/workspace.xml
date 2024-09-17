@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="mixed cs pin high/low">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="6789hy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +127,6 @@
       <workItem from="1726507081426" duration="1465000" />
       <workItem from="1726512103033" duration="132000" />
       <workItem from="1726515859613" duration="1432000" />
-    </task>
-    <task id="LOCAL-00128" summary="Added encoder">
-      <option name="closed" value="true" />
-      <created>1715282653411</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1715282653411</updated>
     </task>
     <task id="LOCAL-00129" summary="first 4x5 pass">
       <option name="closed" value="true" />
@@ -520,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726516503874</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="6789hy">
+      <option name="closed" value="true" />
+      <created>1726594537389</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1726594537389</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="column tweaks" />
     <MESSAGE value="new branch to migrate" />
     <MESSAGE value="missing led" />
     <MESSAGE value="led_strip" />
@@ -607,7 +606,8 @@
     <MESSAGE value="trying same channel" />
     <MESSAGE value="typo" />
     <MESSAGE value="mixed cs pin high/low" />
-    <option name="LAST_COMMIT_MESSAGE" value="mixed cs pin high/low" />
+    <MESSAGE value="6789hy" />
+    <option name="LAST_COMMIT_MESSAGE" value="6789hy" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
