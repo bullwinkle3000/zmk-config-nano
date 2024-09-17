@@ -69,14 +69,14 @@
 		diode-direction = "row2col";
 
 		// expander pins
-		row-gpios
-		= <&expander 9 (GPIO_ACTIVE_LOW)>
-		, <&expander 10 (GPIO_ACTIVE_LOW)>
-		, <&expander 11 (GPIO_ACTIVE_LOW)>
-		, <&expander 12 (GPIO_ACTIVE_LOW)>
-		, <&expander 13 (GPIO_ACTIVE_LOW)>
-		, <&expander 14 (GPIO_ACTIVE_LOW)>
-		;
+//		row-gpios
+//		= <&expander 9 (GPIO_ACTIVE_LOW)>
+//		, <&expander 10 (GPIO_ACTIVE_LOW)>
+//		, <&expander 11 (GPIO_ACTIVE_LOW)>
+//		, <&expander 12 (GPIO_ACTIVE_LOW)>
+//		, <&expander 13 (GPIO_ACTIVE_LOW)>
+//		, <&expander 14 (GPIO_ACTIVE_LOW)>
+//		;
 
 
 		// PILLBUG PINS
@@ -89,38 +89,42 @@
 		//			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // PA1  / 0.29
 		//            ;
 
-		// NANO V2 PINS
-		//        row-gpios
-		//            = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
-		//			, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
-		//            , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
-		//			, <&gpio1 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
-		//        	, <&gpio1 01 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.01
-		//            ;
+        // NANO V2 PINS
+        row-gpios
+			= <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.10
+		    , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
+            , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
+			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
+			, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.03
+			, <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.04
+            ;
+
+    };
+
 
 	};
 
-//    left_encoder: encoder_left {
-//		compatible = "alps,ec11";
-////		label = "LEFT_ENCODER";
-//		a-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		b-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-//		steps = <60>;
-//		status = "disabled";
-//	};
+    left_encoder: encoder_left {
+		compatible = "alps,ec11";
+		label = "LEFT_ENCODER";
+		a-gpios = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		steps = <60>;
+		status = "disabled";
+	};
 
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 //		label = "RIGHT_ENCODER";
-		a-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&right_encoder>;
+        sensors = <&right_encoder>, <&right_encoder>;
         triggers-per-rotation = <15>;
     };
 };

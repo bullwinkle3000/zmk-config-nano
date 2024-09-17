@@ -9,9 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="6789hy">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="expander still in the mix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/nice_nano_v2.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +129,6 @@
       <workItem from="1726507081426" duration="1465000" />
       <workItem from="1726512103033" duration="132000" />
       <workItem from="1726515859613" duration="1432000" />
-    </task>
-    <task id="LOCAL-00129" summary="first 4x5 pass">
-      <option name="closed" value="true" />
-      <created>1723737789200</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1723737789200</updated>
     </task>
     <task id="LOCAL-00130" summary="no mouse_keys behaviors">
       <option name="closed" value="true" />
@@ -520,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726594537389</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="expander still in the mix">
+      <option name="closed" value="true" />
+      <created>1726595515571</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1726595515571</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new branch to migrate" />
     <MESSAGE value="missing led" />
     <MESSAGE value="led_strip" />
     <MESSAGE value="logging snippet" />
@@ -607,7 +608,8 @@
     <MESSAGE value="typo" />
     <MESSAGE value="mixed cs pin high/low" />
     <MESSAGE value="6789hy" />
-    <option name="LAST_COMMIT_MESSAGE" value="6789hy" />
+    <MESSAGE value="expander still in the mix" />
+    <option name="LAST_COMMIT_MESSAGE" value="expander still in the mix" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

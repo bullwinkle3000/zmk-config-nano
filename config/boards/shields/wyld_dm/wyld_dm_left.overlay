@@ -7,14 +7,14 @@
 
 &kscan0 {
     col-gpios
-	= <&expander 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	, <&expander 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-	;
+			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
+			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>  // 0.02
+			, <&gpio1 15  GPIO_ACTIVE_HIGH>  //  1.15
+			, <&gpio1 13  GPIO_ACTIVE_HIGH>  // 1.13
+			, <&gpio1 11  GPIO_ACTIVE_HIGH>  //  1.10
+//            , <&gpio1 04 GPIO_ACTIVE_HIGH>  // PB13   / 1.04
+			;
 };
 
 &pinctrl {
@@ -40,7 +40,7 @@ nice_view_spi: &spi0 {
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
 };
 
 
