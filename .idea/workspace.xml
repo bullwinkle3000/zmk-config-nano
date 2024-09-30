@@ -9,16 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders missing in conf">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24,_7_21 PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24,_7_21 PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24__7_21PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24,_11_36 AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24,_11_36 AM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24__11_36AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="test enabling zmk studio">
       <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,15 +131,7 @@
       <workItem from="1726937691790" duration="4816000" />
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
-      <workItem from="1727731979262" duration="1173000" />
-    </task>
-    <task id="LOCAL-00139" summary="rollback and rollback and uart">
-      <option name="closed" value="true" />
-      <created>1723750645871</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1723750645871</updated>
+      <workItem from="1727731979262" duration="1401000" />
     </task>
     <task id="LOCAL-00140" summary="new logging snippet">
       <option name="closed" value="true" />
@@ -533,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726945786804</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="test enabling zmk studio">
+      <option name="closed" value="true" />
+      <created>1727736227284</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1727736227284</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="another test" />
     <MESSAGE value="another test test" />
     <MESSAGE value="wrong key order on left cluster" />
@@ -620,7 +611,8 @@
     <MESSAGE value="return encoders" />
     <MESSAGE value="not k_home" />
     <MESSAGE value="encoders missing in conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="encoders missing in conf" />
+    <MESSAGE value="test enabling zmk studio" />
+    <option name="LAST_COMMIT_MESSAGE" value="test enabling zmk studio" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
