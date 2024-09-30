@@ -9,8 +9,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="expander still in the mix 2">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoders missing in conf">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24,_7_21 PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24,_7_21 PM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_24__7_21PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24,_11_36 AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24,_11_36 AM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_15_24__11_36AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wylderbuilds_00196_expander" />
+        <entry key="$PROJECT_DIR$" value="shared_spi" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,70 +134,12 @@
       <workItem from="1726507081426" duration="1465000" />
       <workItem from="1726512103033" duration="132000" />
       <workItem from="1726515859613" duration="1432000" />
-    </task>
-    <task id="LOCAL-00131" summary="encoder on wrong side">
-      <option name="closed" value="true" />
-      <created>1723747088674</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1723747088674</updated>
-    </task>
-    <task id="LOCAL-00132" summary="behaviors">
-      <option name="closed" value="true" />
-      <created>1723747322401</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1723747322401</updated>
-    </task>
-    <task id="LOCAL-00133" summary="enable logging, add delay and BT config">
-      <option name="closed" value="true" />
-      <created>1723748147220</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1723748147220</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Use pointer branch">
-      <option name="closed" value="true" />
-      <created>1723749121780</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1723749121780</updated>
-    </task>
-    <task id="LOCAL-00135" summary="missing config">
-      <option name="closed" value="true" />
-      <created>1723749431310</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1723749431310</updated>
-    </task>
-    <task id="LOCAL-00136" summary="rollback and rollback">
-      <option name="closed" value="true" />
-      <created>1723749793349</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1723749793349</updated>
-    </task>
-    <task id="LOCAL-00137" summary="rollback and rollback">
-      <option name="closed" value="true" />
-      <created>1723750181254</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1723750181254</updated>
-    </task>
-    <task id="LOCAL-00138" summary="rollback and rollback and uart">
-      <option name="closed" value="true" />
-      <created>1723750475404</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1723750475404</updated>
+      <workItem from="1726611813551" duration="3710000" />
+      <workItem from="1726781775775" duration="603000" />
+      <workItem from="1726937691790" duration="4816000" />
+      <workItem from="1727268704676" duration="1568000" />
+      <workItem from="1727705572011" duration="597000" />
+      <workItem from="1727731979262" duration="1173000" />
     </task>
     <task id="LOCAL-00139" summary="rollback and rollback and uart">
       <option name="closed" value="true" />
@@ -519,7 +469,71 @@
       <option name="project" value="LOCAL" />
       <updated>1726596832035</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="rgb interference">
+      <option name="closed" value="true" />
+      <created>1726598838494</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598838494</updated>
+    </task>
+    <task id="LOCAL-00181" summary="rgb interference">
+      <option name="closed" value="true" />
+      <created>1726599169069</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1726599169069</updated>
+    </task>
+    <task id="LOCAL-00182" summary="rgb interference gah">
+      <option name="closed" value="true" />
+      <created>1726599360695</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1726599360695</updated>
+    </task>
+    <task id="LOCAL-00183" summary="no encoders">
+      <option name="closed" value="true" />
+      <created>1726600827551</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1726600827551</updated>
+    </task>
+    <task id="LOCAL-00184" summary="return encoders">
+      <option name="closed" value="true" />
+      <created>1726612457100</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1726612457100</updated>
+    </task>
+    <task id="LOCAL-00185" summary="not k_home">
+      <option name="closed" value="true" />
+      <created>1726612916340</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1726612916340</updated>
+    </task>
+    <task id="LOCAL-00186" summary="encoders missing in conf">
+      <option name="closed" value="true" />
+      <created>1726625722039</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625722039</updated>
+    </task>
+    <task id="LOCAL-00187" summary="encoders missing in conf">
+      <option name="closed" value="true" />
+      <created>1726945786803</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1726945786804</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,12 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="led_strip" />
-    <MESSAGE value="logging snippet" />
-    <MESSAGE value="Testing with sensor" />
-    <MESSAGE value="Pulled changes from no trackball setup" />
-    <MESSAGE value="Fixing keymap" />
-    <MESSAGE value="fixes on info.json" />
     <MESSAGE value="test" />
     <MESSAGE value="another test" />
     <MESSAGE value="another test test" />
@@ -606,150 +614,188 @@
     <MESSAGE value="6789hy" />
     <MESSAGE value="expander still in the mix" />
     <MESSAGE value="expander still in the mix 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="expander still in the mix 2" />
+    <MESSAGE value="rgb interference" />
+    <MESSAGE value="rgb interference gah" />
+    <MESSAGE value="no encoders" />
+    <MESSAGE value="return encoders" />
+    <MESSAGE value="not k_home" />
+    <MESSAGE value="encoders missing in conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="encoders missing in conf" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-    &quot;currentBranchFilter&quot;: true
+  "lastFilter": {
+    "branch": "juan_o_squarspace",
+    "currentBranchFilter": true
   }
-}</component>
+}]]></component>
 </project>
