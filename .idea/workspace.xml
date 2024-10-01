@@ -9,8 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="test enabling zmk studio">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="single snippet">
       <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,15 +132,7 @@
       <workItem from="1726937691790" duration="4816000" />
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
-      <workItem from="1727731979262" duration="1401000" />
-    </task>
-    <task id="LOCAL-00140" summary="new logging snippet">
-      <option name="closed" value="true" />
-      <created>1723750908954</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1723750908954</updated>
+      <workItem from="1727731979262" duration="2118000" />
     </task>
     <task id="LOCAL-00141" summary="Missing ESC key">
       <option name="closed" value="true" />
@@ -525,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727736227284</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="single snippet">
+      <option name="closed" value="true" />
+      <created>1727736449017</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1727736449017</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="another test" />
     <MESSAGE value="another test test" />
     <MESSAGE value="wrong key order on left cluster" />
     <MESSAGE value="reverse left columns on gpio" />
@@ -612,7 +612,8 @@
     <MESSAGE value="not k_home" />
     <MESSAGE value="encoders missing in conf" />
     <MESSAGE value="test enabling zmk studio" />
-    <option name="LAST_COMMIT_MESSAGE" value="test enabling zmk studio" />
+    <MESSAGE value="single snippet" />
+    <option name="LAST_COMMIT_MESSAGE" value="single snippet" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
