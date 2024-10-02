@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="wrong columns on left thumbs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,15 +133,7 @@
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="3349000" />
-      <workItem from="1727899016892" duration="1773000" />
-    </task>
-    <task id="LOCAL-00143" summary="Updated info.json">
-      <option name="closed" value="true" />
-      <created>1723837736330</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1723837736331</updated>
+      <workItem from="1727899016892" duration="4847000" />
     </task>
     <task id="LOCAL-00144" summary="Updated info.json">
       <option name="closed" value="true" />
@@ -527,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727899833245</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="wrong columns on left thumbs">
+      <option name="closed" value="true" />
+      <created>1727900875627</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1727900875627</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reverse left columns on gpio" />
     <MESSAGE value="alternate pins on column 6 and 7 on right" />
     <MESSAGE value="trying polling" />
     <MESSAGE value="reworked left cluster, removed polling" />
@@ -614,7 +613,8 @@
     <MESSAGE value="single snippet" />
     <MESSAGE value="studio not supported in pointer branch" />
     <MESSAGE value="steve's branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="steve's branch" />
+    <MESSAGE value="wrong columns on left thumbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong columns on left thumbs" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

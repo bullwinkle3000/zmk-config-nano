@@ -1,7 +1,7 @@
 // wyld_dm_left.overlay
 
 #include "wyld_dm.dtsi"
-
+#include <dt-bindings/led/led.h>
 
 ///  NANO V2 PINS
 
