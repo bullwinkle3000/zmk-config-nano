@@ -9,15 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="studio not supported in pointer branch">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,15 +133,7 @@
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="3349000" />
-      <workItem from="1727899016892" duration="739000" />
-    </task>
-    <task id="LOCAL-00142" summary="Remove logging snippet">
-      <option name="closed" value="true" />
-      <created>1723754324795</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1723754324795</updated>
+      <workItem from="1727899016892" duration="1773000" />
     </task>
     <task id="LOCAL-00143" summary="Updated info.json">
       <option name="closed" value="true" />
@@ -533,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727787989037</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="steve's branch">
+      <option name="closed" value="true" />
+      <created>1727899833244</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1727899833245</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wrong key order on left cluster" />
     <MESSAGE value="reverse left columns on gpio" />
     <MESSAGE value="alternate pins on column 6 and 7 on right" />
     <MESSAGE value="trying polling" />
@@ -620,7 +613,8 @@
     <MESSAGE value="test enabling zmk studio" />
     <MESSAGE value="single snippet" />
     <MESSAGE value="studio not supported in pointer branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="studio not supported in pointer branch" />
+    <MESSAGE value="steve's branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="steve's branch" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
