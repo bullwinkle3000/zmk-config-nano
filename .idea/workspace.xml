@@ -9,10 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="logging again">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="logging again 2">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,15 +133,7 @@
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="3349000" />
       <workItem from="1727899016892" duration="7319000" />
-      <workItem from="1727984852078" duration="4137000" />
-    </task>
-    <task id="LOCAL-00150" summary="new branch to migrate">
-      <option name="closed" value="true" />
-      <created>1724193225464</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1724193225465</updated>
+      <workItem from="1727984852078" duration="4586000" />
     </task>
     <task id="LOCAL-00151" summary="missing led">
       <option name="closed" value="true" />
@@ -529,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727988164757</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="logging again 2">
+      <option name="closed" value="true" />
+      <created>1727989308779</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1727989308779</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="right cluster" />
     <MESSAGE value="rotate sensor 180 degrees" />
     <MESSAGE value="RGB keys" />
     <MESSAGE value="trying same channel" />
@@ -616,7 +613,8 @@
     <MESSAGE value="New pins and info.json fixed." />
     <MESSAGE value="encoder still in info.json" />
     <MESSAGE value="logging again" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging again" />
+    <MESSAGE value="logging again 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging again 2" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
