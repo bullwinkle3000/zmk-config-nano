@@ -9,12 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="encoder still in info.json">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="logging again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,15 +136,7 @@
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="3349000" />
       <workItem from="1727899016892" duration="7319000" />
-      <workItem from="1727984852078" duration="1889000" />
-    </task>
-    <task id="LOCAL-00148" summary="Wrong zmk setup">
-      <option name="closed" value="true" />
-      <created>1724188469276</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1724188469276</updated>
+      <workItem from="1727984852078" duration="2995000" />
     </task>
     <task id="LOCAL-00149" summary="column tweaks">
       <option name="closed" value="true" />
@@ -532,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727986059086</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="logging again">
+      <option name="closed" value="true" />
+      <created>1727986760791</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1727986760792</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reworked left cluster" />
     <MESSAGE value="right cluster" />
     <MESSAGE value="rotate sensor 180 degrees" />
     <MESSAGE value="RGB keys" />
@@ -619,7 +616,8 @@
     <MESSAGE value="Disable logging" />
     <MESSAGE value="New pins and info.json fixed." />
     <MESSAGE value="encoder still in info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="encoder still in info.json" />
+    <MESSAGE value="logging again" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging again" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
