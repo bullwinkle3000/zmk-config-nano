@@ -9,10 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Disable logging">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_left.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="New pins and info.json fixed.">
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,15 +133,7 @@
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="3349000" />
       <workItem from="1727899016892" duration="7319000" />
-      <workItem from="1727984852078" duration="1069000" />
-    </task>
-    <task id="LOCAL-00146" summary="oopsie">
-      <option name="closed" value="true" />
-      <created>1724186858043</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1724186858043</updated>
+      <workItem from="1727984852078" duration="1188000" />
     </task>
     <task id="LOCAL-00147" summary="mouse keys">
       <option name="closed" value="true" />
@@ -530,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727985057031</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="New pins and info.json fixed.">
+      <option name="closed" value="true" />
+      <created>1727985938123</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1727985938123</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trying polling" />
     <MESSAGE value="reworked left cluster, removed polling" />
     <MESSAGE value="reworked left cluster" />
     <MESSAGE value="right cluster" />
@@ -617,7 +613,8 @@
     <MESSAGE value="wrong columns on left thumbs" />
     <MESSAGE value="Missing bindings for led...?" />
     <MESSAGE value="Disable logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disable logging" />
+    <MESSAGE value="New pins and info.json fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="New pins and info.json fixed." />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
