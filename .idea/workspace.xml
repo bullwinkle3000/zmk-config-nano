@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="left thumbs mixed up">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="swap home and mute, rgb length">
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,15 +133,7 @@
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="2118000" />
-      <workItem from="1728230126807" duration="2877000" />
-    </task>
-    <task id="LOCAL-00142" summary="Remove logging snippet">
-      <option name="closed" value="true" />
-      <created>1723754324795</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1723754324795</updated>
+      <workItem from="1728230126807" duration="2955000" />
     </task>
     <task id="LOCAL-00143" summary="Updated info.json">
       <option name="closed" value="true" />
@@ -528,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728233473434</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="swap home and mute, rgb length">
+      <option name="closed" value="true" />
+      <created>1728235031187</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1728235031187</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wrong key order on left cluster" />
     <MESSAGE value="reverse left columns on gpio" />
     <MESSAGE value="alternate pins on column 6 and 7 on right" />
     <MESSAGE value="trying polling" />
@@ -615,7 +613,8 @@
     <MESSAGE value="test enabling zmk studio" />
     <MESSAGE value="single snippet" />
     <MESSAGE value="left thumbs mixed up" />
-    <option name="LAST_COMMIT_MESSAGE" value="left thumbs mixed up" />
+    <MESSAGE value="swap home and mute, rgb length" />
+    <option name="LAST_COMMIT_MESSAGE" value="swap home and mute, rgb length" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
