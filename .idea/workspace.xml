@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="single snippet">
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +133,7 @@
       <workItem from="1727268704676" duration="1568000" />
       <workItem from="1727705572011" duration="597000" />
       <workItem from="1727731979262" duration="2118000" />
+      <workItem from="1728230126807" duration="1362000" />
     </task>
     <task id="LOCAL-00141" summary="Missing ESC key">
       <option name="closed" value="true" />
@@ -767,6 +768,10 @@
     },
     {
       "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
       "currentBranchFilter": true
     },
     {
