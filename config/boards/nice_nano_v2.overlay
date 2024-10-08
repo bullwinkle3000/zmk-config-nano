@@ -114,7 +114,3 @@
 &pro_micro_serial {
     status = "disabled";
 };
-
-&pro_micro_i2c {
-    status = "disabled";
-};
