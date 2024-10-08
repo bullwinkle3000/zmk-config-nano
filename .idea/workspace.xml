@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="rgb keys still in keymap">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Spi0 and i2c0 no likey">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +137,6 @@
       <workItem from="1728230126807" duration="4944000" />
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
-    </task>
-    <task id="LOCAL-00149" summary="column tweaks">
-      <option name="closed" value="true" />
-      <created>1724191881870</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1724191881870</updated>
     </task>
     <task id="LOCAL-00150" summary="new branch to migrate">
       <option name="closed" value="true" />
@@ -528,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728423620594</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Spi0 and i2c0 no likey">
+      <option name="closed" value="true" />
+      <created>1728423831306</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1728423831306</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rotate sensor 180 degrees" />
     <MESSAGE value="Disable logging" />
     <MESSAGE value="RGB keys" />
     <MESSAGE value="trying same channel" />
@@ -615,7 +616,8 @@
     <MESSAGE value="Trying different motion pin" />
     <MESSAGE value="firmware first pass" />
     <MESSAGE value="rgb keys still in keymap" />
-    <option name="LAST_COMMIT_MESSAGE" value="rgb keys still in keymap" />
+    <MESSAGE value="Spi0 and i2c0 no likey" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spi0 and i2c0 no likey" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
