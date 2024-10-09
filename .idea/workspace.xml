@@ -9,9 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Trying different motion pin">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="info.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +138,7 @@
       <workItem from="1728230126807" duration="4944000" />
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
+      <workItem from="1728482843239" duration="643000" />
     </task>
     <task id="LOCAL-00147" summary="mouse keys">
       <option name="closed" value="true" />
@@ -771,6 +773,10 @@
     },
     {
       "branch": "shared_spi",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "juan_o_squarspace",
       "currentBranchFilter": true
     },
     {
