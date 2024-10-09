@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="info.json">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="extra sensor logging?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,15 +136,7 @@
       <workItem from="1728230126807" duration="4944000" />
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
-      <workItem from="1728482843239" duration="643000" />
-    </task>
-    <task id="LOCAL-00147" summary="mouse keys">
-      <option name="closed" value="true" />
-      <created>1724188231498</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1724188231498</updated>
+      <workItem from="1728482843239" duration="1376000" />
     </task>
     <task id="LOCAL-00148" summary="Wrong zmk setup">
       <option name="closed" value="true" />
@@ -532,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728324702453</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="extra sensor logging?">
+      <option name="closed" value="true" />
+      <created>1728485712958</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1728485712958</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reworked left cluster" />
     <MESSAGE value="right cluster" />
     <MESSAGE value="rotate sensor 180 degrees" />
     <MESSAGE value="Disable logging" />
@@ -619,7 +616,8 @@
     <MESSAGE value="wha?" />
     <MESSAGE value="logging" />
     <MESSAGE value="Trying different motion pin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying different motion pin" />
+    <MESSAGE value="extra sensor logging?" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra sensor logging?" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
