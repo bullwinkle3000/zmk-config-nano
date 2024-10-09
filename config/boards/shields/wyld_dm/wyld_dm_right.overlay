@@ -56,7 +56,7 @@ nice_view_spi: &spi0 {
       status = "okay";
       compatible = "pixart,pmw3610";
       reg = <1>;
-      spi-max-frequency = <2000000>;
+      spi-max-frequency = <1000000>;
       irq-gpios = <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 //      snipe-layers = <1>;
 //      scroll-layers = <2>;
