@@ -1,0 +1,14 @@
+
+
+
+
+&blackpill_i2c {
+    status = "disabled";
+};
+
+&blackpill_serial {
+    status = "disabled";
+};
+
+
+

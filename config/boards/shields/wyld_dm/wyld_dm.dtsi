@@ -69,16 +69,6 @@
 		diode-direction = "col2row";
 
 
-        // NANO V2 PINS
-        row-gpios
-			= <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.10
-		    , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
-            , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
-			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
-			, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.03
-			, <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.04
-            ;
-
     };
 
     left_encoder: encoder_left {
@@ -93,8 +83,8 @@
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
-		a-gpios = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <60>;
 		status = "disabled";
 	};
@@ -110,15 +100,15 @@
 
 	spi3_default: spi3_default {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 24)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 6)>;
 		};
 	};
 
 	spi3_sleep: spi3_sleep {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 25)>,
-					<NRF_PSEL(SPIM_MOSI, 0, 24)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 40)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 6)>;
 			low-power-enable;
 		};
 	};
