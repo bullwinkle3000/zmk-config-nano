@@ -137,14 +137,6 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
     </task>
-    <task id="LOCAL-00154" summary="logging snippet">
-      <option name="closed" value="true" />
-      <created>1724265836236</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1724265836236</updated>
-    </task>
     <task id="LOCAL-00155" summary="Testing with sensor">
       <option name="closed" value="true" />
       <created>1724366052457</created>
@@ -529,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728584789463</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="Adjusting layout for editor">
+      <option name="closed" value="true" />
+      <created>1728584834961</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1728584834961</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
