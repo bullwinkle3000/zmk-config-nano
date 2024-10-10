@@ -6,6 +6,14 @@
 ///  NANO V2 PINS
 
 &kscan0 {
+   row-gpios
+			= <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.10
+		    , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 0.9
+            , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
+			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
+			, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.03
+			, <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.04
+            ;
     col-gpios
 			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
 			, <&gpio0 29  GPIO_ACTIVE_HIGH>  // 0.29
