@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Finalizing">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Adjusting layout for editor">
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,14 +136,6 @@
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
-    </task>
-    <task id="LOCAL-00151" summary="missing led">
-      <option name="closed" value="true" />
-      <created>1724195861603</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1724195861603</updated>
     </task>
     <task id="LOCAL-00152" summary="led_strip">
       <option name="closed" value="true" />
@@ -529,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728583729260</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Adjusting layout for editor">
+      <option name="closed" value="true" />
+      <created>1728584337290</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1728584337290</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RGB keys" />
     <MESSAGE value="trying same channel" />
     <MESSAGE value="typo" />
     <MESSAGE value="mixed cs pin high/low" />
@@ -616,7 +615,8 @@
     <MESSAGE value="My driver fork with 1s sensor init delay" />
     <MESSAGE value="Stealing back a pin" />
     <MESSAGE value="Finalizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizing" />
+    <MESSAGE value="Adjusting layout for editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusting layout for editor" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
