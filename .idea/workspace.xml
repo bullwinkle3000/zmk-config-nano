@@ -137,14 +137,6 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
     </task>
-    <task id="LOCAL-00152" summary="led_strip">
-      <option name="closed" value="true" />
-      <created>1724264767423</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1724264767423</updated>
-    </task>
     <task id="LOCAL-00153" summary="led_strip">
       <option name="closed" value="true" />
       <created>1724265580502</created>
@@ -529,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728584337290</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Adjusting layout for editor">
+      <option name="closed" value="true" />
+      <created>1728584573097</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1728584573097</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
