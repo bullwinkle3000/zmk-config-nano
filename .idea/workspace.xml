@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing studio 2" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing studio 3 physcial layout">
+      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,15 +137,7 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1729368716355" duration="2068000" />
       <workItem from="1729433752666" duration="2706000" />
-      <workItem from="1729455382301" duration="1779000" />
-    </task>
-    <task id="LOCAL-00157" summary="Fixing keymap">
-      <option name="closed" value="true" />
-      <created>1725046357152</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1725046357152</updated>
+      <workItem from="1729455382301" duration="2143000" />
     </task>
     <task id="LOCAL-00158" summary="fixes on info.json">
       <option name="closed" value="true" />
@@ -529,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729456383935</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="testing studio 3 physcial layout">
+      <option name="closed" value="true" />
+      <created>1729457379226</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1729457379226</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="expander still in the mix" />
     <MESSAGE value="expander still in the mix 2" />
     <MESSAGE value="rgb interference" />
     <MESSAGE value="rgb interference gah" />
@@ -616,7 +617,8 @@
     <MESSAGE value="Build done.  Removing logging" />
     <MESSAGE value="testing studio" />
     <MESSAGE value="testing studio 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing studio 2" />
+    <MESSAGE value="testing studio 3 physcial layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing studio 3 physcial layout" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
