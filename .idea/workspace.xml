@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="cs pin GPIO_ACTIVE_LOW">
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="typey typos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +137,8 @@
       <workItem from="1728230126807" duration="4944000" />
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
-    </task>
-    <task id="LOCAL-00153" summary="led_strip">
-      <option name="closed" value="true" />
-      <created>1724265580502</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1724265580502</updated>
+      <workItem from="1729368716355" duration="2068000" />
+      <workItem from="1729433752666" duration="1327000" />
     </task>
     <task id="LOCAL-00154" summary="logging snippet">
       <option name="closed" value="true" />
@@ -528,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729277676637</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="typey typos">
+      <option name="closed" value="true" />
+      <created>1729277969641</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1729277969641</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trying same channel" />
     <MESSAGE value="typo" />
     <MESSAGE value="mixed cs pin high/low" />
     <MESSAGE value="6789hy" />
@@ -615,198 +618,207 @@
     <MESSAGE value="logging" />
     <MESSAGE value="typos" />
     <MESSAGE value="cs pin GPIO_ACTIVE_LOW" />
-    <option name="LAST_COMMIT_MESSAGE" value="cs pin GPIO_ACTIVE_LOW" />
+    <MESSAGE value="typey typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="typey typos" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00216&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00216",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00250&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00250",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00198&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00198",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;wylderbuilds_00196_expander&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "wylderbuilds_00196_expander",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;shared_spi&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "shared_spi",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;shared_spi&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "shared_spi",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;shared_spi&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "shared_spi",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;shared_spi&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "shared_spi",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;juan_o_squarspace&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "juan_o_squarspace",
+      "currentBranchFilter": true
     },
     {
-      &quot;branch&quot;: &quot;sheila_k_etsy&quot;,
-      &quot;currentBranchFilter&quot;: true
+      "branch": "sheila_k_etsy",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "sheila_k_etsy",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "sheila_k_etsy",
+      "currentBranchFilter": true
     }
   ],
-  &quot;lastFilter&quot;: {
-    &quot;branch&quot;: &quot;sheila_k_etsy&quot;,
-    &quot;currentBranchFilter&quot;: true
+  "lastFilter": {
+    "branch": "sheila_k_etsy",
+    "currentBranchFilter": true
   }
-}</component>
+}]]></component>
 </project>
