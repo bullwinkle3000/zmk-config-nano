@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing studio">
-      <change beforePath="$PROJECT_DIR$/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing studio 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,15 +135,7 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1729368716355" duration="2068000" />
       <workItem from="1729433752666" duration="2706000" />
-      <workItem from="1729455382301" duration="986000" />
-    </task>
-    <task id="LOCAL-00156" summary="Pulled changes from no trackball setup">
-      <option name="closed" value="true" />
-      <created>1724966081898</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1724966081899</updated>
+      <workItem from="1729455382301" duration="1779000" />
     </task>
     <task id="LOCAL-00157" summary="Fixing keymap">
       <option name="closed" value="true" />
@@ -531,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729455945410</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="testing studio 2">
+      <option name="closed" value="true" />
+      <created>1729456383935</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1729456383935</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6789hy" />
     <MESSAGE value="expander still in the mix" />
     <MESSAGE value="expander still in the mix 2" />
     <MESSAGE value="rgb interference" />
@@ -618,7 +615,8 @@
     <MESSAGE value="typey typos" />
     <MESSAGE value="Build done.  Removing logging" />
     <MESSAGE value="testing studio" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing studio" />
+    <MESSAGE value="testing studio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing studio 2" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
