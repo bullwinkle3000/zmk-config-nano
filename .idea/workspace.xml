@@ -9,11 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="unlock">
-      <change afterPath="$PROJECT_DIR$/kle_output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmk_physical_layout_ouptput.dtsi" afterDir="false" />
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="no staggered pinky rows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kle_output.json" beforeDir="false" afterPath="$PROJECT_DIR$/kle_output.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,15 +139,7 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1729368716355" duration="2068000" />
       <workItem from="1729433752666" duration="2706000" />
-      <workItem from="1729455382301" duration="5171000" />
-    </task>
-    <task id="LOCAL-00162" summary="another test test">
-      <option name="closed" value="true" />
-      <created>1725048338857</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1725048338857</updated>
+      <workItem from="1729455382301" duration="6904000" />
     </task>
     <task id="LOCAL-00163" summary="another test test">
       <option name="closed" value="true" />
@@ -534,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729458958545</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="no staggered pinky rows">
+      <option name="closed" value="true" />
+      <created>1729463619490</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1729463619490</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="return encoders" />
     <MESSAGE value="not k_home" />
     <MESSAGE value="encoders missing in conf" />
     <MESSAGE value="test enabling zmk studio" />
@@ -621,7 +619,8 @@
     <MESSAGE value="includes are hard too" />
     <MESSAGE value="no matrix transform" />
     <MESSAGE value="unlock" />
-    <option name="LAST_COMMIT_MESSAGE" value="unlock" />
+    <MESSAGE value="no staggered pinky rows" />
+    <option name="LAST_COMMIT_MESSAGE" value="no staggered pinky rows" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
