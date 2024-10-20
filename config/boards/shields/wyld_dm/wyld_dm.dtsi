@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
+#include <physical_layouts.dtsi>
 
 
 //wyld_dm_6x6 = <

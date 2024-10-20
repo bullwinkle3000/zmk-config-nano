@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="testing studio 3 physcial layout">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="names are hard">
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,15 +137,7 @@
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1729368716355" duration="2068000" />
       <workItem from="1729433752666" duration="2706000" />
-      <workItem from="1729455382301" duration="2143000" />
-    </task>
-    <task id="LOCAL-00158" summary="fixes on info.json">
-      <option name="closed" value="true" />
-      <created>1725047046885</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1725047046886</updated>
+      <workItem from="1729455382301" duration="2367000" />
     </task>
     <task id="LOCAL-00159" summary="test">
       <option name="closed" value="true" />
@@ -531,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729457379226</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="names are hard">
+      <option name="closed" value="true" />
+      <created>1729457545431</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1729457545431</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="expander still in the mix 2" />
     <MESSAGE value="rgb interference" />
     <MESSAGE value="rgb interference gah" />
     <MESSAGE value="no encoders" />
@@ -618,7 +617,8 @@
     <MESSAGE value="testing studio" />
     <MESSAGE value="testing studio 2" />
     <MESSAGE value="testing studio 3 physcial layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing studio 3 physcial layout" />
+    <MESSAGE value="names are hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="names are hard" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
