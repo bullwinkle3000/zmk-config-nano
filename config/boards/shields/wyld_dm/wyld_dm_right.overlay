@@ -1,7 +1,7 @@
 // wyld_dm_right.overlay
 
 #include "wyld_dm.dtsi"
-#include <dt-bindings/led/led.h>
+//#include <dt-bindings/led/led.h>
 
 &default_transform {
     col-offset = <6>;
@@ -29,9 +29,9 @@
 			;
 };
 
-&right_encoder {
-	status = "okay";
-};
+//&right_encoder {
+//	status = "okay";
+//};
 
 &pinctrl {
     spi1_default: spi1_default {

@@ -51,9 +51,9 @@ nice_view_spi: &spi0 {
     cs-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
 };
 
-&left_encoder {
-	status = "okay";
-};
+//&left_encoder {
+//	status = "okay";
+//};
 
 
 
