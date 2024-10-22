@@ -9,8 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="lets see">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="errant led_strip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.keymap" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.keymap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,14 +138,6 @@
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
-    </task>
-    <task id="LOCAL-00157" summary="Fixing keymap">
-      <option name="closed" value="true" />
-      <created>1725046357152</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1725046357152</updated>
     </task>
     <task id="LOCAL-00158" summary="fixes on info.json">
       <option name="closed" value="true" />
@@ -529,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729632624990</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="errant led_strip">
+      <option name="closed" value="true" />
+      <created>1729632876098</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1729632876098</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typo" />
     <MESSAGE value="mixed cs pin high/low" />
     <MESSAGE value="6789hy" />
     <MESSAGE value="expander still in the mix" />
@@ -616,7 +617,8 @@
     <MESSAGE value="Finalizing" />
     <MESSAGE value="Adjusting layout for editor" />
     <MESSAGE value="lets see" />
-    <option name="LAST_COMMIT_MESSAGE" value="lets see" />
+    <MESSAGE value="errant led_strip" />
+    <option name="LAST_COMMIT_MESSAGE" value="errant led_strip" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
