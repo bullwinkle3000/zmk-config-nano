@@ -9,10 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="updated keymaps">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="Missing 6th row in right overlay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm.dtsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" beforeDir="false" afterPath="$PROJECT_DIR$/config/boards/shields/wyld_dm/wyld_dm_right.overlay" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/west.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/west.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wyld_dm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/wyld_dm.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,14 +138,6 @@
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
-    </task>
-    <task id="LOCAL-00159" summary="test">
-      <option name="closed" value="true" />
-      <created>1725047707915</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1725047707915</updated>
     </task>
     <task id="LOCAL-00160" summary="another test">
       <option name="closed" value="true" />
@@ -531,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729634641791</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="Missing 6th row in right overlay">
+      <option name="closed" value="true" />
+      <created>1729697402491</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1729697402491</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6789hy" />
     <MESSAGE value="expander still in the mix" />
     <MESSAGE value="expander still in the mix 2" />
     <MESSAGE value="rgb interference" />
@@ -618,7 +617,8 @@
     <MESSAGE value="lets see" />
     <MESSAGE value="errant led_strip" />
     <MESSAGE value="updated keymaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated keymaps" />
+    <MESSAGE value="Missing 6th row in right overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Missing 6th row in right overlay" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
