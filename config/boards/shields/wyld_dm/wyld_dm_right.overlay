@@ -17,6 +17,7 @@
             , <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.07
 			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.02
 			, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.03
+   			, <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // 1.04
             ;
     col-gpios
 			= <&gpio0 31  GPIO_ACTIVE_HIGH>  // 0.31
