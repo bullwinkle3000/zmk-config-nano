@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="possible bad pin 0.11">
+    <list default="true" id="9d457d5e-e2b1-4395-864b-ea86737e1c8a" name="Changes" comment="test info.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/info.json" afterDir="false" />
     </list>
@@ -137,14 +137,6 @@
       <workItem from="1728318469277" duration="4667000" />
       <workItem from="1728406145951" duration="697000" />
       <workItem from="1728482843239" duration="1376000" />
-    </task>
-    <task id="LOCAL-00166" summary="alternate pins on column 6 and 7 on right">
-      <option name="closed" value="true" />
-      <created>1725054295959</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1725054295959</updated>
     </task>
     <task id="LOCAL-00167" summary="trying polling">
       <option name="closed" value="true" />
@@ -530,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729799321054</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="test info.json">
+      <option name="closed" value="true" />
+      <created>1729801141741</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1729801141741</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="return encoders" />
     <MESSAGE value="not k_home" />
     <MESSAGE value="encoders missing in conf" />
     <MESSAGE value="test enabling zmk studio" />
@@ -617,7 +616,8 @@
     <MESSAGE value="RGB underglow" />
     <MESSAGE value="typos and conf" />
     <MESSAGE value="possible bad pin 0.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="possible bad pin 0.11" />
+    <MESSAGE value="test info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="test info.json" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
