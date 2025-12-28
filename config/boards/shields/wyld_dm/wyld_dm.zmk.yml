@@ -4,7 +4,7 @@ Name: wyld_dm
 type: shield
 url: https://github.com/bullwinkle3000/zmk-config-xiao/
 requires:
-  - nice_nano_v2
+  - nice_nano
 exposes: 
   - i2c_oled
 features:
